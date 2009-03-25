@@ -39,7 +39,7 @@ var options = {
  					"rsz" : "small"
 			},
 		],
-		 "displayTime" : 1000,
+		 "displayTime" : 2000,
 		 "transitionTime" : 200, 
 		 "format" : "728x90"			
   }

@@ -1,35 +1,62 @@
-/* ------------------------------
-HTML Redefine Tags
------------------------------- */
-body{font-family:Arial, Helvetica, sans-serif; font-size:12px; margin:20px; padding:0;}
+html, body {
+margin : 0;
+padding : 0;
+font-size : 1em;
+font-family : Georgia, Arial, sans-serif;
+text-align : center;
+}
+#container {
+margin : 5px;
+width : 1050px;
+margin : auto;
+text-align : left;
+}
+#head {
+height : 100px;
+padding : 5px;
+margin : 5px 0 0 0;
+text-align : center;
+}
+#left {
+display : inline;
+padding : 5px;
+width : 255px;
+float : left;
+margin : 5px;
+margin-left : 0;
+}
+#center {
+display : inline;
+padding : 5px;
+width : 430px;
+width : 494px;
+float : left;
+margin : 5px 0 5px 0;
+}
+#right {
+display : inline;
+padding : 5px;
+width : 255px;
+float : right;
+margin : 5px;
+margin-right : 0;
+}
+#foot {
+margin : 0 0 5px 0;
+clear : both;
+padding : 5px;
+height : 40px;
+text-align : center;
+}
+#foot p {
+margin : 0;
+}
+ul.invs {
+list-style : none;
+margin : 0;
+padding : 0;
+}
 
-input, form, textarea
-h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
-h1{font-size:18px;}
-h2{font-size:14px; color:#999999;}
-h3{font-size:13px; border-bottom:solid 1px #DEDEDE; padding:4px 0; margin-bottom:10px;}
-
-a:link, a:visited{color:#0033CC;}
-a:hover{text-decoration:none;}
-
-/* ------------------------------
-PAGE STRUCTURE
------------------------------- */
-
-/* #container has an absolute width (780 pixel) */
-
-#container{width:1000; margin:100 auto;}
-#topbar{width:1000; text-align: center;height:100px;}
-#navbar{width:auto; display:block; height:28px;}
-#navbar a{heigth:28px; line-height:28px; padding:0 8px; display:inline;}
-
-#main{width:auto;text-align:center; display:block; margin: 20;padding:10px 0;}
-#column_left{width:180px; height:500px;margin-right:20px; float:left;}
-#column_right,#map{width:500px;height:500px; margin-right:20px; float:left;}
-#column_right_adsense{width:300px; float:left;}
-div.spacer{clear:both; height:10px; display:block;}
-
-#footer{width:100%;text-align:center; display:block; padding:10px 0; font-size:11px; color:#666666;}
 #search_box {
 background:#F3F9F8 none repeat scroll 0 0;
 border:1px solid #C9D7D8;
@@ -37,14 +64,14 @@ font-size:1.3em;
 padding:0.3em;
 width:15em;
 }
-input, select, textarea {
-font-size:1em;
-line-height:1.5em;
-}
+
+
 #search_button {
 cursor:pointer;
 font-size:1.2em;
 height:2em !important;
 margin:0 !important;
 padding:0 !important;
+width:auto;
 }
+
