@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  constituency_id: 1
+  name: MyString
+  percentage: 1.5
+  year: 1
+
+two:
+  constituency_id: 1
+  name: MyString
+  percentage: 1.5
+  year: 1

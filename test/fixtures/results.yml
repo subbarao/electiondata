@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  party_id: 1
+  votes: 1
+  percentage: 1.5
+  year: 1
+
+two:
+  name: MyString
+  party_id: 1
+  votes: 1
+  percentage: 1.5
+  year: 1

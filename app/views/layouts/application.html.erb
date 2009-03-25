@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+    <meta name="Description" content="Andhra Pradhesh Electorial Map: 2009 Elections Results Information">
+    <title> Andhra Pradhesh Electorial Map</title>
+    <meta name="description" content="Andhra Pradhesh" />
+    <%= stylesheet_link_tag 'bubbleInfoWindow','election','funkyBox','thickbox','main','election','jquery.autocomplete' %>
+    <%= javascript_include_tag "http://www.google.com/jsapi?key=ABQIAAAAlgBkrxtozPq6BJRUDdohQBSvO9wEK1VL9ijrFsVgreQc7pMV_RQCkG2f2oL1rhfewyrc9L2GJVZVZw" %>
+    <%= javascript_include_tag "application.js" %>
+    <%= javascript_include_tag 'jquery.autocomplete.js','jquery.ajaxQueue.js','jquery.bgiframe.min.js','thickbox-compressed.js' %>
+  </head>
+<script>
+</script>
+
+  <body>
+		<div id="header">
+		  <div id="search">
+      <form action="/search" method="get">
+				<input  id="search_box" name="query" type="text" />
+				<input id="search_button" type="submit" value="Search" />		
+			</form>
+		  </div>							
+	  </div>
+      <div id="message_box" style="display:none" class="msg_notice">  
+        <h2> Click icons to find information related to last election </h2> 
+      </div>
+    
+    <div id="container">
+      <div id="col1" >
+        <div id="chart_div">
+        </div>
+      </div>
+    <div id="col2" class="two_col_map maps">
+      <div id="map">
+        <%= image_tag "ajax-loader.gif" %> 
+      </div>
+    </div>
+    <%= yield %>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7997307-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
