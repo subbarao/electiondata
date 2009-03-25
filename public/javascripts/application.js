@@ -5,7 +5,7 @@ google.load("visualization", "1", {
 })
 google.setOnLoadCallback(function() {
 
-    map = new GMap2(jQuery("#map")[0]);
+    var map = new google.maps.Map2(document.getElementById("map"));
     map.setCenter(new GLatLng(17.0478, 80.0982), 7);
     map.addControl(new GSmallMapControl());
     $(function() {
