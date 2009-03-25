@@ -62,7 +62,7 @@ var options = {
                         GEvent.addListener(marker, 'click',
                         function() {
                             redrawCity(city.id);
-                            marker.openInfoWindowHtml("<b><h2>" + city.name + "</h2></b>");
+                            marker.openInfoWindowHtml("<b>" + city.name + "</b>");
                         });
                     }
                     )(jsonObj[j].constituency);
@@ -77,21 +77,20 @@ var options = {
         function(jsonObj) {
             ELECTION.init(jsonObj);
             startInit();
-            var city =  ELECTION.data["Secunderabad"];
+            var city =  ELECTION.data["Vijayawada East"];
             redrawCity(city);
         });
         function redrawCity(city) {
             $.getJSON("/constituencies/" + city,
             function(jsonObj) {
                 var opt = {
-                    legend: "bottom",
-                    width: 150,
-                    height: 150,
-                    is3D: true
+                    legend: "label",
+                    width: 300,
+                    height: 200
                 };
                 $('#chart_div').html("");
                 //var years = ["2004", "1999", "1994", "1989", "1985", "1983", "1978"];
-                var years = ["2004", "1999"];
+                var years = ["2004"];
                 var info = jsonObj.map;
                 var piedata = jsonObj.piedata;
                 var table = jsonObj.table;
@@ -102,7 +101,7 @@ var options = {
                         var table = new google.visualization.DataTable(data);
                         var chart = new google.visualization.PieChart(document.getElementById("chart_div"));
                         chart.draw(table, jQuery.extend(opt, {
-                            title: year + " Results"
+                            title: year 
                         }));
                     }
                     )(piedata[years[x]], years[x]);
@@ -125,6 +124,15 @@ var options = {
                 var city = (ELECTION.data[key] || ELECTION.data["Secunderabad"]);
                 redrawCity(city);
                 return false;
+            });
+
+            jQuery("#search_box").keypress(function(e) {
+            if(e.which===0){
+                var key = jQuery("#search_box").val();
+                var city = (ELECTION.data[key] || ELECTION.data["Secunderabad"]);
+                redrawCity(city);
+                return false;
+                }
             });
         };
     });

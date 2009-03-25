@@ -1,7 +1,5 @@
 class Constituency < ActiveRecord::Base
 
-
-
   has_many :results do
     def current_winner
       recent.first
@@ -19,8 +17,8 @@ class Constituency < ActiveRecord::Base
       find_by_year(year)
     end
     def table
-      rows = find( :all, :select => 'DISTINCT year' ).inject([]) do |hash,val|
-        hash<< find_by_year(val.year).google_value
+      rows = [2004,1999,1994,1989].inject([]) do |hash,val|
+        hash<< find_by_year(val).google_value
       end
       { "cols" => CandidateResult.google_label, "rows" => rows }
     end
