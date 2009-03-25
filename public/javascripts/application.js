@@ -43,14 +43,8 @@ var options = {
 		 "transitionTime" : 200, 
 		 "format" : "728x90"			
   }
-
   var content = document.getElementById('content');
   var newsShow = new google.elements.NewsShow(content, options);
-
-
-
-
-
 
         ELECTION = {
             data: {},
@@ -83,6 +77,8 @@ var options = {
         function(jsonObj) {
             ELECTION.init(jsonObj);
             startInit();
+            var city =  ELECTION.data["Secunderabad"];
+            redrawCity(city);
         });
         function redrawCity(city) {
             $.getJSON("/constituencies/" + city,
