@@ -18,15 +18,15 @@ PAGE STRUCTURE
 
 /* #container has an absolute width (780 pixel) */
 
-#container{width:100%; margin:0 auto;}
+#container{width:1000; margin:100 auto;}
 #topbar{width:auto;text-align:center; display:block; height:60px;}
 #navbar{width:auto; display:block; height:28px;}
 #navbar a{heigth:28px; line-height:28px; padding:0 8px; display:inline;}
 
-#main{width:auto; display:block; padding:10px 0;}
-#column_left{width:300px; height:500px;margin-right:20px; float:left;}
-#column_right,#map{width:700px;height:500px; margin-right:20px; float:left;}
-#column_right_adsense{width:480px; float:left;}
+#main{width:auto;text-align:center; display:block; margin: 20;padding:10px 0;}
+#column_left{width:180px; height:500px;margin-right:20px; float:left;}
+#column_right,#map{width:500px;height:500px; margin-right:20px; float:left;}
+#column_right_adsense{width:300px; float:left;}
 div.spacer{clear:both; height:10px; display:block;}
 
 #footer{width:100%;text-align:center; display:block; padding:10px 0; font-size:11px; color:#666666;}

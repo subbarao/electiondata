@@ -45,8 +45,8 @@ google.setOnLoadCallback(function() {
             function(jsonObj) {
                 var opt = {
                     legend: "bottom",
-                    width: 250,
-                    height: 250,
+                    width: 150,
+                    height: 150,
                     is3D: true
                 };
                 $('#chart_div').html("");
