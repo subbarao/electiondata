@@ -9,40 +9,41 @@
     <meta name="Description" content="Andhra Pradhesh Electorial Map: 2009 Elections Results Information">
     <title> Andhra Pradhesh Electorial Map</title>
     <meta name="description" content="Andhra Pradhesh" />
-    <%= stylesheet_link_tag 'bubbleInfoWindow','election','funkyBox','thickbox','main','election','jquery.autocomplete' %>
+    <%= stylesheet_link_tag 'election','jquery.autocomplete' %>
+
   <script src="http://google.com/jsapi?key=ABQIAAAAlgBkrxtozPq6BJRUDdohQBSvO9wEK1VL9ijrFsVgreQc7pMV_RQCkG2f2oL1rhfewyrc9L2GJVZVZw" type="text/javascript">
   </script>
-  
     <%= javascript_include_tag "application.js" %>
     <%= javascript_include_tag 'jquery.autocomplete.js','jquery.ajaxQueue.js','jquery.bgiframe.min.js','thickbox-compressed.js' %>
   </head>
 <script>
 </script>
+<body>
 
-  <body>
-		<div id="header">
-		  <div id="search">
+<div id="container">
+  <div id="topbar">
       <form action="/search" method="get">
 				<input  id="search_box" name="query" type="text" />
 				<input id="search_button" type="submit" value="Search" />		
 			</form>
-		  </div>							
-	  </div>
-      <div id="message_box" style="display:none" class="msg_notice">  
-        <h2> Click icons to find information related to last election </h2> 
-      </div>
-    
-    <div id="container">
-      <div id="col1" >
-        <div id="chart_div">
-        </div>
-      </div>
-    <div id="col2" class="two_col_map maps">
-      <div id="map">
-        <%= image_tag "ajax-loader.gif" %> 
-      </div>
     </div>
-    <%= yield %>
+<div id="navbar">
+</div>
+<div id="main">
+    <div id="column_left">
+        <div id="chart_div"></div>
+    </div>
+    <div id="column_right">
+        <div id="map"></div>
+    </div>
+    <div id="column_right_adsense">
+          <div id="table"></div>
+    </div>
+<!-- Don't remove spacer div. Solve an issue about container height -->
+<div class="spacer"></div>
+</div>
+<div id="footer">© 2009 Information on this website may not be 100% acurate.</div>
+</div>
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -53,6 +54,6 @@ try {
 var pageTracker = _gat._getTracker("UA-7997307-2");
 pageTracker._trackPageview();
 } catch(err) {}</script>
-
-  </body>
+</body>
 </html>
+

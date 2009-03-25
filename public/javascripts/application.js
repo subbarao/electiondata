@@ -1,7 +1,7 @@
 google.load("jquery", "1.3.2");
 google.load("maps", "2");
 google.load("visualization", "1", {
-    packages: ["piechart"]
+    packages: ["piechart","table"]
 })
 google.setOnLoadCallback(function() {
 
@@ -17,16 +17,18 @@ google.setOnLoadCallback(function() {
                     var city_name = jsonObj[j].constituency.name
                     this.cities.push(city_name);
                     this.data[city_name] = jsonObj[j].constituency.id;
-                    (function(city) {
+                    (
+                    function(city) {
                         var point = new GLatLng(city.lat, city.lng);
                         var marker = new GMarker(point);
                         map.addOverlay(marker);
                         GEvent.addListener(marker, 'click',
                         function() {
                             redrawCity(city.id);
-                            marker.openInfoWindowHtml("<b>" + city.name + "</b>");
+                            marker.openInfoWindowHtml("<b><h2>" + city.name + "</h2></b>");
                         });
-                    })(jsonObj[j].constituency);
+                    }
+                    )(jsonObj[j].constituency);
 
                 }
                 jQuery("#search_box").autocomplete(ELECTION.cities);
@@ -43,14 +45,16 @@ google.setOnLoadCallback(function() {
             function(jsonObj) {
                 var opt = {
                     legend: "bottom",
-                    width: 200,
-                    height: 200,
+                    width: 250,
+                    height: 250,
                     is3D: true
                 };
                 $('#chart_div').html("");
-                var years = ["2004", "1999", "1994", "1989", "1985", "1983", "1978"];
+                //var years = ["2004", "1999", "1994", "1989", "1985", "1983", "1978"];
+                var years = ["2004", "1999"];
                 var info = jsonObj.map;
                 var piedata = jsonObj.piedata;
+                var table = jsonObj.table;
                 for (var x = 0; x < years.length; x++) {
 
                     (
@@ -61,17 +65,19 @@ google.setOnLoadCallback(function() {
                             title: year + " Results"
                         }));
                     }
-
                     )(piedata[years[x]], years[x]);
                 }
-
+                var tableData = new google.visualization.DataTable(table);
+                // Create and draw the visualization.
+                var visualization = new google.visualization.Table(document.getElementById('table'));
+                visualization.draw(tableData, null);
+                
                 map.setCenter(new GLatLng(info.lat, info.lng), 10);
                 map.addControl(new GSmallMapControl());
                 map.addControl(new GMapTypeControl());
             });
 
         }
-
         function startInit() {
             var globaldata = ELECTION.data;
             jQuery("#search_button").click(function(e) {
@@ -80,7 +86,6 @@ google.setOnLoadCallback(function() {
                 redrawCity(city);
                 return false;
             });
-            jQuery("#message_box").show();
         };
     });
 });

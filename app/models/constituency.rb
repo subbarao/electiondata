@@ -16,6 +16,12 @@ class Constituency < ActiveRecord::Base
     def for_year(year)
       find_by_year(year)
     end
+    def table
+      rows = find( :all, :select => 'DISTINCT year' ).inject([]) do |hash,val|
+        hash<< find_by_year(val.year).google_value
+      end
+      { "cols" => CandidateResult.google_label, "rows" => rows }
+    end
   end
 
   has_many :party_results do

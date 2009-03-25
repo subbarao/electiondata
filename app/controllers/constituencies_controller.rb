@@ -11,7 +11,7 @@ class ConstituenciesController < ApplicationController
   def show
     con = Constituency.find(params[:id])
     render :json => { "piedata" => con.party_results.piedata ,
-    "map" => con.attributes.slice(*["lat","lng"]) }.to_json
+    "map" => con.attributes.slice(*["lat","lng"]),"table" => con.candidate_results.table }.to_json
   end
 
   def update
