@@ -19,7 +19,7 @@ PAGE STRUCTURE
 /* #container has an absolute width (780 pixel) */
 
 #container{width:1000; margin:100 auto;}
-#topbar{width:auto;text-align:center; display:block; height:60px;}
+#topbar{width:1000; text-align: center;height:100px;}
 #navbar{width:auto; display:block; height:28px;}
 #navbar a{heigth:28px; line-height:28px; padding:0 8px; display:inline;}
 
@@ -47,6 +47,4 @@ font-size:1.2em;
 height:2em !important;
 margin:0 !important;
 padding:0 !important;
-width:5em;
 }
-

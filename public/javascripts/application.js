@@ -3,12 +3,55 @@ google.load("maps", "2");
 google.load("visualization", "1", {
     packages: ["piechart","table"]
 })
+google.load("elements", "1", {packages : ["newsshow"]});
 google.setOnLoadCallback(function() {
 
     var map = new google.maps.Map2(document.getElementById("map"));
     map.setCenter(new GLatLng(17.0478, 80.0982), 7);
     map.addControl(new GSmallMapControl());
     $(function() {
+var options = {
+    "queryList" : [
+			{
+				"title": "Andrha Election News",
+					"ned": "te_in",
+					"q":"chiranjeevi",
+ 					"rsz" : "small"
+			},
+
+			{
+				"title": "Andrha Election News",
+					"ned": "te_in",
+					"q":"BalaKrishna",
+ 					"rsz" : "small"
+			},
+
+			{
+				"title": "Andrha Election News",
+					"ned": "te_in",
+					"q":"Jr.N.T.R",
+ 					"rsz" : "small"
+			},
+			{
+				"title": "Andrha Election News",
+					"ned": "te_in",
+					"q":"Chandra Babu Naidu",
+ 					"rsz" : "small"
+			},
+		],
+		 "displayTime" : 1000,
+		 "transitionTime" : 200, 
+		 "format" : "728x90"			
+  }
+
+  var content = document.getElementById('content');
+  var newsShow = new google.elements.NewsShow(content, options);
+
+
+
+
+
+
         ELECTION = {
             data: {},
             cities: [],
@@ -31,6 +74,7 @@ google.setOnLoadCallback(function() {
                     )(jsonObj[j].constituency);
 
                 }
+
                 jQuery("#search_box").autocomplete(ELECTION.cities);
             }
         };

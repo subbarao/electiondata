@@ -1,5 +1,7 @@
 class Constituency < ActiveRecord::Base
 
+
+
   has_many :results do
     def current_winner
       recent.first

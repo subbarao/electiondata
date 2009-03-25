@@ -22,14 +22,13 @@
 
 <div id="container">
   <div id="topbar">
-      <form action="/search" method="get">
-				<input  id="search_box" name="query" type="text" />
-				<input id="search_button" type="submit" value="Search" />		
-			</form>
+      <div id="content">
+      </div>
     </div>
 <div id="navbar">
 </div>
 <div id="main">
+
     <div id="column_left">
         <div id="chart_div"></div>
     </div>
@@ -37,13 +36,18 @@
         <div id="map"></div>
     </div>
     <div id="column_right_adsense">
+      <form action="/search" method="get">
+				<input  id="search_box" name="query" type="text" />
+				<input id="search_button" type="submit" value="Search For Constituency" />		
+			</form>
       <div id="table">
       </div>
     </div>
 <!-- Don't remove spacer div. Solve an issue about container height -->
 <div class="spacer"></div>
 </div>
-<div id="footer">© 2009 Information on this website may not be 100% acurate.</div>
+<div id="footer">
+  
 </div>
 
 <script type="text/javascript">
