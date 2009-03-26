@@ -25,7 +25,6 @@ function onLoadFunction(){
 
   function redrawCity(city) {
     $.getJSON("/constituencies/" + city, function(jsonObj) {
-
         var opt = {
           legend:"label",
           width:300,
@@ -39,9 +38,6 @@ function onLoadFunction(){
         map.addControl(new GMapTypeControl());
         map.clearOverlays();
         markCities(near);
-
-
-
         var piedata = jsonObj.piedata;
         var barchart_by_year = jsonObj.barchart_by_year;
         var barchart = jsonObj.barchart;
@@ -54,20 +50,14 @@ function onLoadFunction(){
           });
         $("#select_box").change(function(e) {
             var year = $(this).val();
-            $('#chart_div').hide().html("");
-
-
-
+            $('#chart_div').html("");
             var data = piedata[year];
             var table = new google.visualization.DataTable(data);
             var chart = new google.visualization.PieChart(document.getElementById("chart_div"));
             chart.draw(table, jQuery.extend(opt, { title: year }));
             var year_bar_chart = new google.visualization.DataTable(barchart_by_year[year]);
             var barchartBar = new google.visualization.BarChart(document.getElementById("chart_div"));
-            barchartBar.draw(year_bar_chart, opt);
-            google.visualization.events.addListener(barchartBar, 'ready', function(){
-                $('#chart_div').show('slow');
-              });
+            barchartBar.draw(year_bar_chart, jQuery.extend(opt,{label: "none"}));
           });
         $("#select_box").trigger('change'); 
 
