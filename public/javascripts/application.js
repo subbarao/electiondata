@@ -25,17 +25,27 @@ function onLoadFunction(){
 
   function redrawCity(city) {
     $.getJSON("/constituencies/" + city, function(jsonObj) {
+
         var opt = {
           legend:"label",
           width:300,
           height:200
         };
         var info = jsonObj.map;
+        var near = jsonObj.near;
+        $('#city_name').html("<h3>"+info.name+" Results</h3>");
+        map.setCenter(new GLatLng(info.lat, info.lng), 10);
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        map.clearOverlays();
+        markCities(near);
+
+
+
         var piedata = jsonObj.piedata;
         var barchart_by_year = jsonObj.barchart_by_year;
         var barchart = jsonObj.barchart;
         var table = jsonObj.table;
-        var near = jsonObj.near;
         $("#select_box").unbind().show().html("");
         var years = [2004, 1999, 1994, 1989, 1985, 1983, 1978];
         jQuery.each(years, function(){
@@ -45,6 +55,9 @@ function onLoadFunction(){
         $("#select_box").change(function(e) {
             var year = $(this).val();
             $('#chart_div').hide().html("");
+
+
+
             var data = piedata[year];
             var table = new google.visualization.DataTable(data);
             var chart = new google.visualization.PieChart(document.getElementById("chart_div"));
@@ -57,11 +70,7 @@ function onLoadFunction(){
               });
           });
         $("#select_box").trigger('change'); 
-        map.setCenter(new GLatLng(info.lat, info.lng), 10);
-        map.addControl(new GSmallMapControl());
-        map.addControl(new GMapTypeControl());
-        map.clearOverlays();
-        markCities(near);
+
       });
   }
   jQuery("#search_box").change(function(e) {

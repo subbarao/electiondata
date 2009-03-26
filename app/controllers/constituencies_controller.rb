@@ -11,11 +11,10 @@ class ConstituenciesController < ApplicationController
 
   def show
     con = Constituency.find(params[:id])
-
     render :json => { "piedata" => con.party_results.piedata ,
       "barchart" => con.party_results.barchart ,
       "barchart_by_year" => con.party_results.barchart_by_year ,
-      "map" => con.attributes.slice(*["lat","lng"]),
+      "map" => con.attributes.slice(*["name","lat","lng"]),
     "table" => con.candidate_results.table, "near" => con.near }.to_json
   end
 
