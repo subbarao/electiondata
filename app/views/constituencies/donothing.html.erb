@@ -1,0 +1,21 @@
+<div id="head">
+  <select  id="search_box" name="query" type="text" >
+    <%= options_from_collection_for_select @constituencies,:id,:name %>
+  </select>
+</div>
+
+<div id="center"> 
+  <div id="map" style="margin: 5px auto; width: 600px; height: 400px; position: relative; background-color: rgb(229, 227, 223);"></div>
+</div>
+
+<div id="right">
+  <select id="select_box" style="display: none;">
+  </select>		
+  <div id="chart_div" ></div>
+  <div id="bar_chart_div" ></div>
+  <div id="table" ></div>
+</div>
+<div id="foot">
+  <div id="content" ></div>
+</div>
+

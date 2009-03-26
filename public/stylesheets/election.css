@@ -17,26 +17,17 @@ padding : 5px;
 margin : 5px 0 0 0;
 text-align : center;
 }
-#left {
-display : inline;
-padding : 5px;
-width : 255px;
-float : left;
-margin : 5px;
-margin-left : 0;
-}
 #center {
 display : inline;
 padding : 5px;
-width : 430px;
-width : 494px;
+width : 620px;
 float : left;
 margin : 5px 0 5px 0;
 }
 #right {
 display : inline;
 padding : 5px;
-width : 255px;
+width : 400px;
 float : right;
 margin : 5px;
 margin-right : 0;
@@ -51,7 +42,7 @@ text-align : center;
 #foot p {
 margin : 0;
 }
-#search_box {
+#search_box,#select_box {
 background:#F3F9F8 none repeat scroll 0 0;
 border:1px solid #C9D7D8;
 font-size:1.3em;

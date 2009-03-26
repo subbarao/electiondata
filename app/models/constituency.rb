@@ -1,4 +1,5 @@
 class Constituency < ActiveRecord::Base
+  acts_as_mappable
 
   has_many :results do
     def current_winner
@@ -36,5 +37,49 @@ class Constituency < ActiveRecord::Base
         hash.merge({val.year => google_obj(val.year)})
       end
     end
+
+    def barchart
+      parties = find(:all,:order => "percentage desc").collect(&:name).uniq
+      columns = parties.inject([{"id" => "name" ,"type" => "string" ,"label" => "year"}]) do | cols, party|
+        cols << {"id"=>party.downcase, "type"=>"string", "label" => party }
+      end
+      results_in_hash = find( :all, :select => 'DISTINCT year' ).inject({}) do |hash,val|
+        year_by_year = parties.collect do | party |
+          party_result_for_year = find_by_year_and_name(val.year,party)
+          party_result_for_year.nil? ? nil : party_result_for_year.percentage
+        end
+        hash.merge( val.year => year_by_year )
+      end
+      rows=[]
+      results_in_hash.each_pair do |  key, values |
+        column = values.inject([{"v"=>key.to_s}]) do | current_row, val |
+          current_row << ( val.nil? ? nil : { "v" => val } )
+        end
+        rows << {"c" => column}
+      end
+      { "cols" => columns , "rows" => rows }
+    end
+
+    def barchart_by_year
+      find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
+        results = find_all_by_year(val.year,:limit => 5,:order => "percentage desc")
+        parties = results.collect(&:name)
+        ids = parties.inject([{"id" => "name" ,"type" => "string" ,"label" => "year"}]) do | cols, party|
+          cols << {"id"=>party.downcase, "type"=>"string", "label" => party }
+        end
+        column = results.inject([{"v"=>val.year.to_s}]) do | previous, result |
+          previous << { "v" => result.percentage }
+        end
+        hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } }) 
+      end
+    end
   end
+
+
+  def near
+    Constituency.find(:all,:origin => self,:within=> 75).collect do |place|
+      place.attributes.slice(*["name","id","lat","lng"]);
+    end
+  end
+
 end
