@@ -13,6 +13,7 @@
     <%= javascript_include_tag "application.js" %>
   </head>
   <body>
+    <div id="ajax" style="position: absolute; top: 100; right: 100; display: none;"> <%= image_tag "ajax-loader.gif"%> Please while we load your map. </div>
     <div id="container">
       <%= yield %>
     </div>

@@ -14,14 +14,10 @@ class Constituency < ActiveRecord::Base
   end
 
   has_many :candidate_results do
-    def for_year(year)
-      find_by_year(year)
-    end
     def table
-      rows = [2004,1999,1994,1989].inject([]) do |hash,val|
-        hash<< find_by_year(val).google_value
+      find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000) as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10*turnout) as margin").inject({}) do |hash,val|
+        hash.merge(val.year => val.attributes)
       end
-      { "cols" => CandidateResult.google_label, "rows" => rows }
     end
   end
 
@@ -70,7 +66,7 @@ class Constituency < ActiveRecord::Base
         column = results.inject([{"v"=>val.year.to_s}]) do | previous, result |
           previous << { "v" => result.percentage }
         end
-        hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } }) 
+        hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } })
       end
     end
   end
