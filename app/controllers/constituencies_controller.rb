@@ -4,6 +4,14 @@ class ConstituenciesController < ApplicationController
   def donothing
     @constituencies = Constituency.find(:all,:conditions => ["lat IS NOT NULL"])
   end
+  def find
+
+    con = Constituency.find_closest(:origin => [params[:lat],params[:lng]])
+    render :json => { "piechart" => con.party_results.piedata ,
+      "barchart" => con.party_results.barchart_by_year ,
+      "core" => con.attributes.except("created_at","updated_at"),
+    "table" => con.candidate_results.table, "near" => con.near }.to_json
+  end
 
   def index
     render :json => Constituency.find(:all,:conditions => ["lat IS NOT NULL"]).to_json(:only=>[:id,:name,:lat,:lng])

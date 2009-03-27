@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090324161139) do
+ActiveRecord::Schema.define(:version => 20090327170832) do
 
   create_table "candidate_results", :force => true do |t|
     t.integer  "constituency_id"
@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(:version => 20090324161139) do
     t.datetime "updated_at"
     t.float    "lat"
     t.float    "lng"
+    t.float    "distance"
   end
 
   create_table "parties", :force => true do |t|

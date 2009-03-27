@@ -31,21 +31,22 @@ namespace :deploy do
     send(run_method, "cd #{current_path} && rake db:migrate RAILS_ENV=#{stage} ")
   end
 
-  desc "test hoptoad"
-  task:hoptoad, :roles => :app do
-    send(run_method, "cd #{current_path} && rake hoptoad:test RAILS_ENV=#{stage} ")
-  end
 
 end
 
-after "deploy:update_code", "app:copy_config_files"
-before "deploy:migrate",  "db:backup","deploy:hoptoad"
+after "deploy:update_code", "app:copy_config_files","app:hoptoad"
+before "deploy:migrate",  "db:backup"
 
 namespace :app do
   desc "copies the configuration frile from ~/shared/config/*.yml to ~/config"
   task :copy_config_files,:roles => :app do
     run "cp -fv #{deploy_to}/shared/config/database.yml #{release_path}/config"
     run "cp -fv #{deploy_to}/shared/config/hoptoad.rb #{release_path}/config/initializers"
+  end
+
+  desc "test hoptoad"
+  task:hoptoad, :roles => :app do
+    run  "cd #{current_path} && rake hoptoad:test RAILS_ENV=#{stage} ")
   end
 end
 
