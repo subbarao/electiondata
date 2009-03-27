@@ -46,7 +46,7 @@ namespace :app do
 
   desc "test hoptoad"
   task:hoptoad, :roles => :app do
-    run  "cd #{current_path} && rake hoptoad:test RAILS_ENV=#{stage} ")
+    run  "cd #{current_path} && rake hoptoad:test RAILS_ENV=#{stage} "
   end
 end
 
