@@ -6,7 +6,16 @@ html, body {
   text-align : center;
   font-weight: bold; 
   line-height: 1.5em;
+}
+h2,h4{
+  text-align: center;
+  text-align: -moz-center;
+}
+h4{
   text-transform: capitalize;
+}
+.winning_party,.runnerup_party{
+  text-transform: uppercase;
 }
 #container {
   margin : 5px;

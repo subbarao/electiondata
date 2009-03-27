@@ -15,7 +15,7 @@ class Constituency < ActiveRecord::Base
 
   has_many :candidate_results do
     def table
-      find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000) as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10*turnout) as margin").inject({}) do |hash,val|
+      find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000) as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10) as margin").inject({}) do |hash,val|
         hash.merge(val.year => val.attributes)
       end
     end
@@ -58,13 +58,15 @@ class Constituency < ActiveRecord::Base
 
     def barchart_by_year
       find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
+        total_votes = proxy_owner.candidate_results.find_by_year(val.year).total_votes * 0.01
+        #Constituency.find
         results = find_all_by_year(val.year,:limit => 5,:order => "percentage desc")
         parties = results.collect(&:name)
         ids = parties.inject([{"id" => "name" ,"type" => "string" ,"label" => "year"}]) do | cols, party|
           cols << {"id"=>party.downcase, "type"=>"string", "label" => party }
         end
         column = results.inject([{"v"=>val.year.to_s}]) do | previous, result |
-          previous << { "v" => result.percentage }
+          previous << { "v" => result.percentage*total_votes }
         end
         hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } })
       end

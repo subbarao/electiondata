@@ -7,11 +7,9 @@ google.setOnLoadCallback(onLoadFunction);
 function onLoadFunction(){
 
   $("#container").ajaxStart(function(){
-      $("#ajax").show();
-      $(this).hide('slow');
+      $(this).slideUp('slow');
     }).ajaxComplete(function(){
-        $(this).show('slow');
-        $("#ajax").hide();
+        $(this).slideDown('fast');
       });
 
     var map = new google.maps.Map2(document.getElementById("map"));
@@ -57,10 +55,10 @@ function onLoadFunction(){
               $('#chart_div').html("");
               var pieJson = new google.visualization.DataTable(currentCity.piechart[year]);
               var pieChart = new google.visualization.PieChart(document.getElementById("chart_div"));
-              pieChart.draw(pieJson, jQuery.extend(opt, { title: year }));
+              pieChart.draw(pieJson, jQuery.extend(opt, { title: year+" Percentage Votes" }));
               var barJson = new google.visualization.DataTable(currentCity.barchart[year]);
               var barChart = new google.visualization.BarChart(document.getElementById("chart_div"));
-              barChart.draw(barJson, jQuery.extend(opt,{label: "none"}));
+              barChart.draw(barJson, jQuery.extend(opt,{title: year+ " Votes (Thousands)"}));
               for( var property in currentCity.table[year]){
                 if($("."+property)){
                     var value = currentCity.table[year][property];
