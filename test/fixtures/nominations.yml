@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  party_id: 1
+  constituency_id: 1
+
+two:
+  name: MyString
+  party_id: 1
+  constituency_id: 1

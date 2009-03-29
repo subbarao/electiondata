@@ -33,7 +33,6 @@ class Constituency < ActiveRecord::Base
         hash.merge({val.year => google_obj(val.year)})
       end
     end
-
     def barchart
       parties = find(:all,:order => "percentage desc").collect(&:name).uniq
       columns = parties.inject([{"id" => "name" ,"type" => "string" ,"label" => "year"}]) do | cols, party|
@@ -55,7 +54,6 @@ class Constituency < ActiveRecord::Base
       end
       { "cols" => columns , "rows" => rows }
     end
-
     def barchart_by_year
       find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
         total_votes = proxy_owner.candidate_results.find_by_year(val.year).total_votes * 0.01
@@ -71,18 +69,12 @@ class Constituency < ActiveRecord::Base
         hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } })
       end
     end
-
-
     def with_party_results
       find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
         hash.merge( { val.year => find_by_year(val.year).attributes["name"] } )
       end
     end
-
-
-
   end
-
 
   def near
     Constituency.find(:all,:origin => self,:within=> 75).collect do |place|
@@ -90,4 +82,8 @@ class Constituency < ActiveRecord::Base
     end
   end
 
+
+  has_many :nominations do
+
+  end
 end

@@ -1,0 +1,15 @@
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :party_id %><br />
+    <%= f.select( "constituency_id", Party.find(:all).collect {|p| [ p.name, p.id ] } ) %>
+  </p>
+  <p>
+    <%= f.label :constituency_id %><br />
+    <%= f.select( "constituency_id", Constituency.find(:all).collect {|p| [ p.name, p.id ] } ) %>
+    
+  </p>

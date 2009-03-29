@@ -1,0 +1,10 @@
+<h1>Editing nomination</h1>
+<% form_for(@nomination) do |f| %>
+  <%= render :partial => "form",:locals => { :f => f } %>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @nomination %> |
+<%= link_to 'Back', nominations_path %>
