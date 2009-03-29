@@ -61,6 +61,8 @@ Apache, LiteSpeed, IIS are just a few. For more information on FCGI,
 please visit: http://wiki.rubyonrails.com/rails/pages/FastCGI
 
 
+
+
 == Apache .htaccess example
 
 # General Apache options
