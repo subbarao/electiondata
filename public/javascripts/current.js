@@ -3,7 +3,7 @@ google.load("elements", "1", {packages: "transliteration"});
 google.load("language", "1");
 google.setOnLoadCallback(onLoadFunction);
 function onLoadFunction(){
-  map = new GMap2(document.getElementById("map"));
+  var map = new google.maps.Map2(document.getElementById("map"));
   map.setCenter(new GLatLng(17.047762,80.098187), 9);
   map.addControl(new GLargeMapControl());
   map.addControl(new DragZoomControl({},{ 
