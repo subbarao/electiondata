@@ -1,11 +1,7 @@
 class NominationsController < ApplicationController
   before_filter :verify_access
+  before_filter :add_parties, :except => ["index","show"]
 
-  def verify_access
-    authenticate_or_request_with_http_basic("Documents Realm") do |username, password|
-      username == "aruna" && password=="aruna"
-    end
-  end
 
   # GET /nominations
   # GET /nominations.xml
@@ -90,4 +86,17 @@ class NominationsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  private
+
+  def add_parties
+    @parties = Party.find([1,3,4,8,20,60,71,72])
+  end
+
+  def verify_access
+    authenticate_or_request_with_http_basic("Documents Realm") do |username, password|
+      username == "aruna" && password=="aruna"
+    end
+  end
+
 end

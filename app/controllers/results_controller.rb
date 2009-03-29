@@ -7,7 +7,7 @@ class ResultsController < ApplicationController
   end
 
   def show
-    @nominations = Constituency.find(153).nominations
+    @nominations = Constituency.find(params[:id]).nominations
     render  :layout => false
   end
 
