@@ -1,16 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="Description" content="Andhra Pradhesh Electorial Map: 2009 Elections Results Information">
     <title> Andhra Pradhesh Electorial Map</title>
     <meta name="description" content="Andhra Pradhesh" />
-    <%= stylesheet_link_tag 'election' %>
+    <%= stylesheet_link_tag 'election','redInfoWindow','bubbleInfoWindow' %>
+ <style>
+      #demo_explanation{
+        border-right: 1px solid #000;
+        float: left;
+        width: 49%;
+        margin-right: 5px;
+        padding-right: 5px;
+        font-size: .9em;
+      }
+      iframe{
+        background-color: #DDD;
+        border: 0;
+        margin-left: 20px;
+        font-size: .9em;
+      }
+    </style>
+    
     <script src="http://google.com/jsapi?key=ABQIAAAAlgBkrxtozPq6BJRUDdohQBSvO9wEK1VL9ijrFsVgreQc7pMV_RQCkG2f2oL1rhfewyrc9L2GJVZVZw" type="text/javascript">
     </script>
-    <%= javascript_include_tag "application.js" %>
+    <script type="text/javascript">
+      google.load("jquery", "1.3.2");
+      google.load("maps", "2");
+    </script>
   </head>
   <body>
     <div id="ajax" style="position: absolute; top: 100; right: 100; display: none;"> <%= image_tag "ajax-loader.gif"%> Please while we load your map. </div>

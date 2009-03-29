@@ -1,5 +1,3 @@
-google.load("jquery", "1.3.2");
-google.load("maps", "2");
 google.load("visualization", "1", {packages:["piechart","barchart","table"]});
 
 google.setOnLoadCallback(onLoadFunction);

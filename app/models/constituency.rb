@@ -71,6 +71,16 @@ class Constituency < ActiveRecord::Base
         hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } })
       end
     end
+
+
+    def with_party_results
+      find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
+        hash.merge( { val.year => find_by_year(val.year).attributes["name"] } )
+      end
+    end
+
+
+
   end
 
 
