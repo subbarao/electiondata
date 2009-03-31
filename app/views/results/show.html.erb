@@ -1,10 +1,8 @@
-<% for nomination in @nominations %>
-  <%= image_tag "tdp.gif" %>
-  <%= nomination.name %><br/>
-  <%= image_tag "cpi.gif" %>
-  <%= nomination.name %><br/>
-  <%= image_tag "cpm.gif" %>
-  <%= nomination.name %><br/>
-  <%= image_tag "bjp.gif" %>
-  <%= nomination.name %><br/>
-<% end %>
+<ul style="list-style:none;">
+  <% for nomination in @nominations %>
+    <li>
+      <%= nomination.name %>
+      <%= "( #{nomination.party.code} )" %>
+    </li>
+  <% end %>
+</ul>

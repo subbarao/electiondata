@@ -3,8 +3,8 @@ class CreateNominations < ActiveRecord::Migration
     create_table :nominations do |t|
       t.string :name
       t.integer :party_id
-      t.integer :constituency_id
-
+      t.integer :seat_id
+      t.string :type
       t.timestamps
     end
   end

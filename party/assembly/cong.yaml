@@ -1,0 +1,559 @@
+--- 
+- Armoor
+- K.R. Suresh Reddy
+- Bodhan
+- P. Sudarshan Reddy
+- Jukkal
+- S. Savithri Gangaram
+- Banswada
+- Baji Reddy Govardhan
+- Yellareddy
+- B. Janardhan Goud
+- Kamareddy
+- Mohd. Ali Shabbir
+- Nizamabad (URBAN)
+- D. Srinivas
+- Nizamabad (RURAL)
+- Akula Lalitha
+- Balkonda
+- Srinivas Reddy
+- Koratla
+- J. Rathnakar Rao
+- Jagtial
+- T. Jeevan Reddy
+- Dharmapuri
+- A. Laxman Kumar
+- Ramagundam
+- Baber Salim Pasha
+- Manthani
+- D. Sridhar Babu
+- Peddapalli
+- G. Mukunda Reddy
+- Karimnagar
+- Ch. Laxman Rao
+- Choppadandi
+- G. Babu Rao
+- Vemulawada
+- V. Adi Srinivas
+- Sircilla
+- Gudla Manjula
+- Manakondur
+- Arepalli Mohan
+- Huzurabad
+- Krishna Mohan
+- Husnabad
+- A. Praveen Reddy.
+- Siddipet
+- Anjaiah
+- Medak
+- P.Shashidar Reddy
+- Narayankhed
+- P. Kista Reddy
+- Andole (SC)
+- C.Damodhar Rajanarsimha
+- Narsapur
+- Sunitha Laxma Reddy
+- Zahirabad
+- J. Geeta Reddy
+- Sangareddy
+- T. Jayaprakash Reddy
+- Patancheru
+- Nandishwar Goud
+- Gajwel
+- T. Narsa Reddy
+- Medchal
+- K. Laxma Reddy
+- Malkajgiri
+- Akula Rajender
+- QUTBULLAPUR
+- K.M. Pratap
+- KUKATPALLE 
+- V. Narsing Rao
+- Uppal
+- Raji Reddy
+- Ibrahimpatnam
+- M. Ranga Reddy
+- Lal Bahadur Nagar
+- D. Sudhir Reddy
+- Maheswaram
+- Sabitha Indra Reddy
+- Rajendranagar
+- Ghaneshwar Mudiraj
+- Serilingampally
+- Bhikshapathi Yadav
+- Chevella (SC)
+- Kale Yadaiah
+- Pargi
+- K.Ram Reddy
+- Vicarabad
+- G.Prasad Kumar
+- Tandur
+- M.Ramesh
+- Musheerabad
+- T. Manemma
+- Malakpet
+- V.N. Reddy
+- Amberpet
+- Fareeduddin
+- Khairatabad
+- D.Nagender
+- Jubilee Hills
+- P. Vishnu vardhan Reddy
+- Sanathnagar
+- M. Shashidhar Reddy
+- Nampally
+- E. Vinod Kumar
+- Karwan
+- Roop Singh
+- Goshamahal
+- Mukesh Goud
+- Charminar
+- Gajula Anjiah
+- Chandrayangutta
+- Venkatesh Mudiraj
+- Yakutpura
+- G. Rajaratnam
+- BAHADURPURA
+- Raza Hussain Azad
+- Secunderabad
+- Jayasudha
+- Secunderabad Cantonment
+- Shankar Rao
+- Kodangal
+- Gurunath Reddy
+- Narayanpet
+- Sugurappa
+- Mahbubnagar
+- Puliveeranna
+- Jadcherla
+- Ravi Mallu
+- DEVERAKONDA
+- Swarna Sudhakar
+- Makthal
+- C. Rammohan Reddy
+- Wanaparthy
+- Chinna Reddy
+- Gadwal
+- D.K. Aruna
+- Alampur (SC)
+- Sampath Kumar
+- Nagarkurnool
+- Damodar Reddy
+- Achampet
+- Vamshi Krishna
+- Kalwakurthi
+- Y. Kista Reddy
+- Shadnagar
+- Pradeep Reddy
+- Kollapur
+- J. Krishna Rao
+- DEVERAKONDA
+- Balu Naik
+- Nagarjuna sagar
+- K. Jana Reddy
+- Huzurnagar
+- Uttam Kumar Reddy
+- Kodad
+- Mohammad Jani
+- Suryapet
+- Damodar Reddy
+- Nalgonda
+- Komatireddy Venkat Reddy
+- Mungode
+- Govardhan Reddy
+- Bhongir
+- Venkateshwar Reddy
+- Nakrekal (SC)
+- Tirumathi Lingaiah
+- Thungathurthy (SC)
+- Gudipti Narsaiah
+- Alair
+- Bikshapathi Goud 
+- Jangaon
+- Ponnala Lakshmiah
+- Ghanpur
+- T. Rajaiah
+- Palakurthi
+- Duggyala Srinivas Rao
+- Dornakal (ST)
+- D.S.Redya Naik
+- Mahbubabad (ST)
+- Malloth Kavitha
+- Narsampet
+- Madhav Reddy
+- Parkal
+- Konda Surekha
+- Warangal West
+- Daya Sagar
+- Warangal East
+- Basawaraj Saraiah
+- Wardhannapet
+- K.Sridhar
+- Bhupalpalle
+- G. Ramana Reddy
+- Mulug
+- P. Veeraiah
+- Pinapaka
+- Kanta Rao
+- Yellandu
+- Koram Kanakiah
+- Palair
+- Venkata Reddy
+- Madhira
+- Mallu Bhatti Vikramarka
+- Wyra
+- Bukya Ramchandraiah
+- Sathupalli
+- Sambani Chandrashekar
+- Kothagudem
+- Vanama Venkateshwar Rao
+- Aswaraopeta (ST)
+- Mitra Sen
+- Bhadrachalam (ST)
+- Kunju Satyavathi. 
+- Ichapuram
+- Narhu Ramarao
+- Palasa
+- Jetti Jagan Nayakulu
+- Tekkali
+- Revathi Pathi
+- Pathapatnam
+- Vijaya Rama Raju
+- Srikakulam
+- Dharmana Prasada Rao
+- Amadalavalasa
+- Boddepalli Satyavati
+- Etcherla
+- Neelakantam
+- Narasannapeta
+- Dharmana Krishna Das
+- Rajam
+- Kondru Murali Mohan
+- Palakonda
+- Nimmakku Sugrivulu.
+- Kurupam
+- Janardhan Tanti Raju
+- Parvathipuram
+- Savarapu Jayamani
+- Salur
+- P. Rajanna Dora
+- Bobbili
+- R.V.S.K. Ranga Rao
+- CHEEPURUPALLI
+- Botsa Satyanarayana
+- Gajapathinagaram
+- Botsa Appala Narsaiah
+- Nellimarla
+- P.V.Suryanarayana Raju
+- Vizianagaram
+- K.Veerabhadra Swamy
+- Srungavarapukota
+- Raghu Raj
+- Bhimli
+- Uma Rani
+- Visakhapatnam East
+- V. Appa Rao
+- Visakhapatnam South
+- Dronamraju Srinivas
+- Visakhapatnam North
+- T.Vijaya Kumar
+- Visakhapatnam West
+- M. Vijaya Prasad
+- Gajuwaka
+- Gurumurthy Reddy
+- Chodavaram
+- Karanam Dharmasri
+- Madugula
+- A.V. Ramamurthy Naidu
+- Araku Valley (ST)
+- Kantamma
+- Paderu (ST)
+- P. Balaraju
+- Anakapalli
+- Konathala Ramakrishna
+- Pendurthi
+- T. Vijaya Laxmi
+- Elamanchili
+- U. Venkata Ramana Raju
+- Payakaraopeta (SC)
+- G. Babu Rao
+- Narsipatnam
+- Muthyala Papa 
+- Tuni
+- Raja Ashok Babu
+- Prathipadu
+- V. Subba Rao
+- Pithapuram
+- M. Padmanabham
+- Kakinada rural
+- Dommthi Venkateswaralu
+- Peddapuram
+- Thota Gopal Krishna
+- Anaparthy
+- Sesha Reddy
+- Kakinada city
+- Chandra Sekhar Reddy
+- Ramachandrapuram
+- P. Subash Chandra Bose
+- Mummidivaram
+- P. Satish Kumar
+- Amalapuram
+- P. Viswaroop
+- Razole
+- Rapaka Vara Prasad
+- Gannavaram
+- Pamala Rajeswari Devi
+- Kothapeta
+- Ch. Jaggi Reddy
+- Mandapeta
+- B. Krishnarajuna Chowdary
+- Rajanagaram
+- Chitturi Ravindra
+- Rajahmundry city
+- R. Surya Prakash Rao
+- Jaggampeta
+- Thota Narsimham Rampachodavaram (ST)
+- Kovvur
+- Moshen Raja
+- Nidadavole
+- G. Srinivasu Naidu
+- Achanta
+- Pathani Satyanarayana
+- Palakol
+- Bangaru Usha Rani
+- Narsapuram
+- M. Prasad Raju
+- Bhimavaram
+- Pullaparthi Ramanjaneyelu
+- Undi
+- P. Sarraju
+- Tanuku
+- K. Nageshwar Rao
+- Tadepalligudem
+- K. Satyanarayana
+- Unguturu
+- V. Vasant Kumar
+- Dendulur
+- Kottari Ramachandra Rao
+- Eluru
+- A.K.Srinivas
+- Gopalpuram (SC)
+- Usha Madiga
+- Polavaram (ST)
+- T.Balaraju
+- Chintalapudi (SC)
+- M.Rajesh Kumar
+- Tiruvuru
+- Dirisam Padmajyothi
+- Nuzvid
+- M. Venkata Pratap Appa Rao
+- Gannavaram
+- M.Venkateswar Rao
+- Gudivada
+- P.Venkateswar Rao
+- Kaikalur
+- Y.Raja Ramachander
+- Pedana
+- Jogi Ramesh Goud
+- Machilipatnam
+- Perni Venkatramaiah
+- Avanigadda
+- Mandali Buddha Prasad
+- Pamarru
+- D.Y. Das
+- Penamaluru
+- K.P. Sarathy
+- Vijayawada West
+- Mallika Begum
+- Vijayawada Central
+- Malladi Vishnu
+- Vijayawada East
+- Devineni Rajashekar Nehru
+- Mylavaram
+- Appasami Sandeep Nannu
+- Nandigama
+- V.Parameshwar Rao
+- Jaggayyapet
+- S. Udayabhanu
+- PEDDAKURAPADU
+- Patan Noorjahan
+- Tadikonda
+- D. Manikya Vara Prasad Rao
+- Mangalagiri
+- Kandru Kamala
+- Ponnur
+- Leeladhar
+- Vemuru
+- M. Nagarjuna
+- Repalle
+- M. Venkataramana Rao
+- Tenali
+- Nadendla Monohar
+- Bapatla
+- Gade Venkat Reddy
+- Prathipadu
+- Sucharita
+- Guntur West
+- Kanna Lakshminarayana
+- Guntur East
+- Mastan Vali
+- Chilakaluripet
+- M.Rajashekar
+- Narasaraopet
+- K.Venkata Krishna Reddy
+- Sattenapalli
+- Y. Venkateswara Reddy
+- Vinukonda
+- Cheburolu Narendernath
+- Gurzala
+- Alla Venkateshwarulu
+- Macherla
+- P. Rama Krishna Reddy
+- Yerragondapalem
+- A.Suresh Kumar
+- Darsi
+- Dr. B. Siva Prasad Reddy
+- Parchur
+- D.Venkateswar Rao
+- Addanki
+- G.Ravi Kumar
+- Chirala
+- Krishna Mohan
+- Santhanuthalapadu
+- Danam Vijay Kumar
+- Ongole
+- B.Srinivasa Reddy
+- Kandukur
+- M.Maheedhar Reddy
+- Kondapi
+- G.V. Seshu
+- Markapur
+- K. Pedda Konda Reddy
+- Giddalur
+- B. Chandrashekar Yadav
+- Kanigiri
+- Ugra Narsimha Reddy.
+- Kavali
+- Vishnuvardhan Reddy
+- Atmakur-NELLORE
+- Anam Rama Narayana Reddy
+- Kovur
+- P. Srinivasulu Reddy
+- Nellore city
+- B. Anil Kumar Yadav
+- Nellore rural
+- A.Vivekananda Reddy
+- Sarvepalli
+- Adala prabhakar Reddy
+- Gudur
+- Panabaka Krishnaiah
+- Sullurpet
+- Vinnamala Saraswati
+- Venkatagiri
+- N. Rajya Lakshmi
+- Udayagiri
+- M. Chandra Sekhar Reddy
+- Badvel
+- Kamalamma
+- Rajampet
+- Amarnath Reddy
+- Kadapa
+- Mohd. Ahamadullah
+- Kodur (SC)
+- K. Srinivasulu
+- Rayachoty
+- Srikanth Reddy
+- PULIVENDULA
+- Y.S. Rajasekhar Reddy
+- Kamalapuram
+- G.Veerashiva Reddy
+- Jammalamadugu
+- C. Adinarayana Reddy
+- Proddatur
+- N. Varadarajula Reddy
+- Mydukur
+- D.l. Ravindra Reddy
+- Allagadda
+- G. Pratap Reddy
+- Srisailam
+- E. Pratap Reddy
+- Nandikotkur
+- Labbi Venkatswamy
+- Kurnool
+- T.G.Venkatesh
+- Panyam
+- K. Rambhupal Reddy
+- Nandyal
+- C. Shilpa Mohan Reddy
+- Banaganapalle
+- Challa Rama Krishna Reddy
+- Dhone
+- Kotla Sujathamma
+- Pattikonda
+- S.V. Mohan Reddy
+- Kodumur
+- P. Murali Krishna
+- Yemmiganur
+- K. Chennakeshava Reddy
+- Mantralayam
+- Madhusudhan
+- Adoni
+- Y. Sai Prasad Reddy
+- Alur
+- Neeraja Reddy
+- Rayadurg
+- R. Ramachandra Reddy
+- Uravakonda
+- Visveshwar Reddy
+- Guntakal
+- Madhusudan Gupta
+- Tadpatri
+- J.C. Diwakar Reddy
+- Singanamala
+- Sailajanath
+- Anantapur urban
+- Gurnnath Reddy
+- Kalyandurg
+- Raghu Veera Reddy
+- Raptadu
+- T.Prakash Reddy
+- Madakasira
+- K. Sudhakar
+- Hindupur
+- Lakshmi Narayana
+- Penukonda
+- K.T Sridhar
+- Puttaparthi
+- K. Mohan Reddy
+- Dharmavaram
+- K. Venkatrama Reddy
+- Kadiri
+- J. Ramaiah
+- Thamballapalle
+- G. Shankar Yadav
+- Pileru
+- N. Kiran Kumar Reddy
+- Madanapalle
+- Shahjahan Basha
+- Punganur
+- P. Ramachandra Reddy
+- Chandragiri
+- G. Aruna Kumari
+- Tirupathi
+- Karunakar Reddy
+- Sri kalahasti
+- S.C.V.Naidu
+- Satyavedu
+- K.Narayana Swamy
+- Nagari
+- R.Chenga Reddy
+- Gangadhara-Nellore
+- T. Doraiswamy
+- Chittoor
+- C.K. Babu
+- Puthalapattu
+- P. Ravi
+- PALMANER
+- D.Reddappa Reddy
+- Kuppam
+- M.Subramanayam

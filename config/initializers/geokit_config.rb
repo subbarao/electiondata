@@ -27,5 +27,5 @@ if defined? Geokit
 	# and http://www.google.com/apis/maps/documentation/#Geocoding_Examples
 	Geokit::Geocoders::google = 'ABQIAAAAlgBkrxtozPq6BJRUDdohQBSvO9wEK1VL9ijrFsVgreQc7pMV_RQCkG2f2oL1rhfewyrc9L2GJVZVZw'
   
-	Geokit::Geocoders::provider_order = [:google,:us]
+	Geokit::Geocoders::provider_order = [:google]
 end

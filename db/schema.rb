@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090329192423) do
+ActiveRecord::Schema.define(:version => 20090330141553) do
 
   create_table "candidate_results", :force => true do |t|
     t.integer  "constituency_id"
@@ -38,10 +38,20 @@ ActiveRecord::Schema.define(:version => 20090329192423) do
     t.float    "distance"
   end
 
+  create_table "districts", :force => true do |t|
+    t.string   "name"
+    t.float    "lat"
+    t.float    "lng"
+    t.float    "distance"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "nominations", :force => true do |t|
     t.string   "name"
     t.integer  "party_id"
-    t.integer  "constituency_id"
+    t.integer  "seat_id"
+    t.string   "type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -69,6 +79,20 @@ ActiveRecord::Schema.define(:version => 20090329192423) do
     t.integer  "votes"
     t.float    "percentage"
     t.integer  "year"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "seats", :force => true do |t|
+    t.string   "name"
+    t.integer  "district_id"
+    t.float    "lat"
+    t.float    "lng"
+    t.float    "distance"
+    t.string   "locality"
+    t.string   "type"
+    t.integer  "phase"
+    t.date     "election_date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
