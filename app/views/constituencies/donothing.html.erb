@@ -3,8 +3,8 @@
   <select  id="search_box" name="query" type="text" >
     <%= options_from_collection_for_select @constituencies,:id,:name %>
   </select>
+  <%= link_to "2009 Nominations",root_url %>
 </div>
-
 <div id="center"> 
   <div id="map" style="margin: 5px auto; width: 600px; height: 400px; position: relative; background-color: rgb(229, 227, 223);"></div>
 </div>
@@ -23,7 +23,7 @@
         Total Votes :<span class="total_votes"></span>
       </h4> 
       <h4> 
-         Margin  :<span class="margin"></span>
+        Margin  :<span class="margin"></span>
       </h4> 
     </div>
   </div>
