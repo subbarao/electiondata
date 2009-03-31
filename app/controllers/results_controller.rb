@@ -7,9 +7,11 @@ class ResultsController < ApplicationController
   end
 
   def show
-    @nominations = AssemblySeat.find(params[:id]).nominations
+    @seat = AssemblySeat.find(params[:id])
+    @nominations = @seat.nominations
     render  :layout => false
   end
+
   def init
 
   end
