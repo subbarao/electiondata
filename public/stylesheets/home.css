@@ -1,0 +1,101 @@
+html,html body {height:100%;}
+div.wrap {height:100%; min-height:100%;}
+div#content {height:100%; min-height:100%;}
+html>body div#content {height:auto; min-height:100%;}
+
+body {background-color:#fff; font:77% arial, sans-serif; color:#000;}
+body, form, h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+a, a:link, a:visited {text-decoration:none; color:#000; cursor:pointer;}
+a:hover, a:focus {text-decoration:underline; color:#c00 !important;}
+a img {border:none;}
+.end {clear:both;}
+.sep {clear:both; line-height:15px;}
+
+.wrap {width:997px; _width:1010px; margin:0 auto; background:url('/images/bg.gif') repeat-x;}
+
+.nav {clear:both; float:left; padding-left:13px; width:984px; _width:997px;}
+.nav ul, .nav li {margin:0; padding:0; list-style:none;}
+.nav li {float:left;  font:bold 90%/120% arial,sans-serif; text-transform:uppercase;}
+.nav li a {display:block; padding:5px 7px; color:#fff !important;}
+.nav li a:hover {color:#fff !important;}
+#navTop li a.sel {float:left; font:bold 11px arial,sans-serif; color:#000 !important; background-color:#FFF; background-image:none; padding:5px 7px 6px 7px;}
+#navBot {background-color:#9bc;}
+
+#footer {clear:both; padding:0 20px 10px 20px; margin:0; background-color:#9bc; color:#fff; font-weight:normal; border-top:1px solid #fff;}
+#footer a {color:#fff !important;}
+#footer .logo {float:left; margin:10px 12px 0 0; padding:0;}
+#footer .copy {padding:10px 0 0 0; line-height:1em;}
+#footer .flinks {padding-top:0.5em;}
+
+#header {clear:both; margin:0 15px;}
+#header #subsDate {float:left; width:230px;}
+#header h1 {width:412px;}
+#header .logoTime {float:left; margin:0 0 0 62px; _margin:0; width:238px; height:70px;}
+#header h1 .logoCnn {float:left; margin-left:8px; width:102px; height:24px;}
+#header h1 .logoTime a, #header h1 .logoCnn a {display:block;}
+#header .sep {line-height:10px;}
+#header .date {clear:left; float:left; width:309px; margin:3px 15px 0px 0; font:normal 130% arial,sans-serif; color:#000;}
+#subsDate .tout {float:left; padding:0 7px 7px 0; width:180px;}
+#subsDate .tout .thumb {float:left; width:33px; padding:0 5px 0 0; margin:0;}
+#subsDate .tout .thumb img {width:33px; height:43px;}
+#subsDate .tout p {float:left;}
+#subsDate .tout p, #subsDate .tout p a {font:normal 93% arial,sans-serif; margin:0; padding:0; color:#666; }
+
+#content {clear:both; background-color:#FFF; border:1px solid #9bc; border-width:0 5px;}
+
+.ltCol {float:left; width:933px; height: 600px; margin-left:15px; _margin-left:10px;}
+#map {float:left; width:933px;height: 600px; margin-left:15px; _margin-left:10px;}
+.ltColA {clear:both; float:left; width:309px; margin-right:15px;}
+.ltColB {float:left; width:309px; background-color:#FFF;}
+
+.rtCol {float:left; width:339px;}
+.rtCol .rLinks {float:right; margin-top:3px; font:12px arial, sans-serif;}
+.rtCol .rLinks a {color:#c00;}
+.rtCol .rLinks .rq {line-height:0; font-size:13px;}
+.rtCol .ad300 {width:300px; margin-left:auto; margin-right:auto; text-align:center;}
+.rtCol .ad309 {margin:0 15px;}
+.rtCol .ad88 {margin:5px 0 0 199px;}
+.rtCol a.subscribe {text-decoration:underline; color:#c00; font-size:14px;}
+
+.cmAd {width:285px; margin:0 auto; border:8px solid #c00; text-align:left;}
+.cmAd .logo {margin:0 auto; width:103px; padding:3px 0;}
+.cmAd h3 {font:210%/100% "arial black", arial, sans-serif; letter-spacing:-1px; padding:0 8px 3px 8px;}
+.cmAd h3 a {color:#000;}
+.cmAd ul {margin:0 23px 10px 23px; padding:0;}
+.cmAd ul li, .cmAd ul li a {font:100%/100% arial, sans-serif; color:#000;}
+.cmAd ul li {padding:3px 0 0 0; margin:0;}
+
+#insideTime {clear:both; float:left; width:967px; margin:0 10px; _margin:0 8px; border-bottom:1px solid #E5E5E5; background-color:#FFF;}
+#insideTime .tout {float:left; padding:7px 7px 7px 0; width:209px;}
+#insideTime .last {float:left; padding:0; margin:0; width:216px;}
+#insideTime h2 {float:left; padding:7px 7px 7px 0; _padding:7px 4px 7px 0; font:normal 140%/90% arial black, arial, sans-serif; letter-spacing:-1px; _letter-spacing:-2px; color:#9bc; width:87px; _width:84px;}
+#insideTime h3 {font:normal 110%/105% georgia,"times new roman",times,serif; color:#000;}
+#insideTime h3 a:link {color:#000;}
+#insideTime .thumb {position:relative; margin:0; float:left; width:77px; padding:0 7px 0 0;}
+#insideTime .thumb .video {position:absolute; top:0; left:0;}
+
+.lathd {width:287px; border:1px solid #ccc; padding:10px; margin:0 15px; font:normal 105%/105% Georgia,"Times New Roman",Times,serif;}
+.lathd h2 {font:normal 135%/95% "arial black",arial,sans-serif; letter-spacing:-1px; color:#9bc; padding-bottom:3px;}
+.lathd h2 a {color:#c00;}
+.lathd .date {font:11px arial, sans-serif; margin:2px 0;}
+.lathd ul {color:#c00; margin:3px 0 0 1.2em; padding:0;}
+.lathd ul a:link {color:#000;}
+.lathd li {padding:0 0 4px 0; margin:0; font-size:70%; line-height:140%;}
+.lathd li a {font-size:130%; line-height:110%;}
+
+/*#nlForm label {display:none;}*/
+
+.searchWrap {float:right; position:relative; width:309px;}
+#search1, #search2 {float:right; font:.8em arial; width:309px;}
+#frmSearch, #frmSearch2 {float:right;}
+#search1 ul, #search2 ul {padding-left:0;  background-color:#fff;}
+#search1 input#query, #search2 input#query2 {width:178px; _width:168px; height:21px; margin-left:1px; background-position:1px 5px; font:normal 16px arial, sans-serif; padding:5px 3px 1px 3px; background-repeat:no-repeat; float:left; color:#C00; border:1px solid #bbb;}
+#search1 ul#searchCat, #search2 ul#searchCat2 {color:#C00; width:185px; _width:175px; border:1px solid #ccc; display:none; margin-top:0; list-style-type:none; font:bold 12px arial,sans-serif; margin-left:3px; position:absolute; top:29px; left:90px; _left:100px; z-index:10;}
+#search1 ul#searchCat {border-width:0 1px 1px 1px;}
+#search2 ul#searchCat2 {border-width:1px 1px 0 1px; top:-65px !important;}
+#search1 input.magnify, #search2 input.magnify {cursor:pointer; background-image:url('/images/icon_glass.png'); display:block; height:29px !important; width:30px; float:left; margin:0; border-style:none;}
+#search1 ul#searchCat li, #search2 ul#searchCat2 li {margin:0; padding:6px;}
+#search1 ul#two, #search2 ul#two {display:none;}
+#search1 label, #search2 label {display:none;}
+#search1 .ad, #search2 .ad {float:left; width:88px;}
+
