@@ -1,0 +1,1834 @@
+AC_NO,AC_NAME,PHASE,CAND_SL_NO,CAND_NAME,CAND_SEX,CAND_AGE,CAND_CATEGORY,PARTYABBRE,PARTYNAME,SYMBOL_DES
+1,Sirpur,1,1,KAVETI SAMMAIAH,M,51,GEN,TRS,Telangana Rashtra Samithi,Car
+1,Sirpur,1,2,KONERU KONAPPA,M,54,GEN,INC,Indian National Congress,Hand
+1,Sirpur,1,3,GANAPURAM MURALIDHER,M,44,GEN,BJP,Bharatiya Janata Party,Lotus
+1,Sirpur,1,4,RAVINDAR NIKODA,M,30,GEN,BSP,Bahujan Samaj Party,Elephant
+1,Sirpur,1,5,DUBBULA JANARDHAN,M,41,GEN,LSP,Lok Satta Party,Whistle
+1,Sirpur,1,6,BINGI SRINIVAS,M,40,GEN,PPOI,Pyramid Party of India,Television
+1,Sirpur,1,7,LENDUGURE MENGAJI PATEL,M,59,GEN,PRP,Praja Rajyam Party,Railway Engine
+1,Sirpur,1,8,DUBBULA VENKAIAH,M,29,GEN,IND,Independent,Road Roller
+2,Chennur,1,1,ARUMULLA POSHAM,M,43,SC,BJP,Bharatiya Janata Party,Lotus
+2,Chennur,1,2,NALLALA ODELU,M,45,SC,TRS,Telangana Rashtra Samithi,Car
+2,Chennur,1,3,G. VINOD,M,53,SC,INC,Indian National Congress,Hand
+2,Chennur,1,4,ANDUGULA SRINIVAS,M,38,SC,PRP,Praja Rajyam Party,Railway Engine
+2,Chennur,1,5,JADI MALLAIAH,M,56,SC,JD(S),Janata Dal (Secular),A lady farmer carrying paddy on her head
+2,Chennur,1,6,MEKALA SAROJA,F,36,SC,LSP,Lok Satta Party,Whistle
+2,Chennur,1,7,JADI YESAIAH,M,39,SC,IND,Independent,Road Roller
+2,Chennur,1,8,PONNALA VINAY KUMAR,M,40,SC,IND,Independent,Cup & Saucer
+2,Chennur,1,9,VOLAPU SRINIVAS,M,31,SC,IND,Independent,Coconut
+3,BELLAMPALLE,1,1,GUNDA MALLESH,M,62,SC,CPI,Communist Party of India,Ears of Corn And Sickle
+3,BELLAMPALLE,1,2,CHILUMALA SHANKAR,M,44,SC,INC,Indian National Congress,Hand
+3,BELLAMPALLE,1,3,AMURAJULA SRIDEVI,F,35,SC,PRP,Praja Rajyam Party,Railway Engine
+3,BELLAMPALLE,1,4,PAGIDI VENKATI,M,45,SC,IND,Independent,Television
+3,BELLAMPALLE,1,5,BOLUMALLA ANJAIAH,M,64,SC,IND,Independent,Ring
+3,BELLAMPALLE,1,6,RAVULA RAMAKRISHNA,M,34,SC,IND,Independent,Cup & Saucer
+3,BELLAMPALLE,1,7,SAKINALA NARAYANA,M,34,SC,IND,Independent,Gas Cylinder
+4,Mancherial,1,1,ARAVINDA REDDY GADDAM,M,51,GEN,TRS,Telangana Rashtra Samithi,Car
+4,Mancherial,1,2,UPENDER NANDELI,M,45,GEN,BSP,Bahujan Samaj Party,Elephant
+4,Mancherial,1,3,DIWAKAR RAO NADIPALLI,M,57,GEN,INC,Indian National Congress,Hand
+4,Mancherial,1,4,PEDDAPALLY PURUSHOTHAM,M,49,GEN,BJP,Bharatiya Janata Party,Lotus
+4,Mancherial,1,5,KARRE LACHANNA,M,51,GEN,PRP,Praja Rajyam Party,Railway Engine
+4,Mancherial,1,6,THAMMADI SRINIVAS,M,38,GEN,LSP,Lok Satta Party,Whistle
+4,Mancherial,1,7,MADUPU RAVI KUMAR,M,39,GEN,PPOI,Pyramid Party of India,Television
+4,Mancherial,1,8,INGU RATAN KUMAR,M,32,GEN,IND,Independent,Gas Cylinder
+4,Mancherial,1,9,CHIPURUSHETTY DINPATHI,M,37,GEN,IND,Independent,Cot
+4,Mancherial,1,10,JAYPAL SINGH THAKUR,M,34,GEN,IND,Independent,Almirah
+4,Mancherial,1,11,TULA MADHUSUDAN RAO,M,40,GEN,IND,Independent,Cup & Saucer
+4,Mancherial,1,12,DR. M.NEELAKANTESHWARA (GOUD),M,51,GEN,IND,Independent,Gas Stove
+4,Mancherial,1,13,NAINALA VENKATESHWARLU,M,41,GEN,IND,Independent,Scissors
+5,Asifabad,1,1,ATHRAM SAKKU,M,36,ST,INC,Indian National Congress,Hand
+5,Asifabad,1,2,KANAKA RAMABAI,F,40,ST,BSP,Bahujan Samaj Party,Elephant
+5,Asifabad,1,3,PENDRAM GOPI,M,42,ST,TRS,Telangana Rashtra Samithi,Car
+5,Asifabad,1,4,SIDAM JAGGARAO,M,64,ST,BJP,Bharatiya Janata Party,Lotus
+5,Asifabad,1,5,ADE RAMESH,M,47,ST,PRP,Praja Rajyam Party,Railway Engine
+5,Asifabad,1,6,AJMERA REKHA,F,34,ST,IND,Independent,Banana
+5,Asifabad,1,7,BUKYA CHANDULAL,M,35,ST,IND,Independent,Iron
+5,Asifabad,1,8,RATHOD GOVIND NAIK,M,47,ST,IND,Independent,Gas Cylinder
+5,Asifabad,1,9,SALLAM KRISHNA RAO,M,29,ST,IND,Independent,Television
+6,Khanapur,1,1,AJMEERA HARI NAIK,M,42,ST,INC,Indian National Congress,Hand
+6,Khanapur,1,2,GUGLAVATH SRIRAM NAIK,M,41,ST,BJP,Bharatiya Janata Party,Lotus
+6,Khanapur,1,3,K. LAKKE RAO,M,43,ST,BSP,Bahujan Samaj Party,Elephant
+6,Khanapur,1,4,SUMAN RATHOD,F,45,ST,TDP,Telugu Desam,Bicycle
+6,Khanapur,1,5,BHUKYA CHANDRA SHEKAR,M,28,ST,PRP,Praja Rajyam Party,Railway Engine
+6,Khanapur,1,6,ADE DATTARAM,M,43,ST,IND,Independent,Road Roller
+6,Khanapur,1,7,BAKSHI NAIK LAVADIA,M,47,ST,IND,Independent,Cup & Saucer
+6,Khanapur,1,8,MARSKOLA THIRUPATHI,M,34,ST,IND,Independent,Scissors
+6,Khanapur,1,9,MALWANTH ROHIDAS,M,38,ST,IND,Independent,Gas Cylinder
+6,Khanapur,1,10,SIDAM SHAMBU,M,38,ST,IND,Independent,Ring
+7,Adilabad,1,1,GADDALA SHANKAR,M,50,SC,BSP,Bahujan Samaj Party,Elephant
+7,Adilabad,1,2,CHILUKURI RAMCHANDRA REDDY,M,65,GEN,INC,Indian National Congress,Hand
+7,Adilabad,1,3,JOGU RAMANNA,M,46,GEN,TDP,Telugu Desam,Bicycle
+7,Adilabad,1,4,NIVEDITA VAZE,F,46,GEN,BJP,Bharatiya Janata Party,Lotus
+7,Adilabad,1,5,CHILUKURI THIRUPATHI,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+7,Adilabad,1,6,ANNAM PREM DEVENDAR,M,32,GEN,IND,Independent,Gas Cylinder
+7,Adilabad,1,7,S.K. AHMED,M,79,GEN,IND,Independent,Ceiling Fan
+7,Adilabad,1,8,OMKARMAL SHARMA,M,67,GEN,IND,Independent,Cup & Saucer
+7,Adilabad,1,9,KATTA CHANDRAMOULI,M,52,GEN,IND,Independent,Maize
+7,Adilabad,1,10,CHALLA CHANDRA MOHAN,M,33,GEN,IND,Independent,Bat
+7,Adilabad,1,11,CHITYALA SUHASINI,F,43,GEN,IND,Independent,Television
+7,Adilabad,1,12,DARSHA POCHANNA,M,59,GEN,IND,Independent,Kite
+7,Adilabad,1,13,BHANU RAJESHWAR RAO,M,52,GEN,IND,Independent,Coconut
+7,Adilabad,1,14,SAYYAD JAVEEDSHAH,M,47,GEN,IND,Independent,Battery Torch
+8,Boath,1,1,ADE MANAJI,M,40,ST,BJP,Bharatiya Janata Party,Lotus
+8,Boath,1,2,ANIL KUMAR JADHAV,M,35,ST,INC,Indian National Congress,Hand
+8,Boath,1,3,GODEM NAGESH,M,43,ST,TDP,Telugu Desam,Bicycle
+8,Boath,1,4,THODASAM VIJAYALAXMI,F,33,ST,PRP,Praja Rajyam Party,Railway Engine
+8,Boath,1,5,ATRAM GNANASUDHA,F,38,ST,IND,Independent,Almirah
+8,Boath,1,6,KOVA MANOHAR,M,59,ST,IND,Independent,Cup & Saucer
+8,Boath,1,7,MESRAM BHEEMRAO,M,33,ST,IND,Independent,Balloon
+9,Nirmal,1,1,ALLOLA INDRA KARAN REDDY,M,60,GEN,INC,Indian National Congress,Hand
+9,Nirmal,1,2,K. PRAKASHAMU,M,61,SC,BSP,Bahujan Samaj Party,Elephant
+9,Nirmal,1,3,RAVULA RAMNATH,M,43,GEN,BJP,Bharatiya Janata Party,Lotus
+9,Nirmal,1,4,K. SRIHARI RAO,M,48,GEN,TRS,Telangana Rashtra Samithi,Car
+9,Nirmal,1,5,ALLETI MAHESHWAR REDDY,M,40,GEN,PRP,Praja Rajyam Party,Railway Engine
+9,Nirmal,1,6,NIGULAPU LINGANNA,M,33,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Gas Cylinder
+9,Nirmal,1,7,POONDRU NARSA REDDY,M,35,GEN,LSP,Lok Satta Party,Whistle
+9,Nirmal,1,8,KOTLA NARAYANA,M,46,GEN,IND,Independent,Jug
+9,Nirmal,1,9,NALMELA POSHETTY,M,35,SC,IND,Independent,Batsman
+10,Mudhole,1,1,ABDUL BHARI,M,37,GEN,BSP,Bahujan Samaj Party,Elephant
+10,Mudhole,1,2,PATIL NARAYAN RAO BHOSLE,M,50,GEN,INC,Indian National Congress,Hand
+10,Mudhole,1,3,VENUGOPALA CHARY. S,M,50,GEN,TDP,Telugu Desam,Bicycle
+10,Mudhole,1,4,SATISHWER RAO,M,42,GEN,BJP,Bharatiya Janata Party,Lotus
+10,Mudhole,1,5,GADDIGARI VITTAL REDDY,M,54,GEN,PRP,Praja Rajyam Party,Railway Engine
+10,Mudhole,1,6,GANAPATHI,M,55,GEN,TPPP,Trilinga Praja Pragati Party,Ceiling Fan
+10,Mudhole,1,7,PULI PEDDA BHUMANNA,M,65,GEN,PPOI,Pyramid Party of India,Television
+10,Mudhole,1,8,BALAPUR GANGADHER,M,37,GEN,CPI(ML)(L),Communist Party of India (Marxist-Leninist) (Liberation),Flag with Three Stars
+10,Mudhole,1,9,CHINNA CHINNANNA,M,31,GEN,IND,Independent,Coconut
+10,Mudhole,1,10,P. RAMACHANDRA REDDY,M,72,GEN,IND,Independent,Gas Cylinder
+10,Mudhole,1,11,RAMDASS ANABOINAWAD,M,55,GEN,IND,Independent,Almirah
+10,Mudhole,1,12,SAGAR AGRE,M,44,GEN,IND,Independent,Battery Torch
+11,Armoor,1,1,ANNAPURNA ALETI,F,53,GEN,TDP,Telugu Desam,Bicycle
+11,Armoor,1,2,MOTHKURI LINGA GOUD,M,39,GEN,BSP,Bahujan Samaj Party,Elephant
+11,Armoor,1,3,SRINIVAS ALJAPUR,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+11,Armoor,1,4,K.R. SURESH REDDY,M,49,GEN,INC,Indian National Congress,Hand
+11,Armoor,1,5,KRISHNA BOKKENA,M,32,GEN,LSP,Lok Satta Party,Whistle
+11,Armoor,1,6,BADDAM MADHU SHEKAR,M,46,SC,PRP,Praja Rajyam Party,Railway Engine
+11,Armoor,1,7,MUKKA SATHYANARAYANA,M,49,GEN,PPOI,Pyramid Party of India,Television
+11,Armoor,1,8,MOHAN,M,37,SC,IND,Independent,Almirah
+11,Armoor,1,9,REGULLA SATYANARAYANA,M,40,GEN,IND,Independent,Scissors
+11,Armoor,1,10,VIJAY KUMAR GATADI,M,31,GEN,IND,Independent,Cup & Saucer
+12,Bodhan,1,1,KOTIGARI SHIVAPPA,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+12,Bodhan,1,2,SHAKEEL M.D,M,32,GEN,TRS,Telangana Rashtra Samithi,Car
+12,Bodhan,1,3,SUDERSHAN REDDY,M,55,GEN,INC,Indian National Congress,Hand
+12,Bodhan,1,4,C.KARUNAKAR REDDY,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+12,Bodhan,1,5,KESANI SRINIVAS RAO,M,35,GEN,PPOI,Pyramid Party of India,Television
+12,Bodhan,1,6,JAMEEL AHMED,M,36,GEN,LSP,Lok Satta Party,Whistle
+12,Bodhan,1,7,Y.SAI BABU,M,37,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Ceiling Fan
+13,Jukkal,1,1,JUTTOLLA SAILU,M,40,SC,BJP,Bharatiya Janata Party,Lotus
+13,Jukkal,1,2,VITTAL,M,36,SC,BSP,Bahujan Samaj Party,Elephant
+13,Jukkal,1,3,SAVITHRI S,F,42,SC,INC,Indian National Congress,Hand
+13,Jukkal,1,4,HANMANTH SHINDE,M,41,SC,TDP,Telugu Desam,Bicycle
+13,Jukkal,1,5,T. ARUNA TARA,F,36,SC,PRP,Praja Rajyam Party,Railway Engine
+13,Jukkal,1,6,A.K. LATHA,F,31,SC,LSP,Lok Satta Party,Whistle
+13,Jukkal,1,7,ERROLLA SAILU,M,32,SC,IND,Independent,Cup & Saucer
+14,Banswada,1,1,NAGAIAH MACHARLA,M,40,GEN,BSP,Bahujan Samaj Party,Elephant
+14,Banswada,1,2,POCHARAM SRINIVAS REDDY (PARIGE),M,56,GEN,TDP,Telugu Desam,Bicycle
+14,Banswada,1,3,BAJIREDDI GOVERDHAN,M,53,GEN,INC,Indian National Congress,Hand
+14,Banswada,1,4,MOHAN REDDY RYALA,M,42,GEN,BJP,Bharatiya Janata Party,Lotus
+14,Banswada,1,5,K.GEETA MURTHY,F,43,GEN,LSP,Lok Satta Party,Whistle
+14,Banswada,1,6,BALARAJ KASULAWAR,M,47,GEN,PRP,Praja Rajyam Party,Railway Engine
+14,Banswada,1,7,BEJUGAM SHANKER,M,50,GEN,PPOI,Pyramid Party of India,Television
+14,Banswada,1,8,AVUSALI GANGADHAR,M,41,GEN,IND,Independent,Almirah
+15,Yellareddy,1,1,ANKAM PRABHU,M,45,GEN,BSP,Bahujan Samaj Party,Elephant
+15,Yellareddy,1,2,EANUGU RAVINDHER REDDY,M,44,GEN,TRS,Telangana Rashtra Samithi,Car
+15,Yellareddy,1,3,JANARDHAN GOUD BOGUDAMEEDHI,M,53,GEN,INC,Indian National Congress,Hand
+15,Yellareddy,1,4,SATYANARAYANA RAO RAVIKANTHI,M,65,GEN,BJP,Bharatiya Janata Party,Lotus
+15,Yellareddy,1,5,JAMUNA,F,32,ST,PRP,Praja Rajyam Party,Railway Engine
+15,Yellareddy,1,6,MARRI RAM REDDY,M,40,GEN,LSP,Lok Satta Party,Whistle
+15,Yellareddy,1,7,AKULA ANUSUJA,F,40,GEN,IND,Independent,Spoon
+15,Yellareddy,1,8,AKULA VIJAYA,F,49,GEN,IND,Independent,Scissors
+15,Yellareddy,1,9,KISHAN RAO M,M,53,GEN,IND,Independent,Road Roller
+15,Yellareddy,1,10,J KRISHNA,M,33,GEN,IND,Independent,Ring
+15,Yellareddy,1,11,POTHARAJU SWAMY,M,27,SC,IND,Independent,Television
+15,Yellareddy,1,12,RAMESH KANDADDI,M,25,GEN,IND,Independent,Gas Cylinder
+16,Kamareddy,1,1,ALI MAHAMMAD SHABBIR,M,51,GEN,INC,Indian National Congress,Hand
+16,Kamareddy,1,2,UPPUNUTHALA MURALIDHAR GOUD,M,39,GEN,BJP,Bharatiya Janata Party,Lotus
+16,Kamareddy,1,3,KYATHAM SIDHA RAMULU,M,44,GEN,BSP,Bahujan Samaj Party,Elephant
+16,Kamareddy,1,4,GAMAPA GOVARDHAN,M,45,GEN,TDP,Telugu Desam,Bicycle
+16,Kamareddy,1,5,DHATRIKA VITTAL,M,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+16,Kamareddy,1,6,BOYINI RAMULU,M,26,GEN,PPOI,Pyramid Party of India,Television
+16,Kamareddy,1,7,SHIVARATHRI PRATHAP,M,43,GEN,LSP,Lok Satta Party,Whistle
+16,Kamareddy,1,8,KODIPYAKA MAHENDER GOUD,M,46,GEN,IND,Independent,Coconut
+17,Nizamabad (Urban),1,1,ENDALA LAKSHMI NARAYANA,M,41,GEN,BJP,Bharatiya Janata Party,Lotus
+17,Nizamabad (Urban),1,2,DHARMAPURI SRINIVAS,M,57,GEN,INC,Indian National Congress,Hand
+17,Nizamabad (Urban),1,3,A.S.POSHETTY,M,60,GEN,TRS,Telangana Rashtra Samithi,Car
+17,Nizamabad (Urban),1,4,B.LAXMAN,M,42,GEN,BSP,Bahujan Samaj Party,Elephant
+17,Nizamabad (Urban),1,5,M.D.NAZEER,M,33,GEN,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Camera
+17,Nizamabad (Urban),1,6,M.A.MAJEED,M,55,GEN,SP,Samajwadi Party,Kite
+17,Nizamabad (Urban),1,7,MOHAMMAD KHAJA MOINUDDIN,M,51,GEN,MUL,Muslim League Kerala State Committee,Ladder
+17,Nizamabad (Urban),1,8,M.A.RAHIM,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+17,Nizamabad (Urban),1,9,VIJAYA LAXMI NAROJU JANARDHAN,F,46,GEN,PPOI,Pyramid Party of India,Television
+17,Nizamabad (Urban),1,10,D.SHEKAR,M,36,GEN,LSP,Lok Satta Party,Whistle
+17,Nizamabad (Urban),1,11,GADDAM VIKRAM REDDY,M,28,GEN,IND,Independent,Cup & Saucer
+17,Nizamabad (Urban),1,12,DAYANAND.B,M,43,GEN,IND,Independent,Bat
+18,Nizamabad (Rural),1,1,AKULA LALITHA,F,40,GEN,INC,Indian National Congress,Hand
+18,Nizamabad (Rural),1,2,MANDAVA VENKATESHWARA RAO,M,54,GEN,TDP,Telugu Desam,Bicycle
+18,Nizamabad (Rural),1,3,LEELA SHIVA SREE. K,F,44,GEN,BJP,Bharatiya Janata Party,Lotus
+18,Nizamabad (Rural),1,4,SAYANNA TIRUMANI,M,58,SC,BSP,Bahujan Samaj Party,Elephant
+18,Nizamabad (Rural),1,5,G. CHINNA BHOMAIAH,M,38,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Kite
+18,Nizamabad (Rural),1,6,BANOTH BILOJI NAYAK,M,26,ST,LSP,Lok Satta Party,Whistle
+18,Nizamabad (Rural),1,7,MADAS LINGAM,M,53,GEN,BHSASP,Bharatheeya Sadharma Samsthapana Party,Cake
+18,Nizamabad (Rural),1,8,DR. RAVINDER REDDY,M,55,GEN,PRP,Praja Rajyam Party,Railway Engine
+18,Nizamabad (Rural),1,9,RUDRA MADHUSUDHAN,M,28,GEN,PPOI,Pyramid Party of India,Television
+18,Nizamabad (Rural),1,10,V. PRABHAKAR,M,48,GEN,IND,Independent,Scissors
+19,Balkonda,1,1,RAMESH YADAV BASA,M,48,GEN,BSP,Bahujan Samaj Party,Elephant
+19,Balkonda,1,2,RUYYADI RAJESHWAR,M,35,GEN,BJP,Bharatiya Janata Party,Lotus
+19,Balkonda,1,3,SRINIVAS REDDY SHANIGARAM,M,39,GEN,INC,Indian National Congress,Hand
+19,Balkonda,1,4,SURENDER REDDY VEMULA,M,63,GEN,TRS,Telangana Rashtra Samithi,Car
+19,Balkonda,1,5,ANIL KUMAR ERAVATHRI,M,36,GEN,PRP,Praja Rajyam Party,Railway Engine
+19,Balkonda,1,6,NAVEEN REDDY KYATHAM,M,32,GEN,LSP,Lok Satta Party,Whistle
+19,Balkonda,1,7,MADHUKAR ELIGETI,M,29,GEN,PPOI,Pyramid Party of India,Television
+20,Koratla,1,1,KALVAKUNTLA VIDYASAGAR RAO,M,56,GEN,TRS,Telangana Rashtra Samithi,Car
+20,Koratla,1,2,KOMIREDDY VIJAYA AZAD,M,31,GEN,BSP,Bahujan Samaj Party,Elephant
+20,Koratla,1,3,JUVVADI RATHNAKAR RAO,M,81,GEN,INC,Indian National Congress,Hand
+20,Koratla,1,4,TUMMALA MAMATHA REDDY DAMU,F,43,GEN,BJP,Bharatiya Janata Party,Lotus
+20,Koratla,1,5,CHEVULAMADDI SHANKAR,M,33,SC,PPOI,Pyramid Party of India,Television
+20,Koratla,1,6,JANGILI SUNITHA VENKAT,F,29,GEN,PRP,Praja Rajyam Party,Railway Engine
+20,Koratla,1,7,MUTHYALA VENKAT REDDY,M,37,GEN,LSP,Lok Satta Party,Whistle
+20,Koratla,1,8,KOMIREDDY LINGA REDDY,M,33,GEN,IND,Independent,Coconut
+20,Koratla,1,9,M.A. GAFFAR,M,55,GEN,IND,Independent,Cup & Saucer
+20,Koratla,1,10,POTHKURI NADIPI RAJAM,M,55,GEN,IND,Independent,Maize
+20,Koratla,1,11,BOKKENAPALLI GANGADHAR,M,47,GEN,IND,Independent,Banana
+21,Jagtial,1,1,KOMIREDDY KARAMCHAND,M,33,GEN,BSP,Bahujan Samaj Party,Elephant
+21,Jagtial,1,2,T. JEEVAN REDDY,M,58,GEN,INC,Indian National Congress,Hand
+21,Jagtial,1,3,L. RAMANA,M,48,GEN,TDP,Telugu Desam,Bicycle
+21,Jagtial,1,4,DR. CHANDRA SHEKAR GOUD,M,45,GEN,PRP,Praja Rajyam Party,Railway Engine
+21,Jagtial,1,5,MENNENI VIDYA SAGAR RAO,M,63,GEN,LSP,Lok Satta Party,Whistle
+21,Jagtial,1,6,DR. V. SATYANARAYANA MURTHY,M,51,GEN,PPOI,Pyramid Party of India,Television
+21,Jagtial,1,7,MOHAMMED JAMALUDDIN,M,61,GEN,IND,Independent,Gas Cylinder
+22,Dharmapuri,1,1,ADLURI LAXMAN KUMAR,M,42,SC,INC,Indian National Congress,Hand
+22,Dharmapuri,1,2,ESHWAR KOPPULA,M,50,SC,TRS,Telangana Rashtra Samithi,Car
+22,Dharmapuri,1,3,SOGALA KUMAR,M,43,SC,BJP,Bharatiya Janata Party,Lotus
+22,Dharmapuri,1,4,GADDAM RAJESH,M,39,SC,PRP,Praja Rajyam Party,Railway Engine
+22,Dharmapuri,1,5,MADDELA RAVINDAR,M,35,SC,LSP,Lok Satta Party,Whistle
+22,Dharmapuri,1,6,MOKENAPALLY RAJAVVA,F,48,SC,IND,Independent,Ceiling Fan
+23,Ramagundam,1,1,KORUKANTI CHANDAR PATEL,M,36,GEN,TRS,Telangana Rashtra Samithi,Car
+23,Ramagundam,1,2,DR. NUTHALAPATI RATNAM,M,50,GEN,BSP,Bahujan Samaj Party,Elephant
+23,Ramagundam,1,3,BALMURI VANITHA,F,38,GEN,BJP,Bharatiya Janata Party,Lotus
+23,Ramagundam,1,4,BABAR SALEEM PASHA,M,56,GEN,INC,Indian National Congress,Hand
+23,Ramagundam,1,5,ANIL KUMAR TANGEDA,M,30,GEN,LSP,Lok Satta Party,Whistle
+23,Ramagundam,1,6,KAUSIKA HARINATH,M,44,GEN,PRP,Praja Rajyam Party,Railway Engine
+23,Ramagundam,1,7,JEEDI RAVI KUMAR,M,30,GEN,TPPP,Trilinga Praja Pragati Party,Banana
+23,Ramagundam,1,8,VAHIDA,F,30,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Ring
+23,Ramagundam,1,9,KODIPUNJULA RAJAIAH,M,40,GEN,IND,Independent,Scissors
+23,Ramagundam,1,10,GORRE RAMESH,M,42,GEN,IND,Independent,Coconut
+23,Ramagundam,1,11,GANDRA REKHA,F,30,GEN,IND,Independent,Almirah
+23,Ramagundam,1,12,CHOPPARI SHANKAR MUDIRAJ,M,50,GEN,IND,Independent,Balloon
+23,Ramagundam,1,13,JUMMIDI THIRUPATHI,M,37,GEN,IND,Independent,Gas Cylinder
+23,Ramagundam,1,14,PATHA BAPU SHETTI,M,58,GEN,IND,Independent,Ceiling Fan
+23,Ramagundam,1,15,SOMARAPU SATYANARAYANA,M,60,GEN,IND,Independent,Television
+24,Manthani,1,1,TAGARAM SHANKAR LAL,M,32,SC,BSP,Bahujan Samaj Party,Elephant
+24,Manthani,1,2,DUDDILLA SRIDHAR BABU,M,39,GEN,INC,Indian National Congress,Hand
+24,Manthani,1,3,ROUTHU KANKAIAH,M,44,GEN,TRS,Telangana Rashtra Samithi,Car
+24,Manthani,1,4,SHASHI BHUSHAN KACHE,M,37,GEN,BJP,Bharatiya Janata Party,Lotus
+24,Manthani,1,5,ODELA SAMPATH,M,27,GEN,LSP,Lok Satta Party,Whistle
+24,Manthani,1,6,PUTTA MADHU,M,36,GEN,PRP,Praja Rajyam Party,Railway Engine
+24,Manthani,1,7,AMMA JAMPAIAH,M,29,GEN,IND,Independent,Coconut
+24,Manthani,1,8,BACHALA ERRAIAH,M,39,ST,IND,Independent,Nagara
+24,Manthani,1,9,MADADI PRABHAKAR REDDY,M,72,GEN,IND,Independent,Bat
+24,Manthani,1,10,MD. SHAMSHODDIN,M,34,GEN,IND,Independent,Television
+25,Peddapalli,1,1,GUJJULA RAMAKRISHNA REDDY,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+25,Peddapalli,1,2,CHINTHAKUNTA VIJAYA RAMANA RAO,M,42,GEN,TDP,Telugu Desam,Bicycle
+25,Peddapalli,1,3,BAKAM SANTHOSH KUMAR,M,38,GEN,BSP,Bahujan Samaj Party,Elephant
+25,Peddapalli,1,4,MUKUNDA REDDY GEETLA,M,64,GEN,INC,Indian National Congress,Hand
+25,Peddapalli,1,5,C. SATYANARAYANA REDDY,M,48,GEN,TRS,Telangana Rashtra Samithi,Car
+25,Peddapalli,1,6,KRISHNA REDDY TUMMALA,M,44,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Ceiling Fan
+25,Peddapalli,1,7,PALLE MALLESH,M,31,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+25,Peddapalli,1,8,MADASU SRINIVASA RAO,M,55,GEN,LSP,Lok Satta Party,Whistle
+25,Peddapalli,1,9,VEMULA PADMAVATHI,F,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+25,Peddapalli,1,10,KATHERLA RAJANNA,M,51,GEN,IND,Independent,Almirah
+25,Peddapalli,1,11,KOTA DAMODHAR REDDY,M,27,GEN,IND,Independent,Gas Stove
+25,Peddapalli,1,12,BONALA KUMARI KAMALA,F,66,GEN,IND,Independent,Maize
+26,Karimnagar,1,1,AMARAGONI PARUSHURAM,M,44,GEN,BSP,Bahujan Samaj Party,Elephant
+26,Karimnagar,1,2,GANGULA KAMALAKAR,M,41,GEN,TDP,Telugu Desam,Bicycle
+26,Karimnagar,1,3,CHALIMEDA LAKSHMI NARASIMHA RAO,M,49,GEN,INC,Indian National Congress,Hand
+26,Karimnagar,1,4,P. SUGUNAKAR RAO,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+26,Karimnagar,1,5,ANGARIKA RUKMINI,F,49,GEN,PPOI,Pyramid Party of India,Television
+26,Karimnagar,1,6,KAVVAMPALLI MALLAIAH,M,38,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+26,Karimnagar,1,7,DEVENDER RAO KATARI,M,63,GEN,PRP,Praja Rajyam Party,Railway Engine
+26,Karimnagar,1,8,LENKALA RAJA REDDY,M,48,GEN,LSP,Lok Satta Party,Whistle
+26,Karimnagar,1,9,CHINTHALA LAXMI,F,31,SC,IND,Independent,Gas Stove
+26,Karimnagar,1,10,JANGA CHANDRA REDDY,M,32,GEN,IND,Independent,Batsman
+26,Karimnagar,1,11,MD. JAMEELUDDIN,M,30,GEN,IND,Independent,Kite
+26,Karimnagar,1,12,PUSALA SAMPATH,M,33,GEN,IND,Independent,Iron
+26,Karimnagar,1,13,D. MALLAIAH,M,58,GEN,IND,Independent,Cot
+26,Karimnagar,1,14,MADARI SRINIVAS,M,30,GEN,IND,Independent,Ceiling Fan
+26,Karimnagar,1,15,VARALA NARAYANA,M,45,GEN,IND,Independent,Coconut
+26,Karimnagar,1,16,SRIRAMULA VENKATESHWARLU,M,39,GEN,IND,Independent,Bat
+26,Karimnagar,1,17,DR.SAYYED ARIF HUSSAIN,M,33,GEN,IND,Independent,Ring
+27,Choppadandi,1,1,GUNUKONDA BABU,M,33,SC,INC,Indian National Congress,Hand
+27,Choppadandi,1,2,DOMAKONDA MALLAIAH,M,37,SC,BSP,Bahujan Samaj Party,Elephant
+27,Choppadandi,1,3,LINGAMPALLI SHANKARAIAH,M,33,SC,BJP,Bharatiya Janata Party,Lotus
+27,Choppadandi,1,4,SUDDALA DEVAIAH,M,53,SC,TDP,Telugu Desam,Bicycle
+27,Choppadandi,1,5,CHINTHALA MALLESHAM,M,57,SC,TPPP,Trilinga Praja Pragati Party,Hat
+27,Choppadandi,1,6,THODETI BABU,M,37,SC,LSP,Lok Satta Party,Whistle
+27,Choppadandi,1,7,MALLIALA PRATHAP,M,37,SC,JD(U),Janata Dal (United),Arrow
+27,Choppadandi,1,8,LANKA ANJAIAH,M,38,SC,AJBP,Ajeya Bharat Party,Battery Torch
+27,Choppadandi,1,9,LINGAMPALLY KISHAN,M,36,SC,PRP,Praja Rajyam Party,Railway Engine
+27,Choppadandi,1,10,KANUKAM VAMSHI,M,26,SC,IND,Independent,Almirah
+27,Choppadandi,1,11,GADDALA PRABHAKAR,M,37,SC,IND,Independent,Iron
+27,Choppadandi,1,12,GUDISHE RAJAIAH,M,47,SC,IND,Independent,Table
+27,Choppadandi,1,13,BANDAPALLI RAJAIAH,M,49,SC,IND,Independent,Ceiling Fan
+27,Choppadandi,1,14,MANNE RAVINDRANATH,M,43,SC,IND,Independent,Television
+28,Vemulawada,1,1,AADI SRINIVAS,M,43,GEN,INC,Indian National Congress,Hand
+28,Vemulawada,1,2,CHENNAMANENI VIDYASAGAR RAO,M,68,GEN,BJP,Bharatiya Janata Party,Lotus
+28,Vemulawada,1,3,PITTHALA BHOOMESH,M,35,GEN,BSP,Bahujan Samaj Party,Elephant
+28,Vemulawada,1,4,RAMESH CHENNAMANENI,M,53,GEN,TDP,Telugu Desam,Bicycle
+28,Vemulawada,1,5,TEEGALA RAVINDRA GOUD,M,42,GEN,PRP,Praja Rajyam Party,Railway Engine
+28,Vemulawada,1,6,BODDU RAMULU,M,46,SC,TPPP,Trilinga Praja Pragati Party,Hat
+28,Vemulawada,1,7,KONDA DEVAIAH,M,48,GEN,IND,Independent,Gas Cylinder
+28,Vemulawada,1,8,MD.SARWAR PASHA,M,55,GEN,IND,Independent,Cup & Saucer
+29,Sircilla,1,1,ARAVALLI CHANDRASHEKHAR RAO,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+29,Sircilla,1,2,KALVAKUNTLA TARAKA RAMA RAO,M,33,GEN,TRS,Telangana Rashtra Samithi,Car
+29,Sircilla,1,3,KONDURI GANDHI,M,55,GEN,BSP,Bahujan Samaj Party,Elephant
+29,Sircilla,1,4,GUDLA MANJULA,F,32,GEN,INC,Indian National Congress,Hand
+29,Sircilla,1,5,GAJULA BALAIAH,M,54,GEN,PRP,Praja Rajyam Party,Railway Engine
+29,Sircilla,1,6,JANARDHAN SIRIMALLA,M,44,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+29,Sircilla,1,7,REDDIMALLA SRINIVAS,M,39,SC,RPI(A),Republican Party of India (A),Nagara
+29,Sircilla,1,8,SANTOSH BABU R,M,26,GEN,LSP,Lok Satta Party,Whistle
+29,Sircilla,1,9,AKKU RAMCHANDRAM,M,36,GEN,IND,Independent,Sewing Machine
+29,Sircilla,1,10,AMBERI LAXMINARAYANA,M,66,GEN,IND,Independent,Hat
+29,Sircilla,1,11,KALLURI RAJU,M,35,GEN,IND,Independent,Almirah
+29,Sircilla,1,12,JAMALPUR MADANLAL,M,33,GEN,IND,Independent,Road Roller
+29,Sircilla,1,13,PAKALA RAJAMALLAIAH,M,40,SC,IND,Independent,Ceiling Fan
+29,Sircilla,1,14,K.K. MAHENDER REDDY,M,48,GEN,IND,Independent,Banana
+29,Sircilla,1,15,G. LAXMINARSAMMA,F,49,SC,IND,Independent,Balloon
+29,Sircilla,1,16,VANGARI NARSAIAH,M,82,GEN,IND,Independent,Coconut
+30,Manakondur,1,1,AREPALLI MOHAN,M,53,SC,INC,Indian National Congress,Hand
+30,Manakondur,1,2,VORAGANTI ANAND,M,38,SC,TRS,Telangana Rashtra Samithi,Car
+30,Manakondur,1,3,GADDAM NAGARAJU,M,35,SC,BJP,Bharatiya Janata Party,Lotus
+30,Manakondur,1,4,MATANGI ASHOK,M,39,SC,BSP,Bahujan Samaj Party,Elephant
+30,Manakondur,1,5,KANDE SAMMAIAH,M,40,SC,JD(U),Janata Dal (United),Arrow
+30,Manakondur,1,6,KANAKAM CHANDRAIAH,M,37,SC,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Ceiling Fan
+30,Manakondur,1,7,DR.KAVVAMPALLY SATYANARAYANA,M,44,SC,PRP,Praja Rajyam Party,Railway Engine
+30,Manakondur,1,8,GORRE SHANKARAIAH,M,36,SC,IND,Independent,Coconut
+30,Manakondur,1,9,JANAPATLA SWAMY,M,53,SC,IND,Independent,Bat
+30,Manakondur,1,10,BAMANDLA NARENDAR,M,36,SC,IND,Independent,Kite
+30,Manakondur,1,11,BOLLAMPALLY AILAIAH,M,43,SC,IND,Independent,Gas Stove
+30,Manakondur,1,12,BODA SUDHAKAR,M,32,SC,IND,Independent,Banana
+31,Huzurabad,1,1,EATALA RAJENDER,M,45,GEN,TRS,Telangana Rashtra Samithi,Car
+31,Huzurabad,1,2,V. KRISHNA MOHAN RAO,M,34,GEN,INC,Indian National Congress,Hand
+31,Huzurabad,1,3,BOBBALA RAJI REDDY,M,52,GEN,BJP,Bharatiya Janata Party,Lotus
+31,Huzurabad,1,4,MANDA ROJA RAMANI,F,36,GEN,BSP,Bahujan Samaj Party,Elephant
+31,Huzurabad,1,5,ENUGALA BHEEMA RAU,M,35,SC,SAP,Samata Party,Camera
+31,Huzurabad,1,6,KANDUKOORI NAGARAJU,M,27,GEN,PPOI,Pyramid Party of India,Television
+31,Huzurabad,1,7,KINNERA SHYAMSUNDER,M,31,GEN,LSP,Lok Satta Party,Whistle
+31,Huzurabad,1,8,PINGILI VENKATESHWAR REDDY,M,50,GEN,PRP,Praja Rajyam Party,Railway Engine
+31,Huzurabad,1,9,MARAPELLI SRINIVAS,M,34,SC,TPPP,Trilinga Praja Pragati Party,Gas Stove
+31,Huzurabad,1,10,MILUKURI VASUDEVA REDDY,M,30,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Ceiling Fan
+31,Huzurabad,1,11,ANNEPU YAKAIAH,M,36,GEN,IND,Independent,Coconut
+31,Huzurabad,1,12,GANGARAPU THIRUPATHI,M,36,SC,IND,Independent,Road Roller
+31,Huzurabad,1,13,BARIGE GATTAIAH YADAV,M,32,GEN,IND,Independent,Almirah
+31,Huzurabad,1,14,MYAKAMALLA RATHNAIAH,M,47,SC,IND,Independent,Nagara
+32,Husnabad,1,1,ALIGIREDDY PRAVEEN REDDY,M,50,GEN,INC,Indian National Congress,Hand
+32,Husnabad,1,2,KOTHA SRINIVAS REDDY,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+32,Husnabad,1,3,KOLIPAKA MALLESH,M,34,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+32,Husnabad,1,4,CHADA VENKAT REDDY,M,57,GEN,CPI,Communist Party of India,Ears of Corn And Sickle
+32,Husnabad,1,5,P. RAM MOHAN YADAV,M,41,GEN,BSP,Bahujan Samaj Party,Elephant
+32,Husnabad,1,6,CAPT. V. LAXMIKANTHA RAO,M,67,GEN,TRS,Telangana Rashtra Samithi,Car
+32,Husnabad,1,7,ENUGALA PEDDI REDDY,M,52,GEN,PRP,Praja Rajyam Party,Railway Engine
+32,Husnabad,1,8,THATIKONDA JAYAPAL REDDY,M,33,GEN,LSP,Lok Satta Party,Whistle
+32,Husnabad,1,9,UPPULA PADMA,F,35,GEN,IND,Independent,Cup & Saucer
+32,Husnabad,1,10,ANAGANDULA LAXMINARAYANA,M,52,SC,IND,Independent,Sewing Machine
+32,Husnabad,1,11,CHENNABOINA VEERANNA,M,37,GEN,IND,Independent,Scissors
+32,Husnabad,1,12,DOKI RAVINDER,M,28,GEN,IND,Independent,Road Roller
+32,Husnabad,1,13,POLATI LAXMAN RAO,M,29,GEN,IND,Independent,Banana
+32,Husnabad,1,14,B.RANI MADHAVI,F,28,GEN,IND,Independent,Ceiling Fan
+32,Husnabad,1,15,SRINIVAS SHIVARATHRI,M,34,GEN,IND,Independent,Candles
+33,Siddipet,1,1,ANJAIAH BYRI,M,57,GEN,INC,Indian National Congress,Hand
+33,Siddipet,1,2,KOMPELLI PRABHUDAS,M,41,SC,BSP,Bahujan Samaj Party,Elephant
+33,Siddipet,1,3,THANEERU HARISH RAO,M,37,GEN,TRS,Telangana Rashtra Samithi,Car
+33,Siddipet,1,4,SOPPADANDI VIDYA SAGAR,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+33,Siddipet,1,5,ARRA LINGAIAH,M,45,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Kite
+33,Siddipet,1,6,R. CHANDRASHEKHAR REDDY,M,33,GEN,JD(U),Janata Dal (United),Arrow
+33,Siddipet,1,7,THUMMANPALLI SRINIVAS,M,37,GEN,LSP,Lok Satta Party,Whistle
+33,Siddipet,1,8,DR. NARSIMHA CHARY,M,55,GEN,PRP,Praja Rajyam Party,Railway Engine
+33,Siddipet,1,9,BANDIPALLI RAMAIAH,M,56,GEN,PPOI,Pyramid Party of India,Television
+33,Siddipet,1,10,YASALA LINGAM,M,39,GEN,RKSP,Rashtriya Krantikari Samajwadi Party,Cup & Saucer
+33,Siddipet,1,11,LAKSHMI BHAI,F,35,GEN,IND,Independent,Road Roller
+33,Siddipet,1,12,BATTULA CHANDRAM,M,31,SC,IND,Independent,Almirah
+33,Siddipet,1,13,MITTAPALLY BALARAJ,M,38,GEN,IND,Independent,Coconut
+34,Medak,1,1,KAMMARI NARSIMHA CHARY,M,30,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+34,Medak,1,2,MUTHYALA NARSIMLU,M,28,GEN,BSP,Bahujan Samaj Party,Elephant
+34,Medak,1,3,MYNAMPALLI HANUMANTH RAO,M,40,GEN,TDP,Telugu Desam,Bicycle
+34,Medak,1,4,P. SHASHIDHAR REDDY,M,47,GEN,INC,Indian National Congress,Hand
+34,Medak,1,5,SUBASH REDDY . R,M,46,GEN,BJP,Bharatiya Janata Party,Lotus
+34,Medak,1,6,KARANAM SOUJANYA,F,30,GEN,LSP,Lok Satta Party,Whistle
+34,Medak,1,7,G. SAYA GOUD,M,32,GEN,PPOI,Pyramid Party of India,Television
+34,Medak,1,8,JAGAPATHI BATTI,M,50,GEN,PRP,Praja Rajyam Party,Railway Engine
+34,Medak,1,9,M.D. KHALEEL,M,33,GEN,IND,Independent,Kite
+34,Medak,1,10,JALLA KALAVATHI,F,48,GEN,IND,Independent,Ring
+34,Medak,1,11,M. PADMA DEVENDER REDDY,F,40,GEN,IND,Independent,Ceiling Fan
+34,Medak,1,12,BEESA SHIVA KUMAR,M,29,GEN,IND,Independent,Camera
+34,Medak,1,13,SIRIGADDE BIXAPATHI,M,42,GEN,IND,Independent,Gas Cylinder
+35,Narayankhed,1,1,AMAR SINGH,M,45,ST,BJP,Bharatiya Janata Party,Lotus
+35,Narayankhed,1,2,PATLOLLA KISTA REDDY,M,61,GEN,INC,Indian National Congress,Hand
+35,Narayankhed,1,3,M.A. BASHEER,M,42,GEN,BSP,Bahujan Samaj Party,Elephant
+35,Narayankhed,1,4,M. BHUPAL REDDY,M,45,GEN,TRS,Telangana Rashtra Samithi,Car
+35,Narayankhed,1,5,MD. ULFATH ALI,M,67,GEN,LSP,Lok Satta Party,Whistle
+35,Narayankhed,1,6,V. THUKARAM NAIK,M,32,ST,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+35,Narayankhed,1,7,T. RAMCHANDER,M,51,GEN,PPOI,Pyramid Party of India,Television
+35,Narayankhed,1,8,M. VIJAYAPAL REDDY,M,46,GEN,PRP,Praja Rajyam Party,Railway Engine
+35,Narayankhed,1,9,PHATHYA NAIK,M,29,ST,IND,Independent,Nagara
+36,Andole,1,1,C. DAMODAR RAJA NARSIMHA,M,50,SC,INC,Indian National Congress,Hand
+36,Andole,1,2,P. BABU MOHAN,M,54,SC,TDP,Telugu Desam,Bicycle
+36,Andole,1,3,M. BALAIAH,M,40,SC,BSP,Bahujan Samaj Party,Elephant
+36,Andole,1,4,MALYALA RAJAIAH SRINIVAS,M,42,SC,PRP,Praja Rajyam Party,Railway Engine
+36,Andole,1,5,AYANCHA ARUN CHAKRAVARTHY,M,32,SC,IND,Independent,Kite
+36,Andole,1,6,KONDI MOGULAIAH,M,49,SC,IND,Independent,Camera
+36,Andole,1,7,CHANTI KRANTHI KIRAN,M,31,SC,IND,Independent,Television
+37,Narsapur,1,1,KANIGIRI LINGAM,M,38,SC,BSP,Bahujan Samaj Party,Elephant
+37,Narsapur,1,2,GOPI SINGAYA PALLY,M,30,GEN,BJP,Bharatiya Janata Party,Lotus
+37,Narsapur,1,3,CHILMULA KRISHNA REDDY,M,54,GEN,CPI,Communist Party of India,Ears of Corn And Sickle
+37,Narsapur,1,4,VAKITI SUNITHA LAXMAREDDY,F,41,GEN,INC,Indian National Congress,Hand
+37,Narsapur,1,5,KAMMARI SINIVASA CHARY,M,29,GEN,LSP,Lok Satta Party,Whistle
+37,Narsapur,1,6,KAILASA RAMCHANDER,M,37,GEN,PRP,Praja Rajyam Party,Railway Engine
+37,Narsapur,1,7,CHAKALI SATHYANARAYANA,M,48,GEN,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Gas Stove
+37,Narsapur,1,8,LAXMI,F,37,GEN,PPOI,Pyramid Party of India,Television
+37,Narsapur,1,9,SAYAMOLLA MOGULAIAH,M,36,GEN,RPI(A),Republican Party of India (A),Nagara
+38,Zahirabad,1,1,DR. J. GEETA,F,63,SC,INC,Indian National Congress,Hand
+38,Zahirabad,1,2,JANARDHAN LAKUMALA,M,38,SC,BSP,Bahujan Samaj Party,Elephant
+38,Zahirabad,1,3,Y. NAROTHAM,M,41,SC,TDP,Telugu Desam,Bicycle
+38,Zahirabad,1,4,P. RAJ KUMAR,M,30,SC,BJP,Bharatiya Janata Party,Lotus
+38,Zahirabad,1,5,NALLA SURYA PRAKASH,M,48,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Kite
+38,Zahirabad,1,6,I. PRATAP KUMAR,M,42,SC,LSP,Lok Satta Party,Whistle
+38,Zahirabad,1,7,D. VASANTH KUMAR,M,28,SC,PRP,Praja Rajyam Party,Railway Engine
+38,Zahirabad,1,8,G. ANJAIAH,M,36,SC,IND,Independent,Television
+38,Zahirabad,1,9,D. ESMALAPPA,M,35,SC,IND,Independent,Almirah
+38,Zahirabad,1,10,GORLAKADI MOLLAIAH,M,60,SC,IND,Independent,Ceiling Fan
+38,Zahirabad,1,11,K.V. NALINDUTT,M,46,SC,IND,Independent,Bat
+38,Zahirabad,1,12,BICHAIAH .K,M,52,SC,IND,Independent,Harmonium
+38,Zahirabad,1,13,L. BHOOMAIAH,M,33,SC,IND,Independent,Ring
+38,Zahirabad,1,14,SUNAYALA BABU,M,49,SC,IND,Independent,Gas Cylinder
+39,Sangareddy,1,1,GADILA NAWAZ REDDY,M,60,GEN,TRS,Telangana Rashtra Samithi,Car
+39,Sangareddy,1,2,N. CHANDRASHEKAR,M,43,GEN,BJP,Bharatiya Janata Party,Lotus
+39,Sangareddy,1,3,CHINTA PRABHAKER,M,49,GEN,TDP,Telugu Desam,Bicycle
+39,Sangareddy,1,4,JAYA PRAKASH REDDY .T,M,42,GEN,INC,Indian National Congress,Hand
+39,Sangareddy,1,5,T. NARSIMULU,M,35,GEN,BSP,Bahujan Samaj Party,Elephant
+39,Sangareddy,1,6,CHALAMALA YASODA,F,33,GEN,PPOI,Pyramid Party of India,Television
+39,Sangareddy,1,7,PATLOLLA MADHAVA,M,43,GEN,LSP,Lok Satta Party,Whistle
+39,Sangareddy,1,8,FAHEEM.M.A.,M,28,GEN,PRP,Praja Rajyam Party,Railway Engine
+39,Sangareddy,1,9,SADAKULA KRISHNAIAH,M,31,GEN,TPPP,Trilinga Praja Pragati Party,Ceiling Fan
+39,Sangareddy,1,10,ANKENAPALLI SHRISHAILAM,M,37,GEN,IND,Independent,Shuttle
+39,Sangareddy,1,11,AZHAR MOHD,M,38,GEN,IND,Independent,Balloon
+39,Sangareddy,1,12,ATAUR RAHMAN,M,66,GEN,IND,Independent,Banana
+39,Sangareddy,1,13,ANANTHA RAO,M,42,GEN,IND,Independent,Coconut
+39,Sangareddy,1,14,GADDAMADA NARSIMULU,M,26,GEN,IND,Independent,Kite
+39,Sangareddy,1,15,TAMMALI NARSIMULU,M,50,GEN,IND,Independent,Slate
+39,Sangareddy,1,16,TAHERA,F,33,GEN,IND,Independent,Ring
+39,Sangareddy,1,17,P. NARAHARI REDDY,M,37,GEN,IND,Independent,Sewing Machine
+39,Sangareddy,1,18,T. PRUTHVIRAJ,M,41,GEN,IND,Independent,Hat
+39,Sangareddy,1,19,POTHURAJU LAXMI NARASAMMA,F,29,GEN,IND,Independent,Basket
+39,Sangareddy,1,20,MIRZA SHAMSHEER BAIG,M,27,GEN,IND,Independent,Stool
+39,Sangareddy,1,21,SHAIK RASHEED,M,38,GEN,IND,Independent,Almirah
+39,Sangareddy,1,22,HARI SHANKER GOUD,M,44,GEN,IND,Independent,Gas Cylinder
+40,Patancheru,1,1,KURRA SATHYANARAYANA,M,53,GEN,BJP,Bharatiya Janata Party,Lotus
+40,Patancheru,1,2,CHUKKA RAMULU,M,47,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+40,Patancheru,1,3,T. NANDESHWAR GOUD,M,47,GEN,INC,Indian National Congress,Hand
+40,Patancheru,1,4,G. MAHIPAL REDDY,M,47,GEN,BSP,Bahujan Samaj Party,Elephant
+40,Patancheru,1,5,N. SAPANADEV,M,51,GEN,TDP,Telugu Desam,Bicycle
+40,Patancheru,1,6,KADANNA VENKATESH,M,26,GEN,RPI(A),Republican Party of India (A),Nagara
+40,Patancheru,1,7,MANNE LEO AUGUSTINE,M,51,GEN,IJP,Indian Justice Party,Batsman
+40,Patancheru,1,8,MD. MUNEERUDDIN,M,42,GEN,SP,Samajwadi Party,Kite
+40,Patancheru,1,9,J. RAMULU,M,55,GEN,PRP,Praja Rajyam Party,Railway Engine
+40,Patancheru,1,10,D. SATHYANARAYANA (SATISH GOUD),M,34,GEN,LSP,Lok Satta Party,Whistle
+40,Patancheru,1,11,KARRE BALESH,M,48,SC,IND,Independent,Bat
+40,Patancheru,1,12,KOKKONDA SATTAIAH,M,38,GEN,IND,Independent,Ring
+40,Patancheru,1,13,MAHANKALI BRAHMA CHARY,M,45,GEN,IND,Independent,Television
+40,Patancheru,1,14,T. VENU GOPAL,M,50,GEN,IND,Independent,Road Roller
+41,Dubbak,1,1,KARIKE RAMESH BHEEMASENA,M,39,GEN,BSP,Bahujan Samaj Party,Elephant
+41,Dubbak,1,2,CHERUKU MUTHYAM REDDY,M,64,GEN,INC,Indian National Congress,Hand
+41,Dubbak,1,3,MOTADU GIRISH REDDY,M,46,GEN,BJP,Bharatiya Janata Party,Lotus
+41,Dubbak,1,4,SOLIPETA RAMA LINGA REDDY,M,48,GEN,TRS,Telangana Rashtra Samithi,Car
+41,Dubbak,1,5,BITLA PRABHAKER,M,38,GEN,PPOI,Pyramid Party of India,Television
+41,Dubbak,1,6,MADDULA NAGESWAR REDDY,M,47,GEN,PRP,Praja Rajyam Party,Railway Engine
+41,Dubbak,1,7,G.P. REDDY,M,46,GEN,LSP,Lok Satta Party,Whistle
+41,Dubbak,1,8,SUKURI ASHOK,M,31,SC,RPI(A),Republican Party of India (A),Nagara
+41,Dubbak,1,9,AMTOJI KANTAMMA,F,39,GEN,IND,Independent,Gas Cylinder
+41,Dubbak,1,10,GONDHI BHUJANGAM,M,42,GEN,IND,Independent,Coconut
+41,Dubbak,1,11,B. LAXMAN,M,51,GEN,IND,Independent,Almirah
+41,Dubbak,1,12,V. MALLESHAM MUDIRAJ,M,29,GEN,IND,Independent,Ceiling Fan
+42,Gajwel,1,1,TUMKUNTA NARSA REDDY,M,46,GEN,INC,Indian National Congress,Hand
+42,Gajwel,1,2,Y. BAL REDDY,M,38,GEN,BSP,Bahujan Samaj Party,Elephant
+42,Gajwel,1,3,LASMANNAGARI PRATHAP REDDY,M,46,GEN,TDP,Telugu Desam,Bicycle
+42,Gajwel,1,4,G. ELECTION REDDY,M,55,GEN,PRP,Praja Rajyam Party,Railway Engine
+42,Gajwel,1,5,PASHIKANTI MANJULA,F,34,GEN,PPOI,Pyramid Party of India,Television
+42,Gajwel,1,6,BANDARU RAMAMOHAN RAO,M,51,GEN,LSP,Lok Satta Party,Whistle
+42,Gajwel,1,7,KANIGIRI SATHYANARAYANA,M,30,SC,IND,Independent,Letter Box
+42,Gajwel,1,8,PYTHRA VENKAT REDDY,M,39,GEN,IND,Independent,Sewing Machine
+42,Gajwel,1,9,G. MADHUSUDAN,M,30,GEN,IND,Independent,Road Roller
+43,Medchal,1,1,KICHANNAGARI LAXMA REDDY,M,53,GEN,INC,Indian National Congress,Hand
+43,Medchal,1,2,NAKKA PRABHAKAR GOUD,M,40,GEN,TDP,Telugu Desam,Bicycle
+43,Medchal,1,3,BHASKER REDDY NALLA,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+43,Medchal,1,4,T HANMANTH,M,59,SC,BSP,Bahujan Samaj Party,Elephant
+43,Medchal,1,5,JANGAIAN THOTAKURA,M,41,GEN,PRP,Praja Rajyam Party,Railway Engine
+43,Medchal,1,6,TALLAPALLY SHIVA KUMAR,M,35,GEN,LSP,Lok Satta Party,Whistle
+43,Medchal,1,7,BHAIRAPAKA JESUDAS CHAKRAVARTHY,M,34,GEN,GRIP,Great India Party,Television
+43,Medchal,1,8,DR M MALLESH,M,53,SC,TPPP,Trilinga Praja Pragati Party,Banana
+43,Medchal,1,9,AGAMAIAH SILVERY,M,73,SC,IND,Independent,Cup & Saucer
+43,Medchal,1,10,G KISHAN NAIK,M,28,ST,IND,Independent,Gas Cylinder
+43,Medchal,1,11,KOLKURI SATYANARAYANA,M,51,GEN,IND,Independent,Sewing Machine
+43,Medchal,1,12,M.RAJ REDDY,M,36,GEN,IND,Independent,Batsman
+44,Malkajgiri,1,1,KRISHNA YADAV.P,M,38,GEN,BSP,Bahujan Samaj Party,Elephant
+44,Malkajgiri,1,2,BALA LINGAM.M,M,55,GEN,BJP,Bharatiya Janata Party,Lotus
+44,Malkajgiri,1,3,A.RAJENDER,M,49,GEN,INC,Indian National Congress,Hand
+44,Malkajgiri,1,4,SHARADA MAHESH.V,F,48,GEN,TDP,Telugu Desam,Bicycle
+44,Malkajgiri,1,5,C.KANAKA REDDY,M,52,GEN,PRP,Praja Rajyam Party,Railway Engine
+44,Malkajgiri,1,6,K.DHARMA REDDY,M,52,GEN,LSP,Lok Satta Party,Whistle
+44,Malkajgiri,1,7,J.DHARMENDAR,M,39,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+44,Malkajgiri,1,8,M.MALLIKARJUNA RAO,M,30,GEN,ABJS,Akhil Bharatiya Jan Sangh,Coconut
+44,Malkajgiri,1,9,A.K.MURUGESH,M,37,GEN,SP,Samajwadi Party,Kite
+44,Malkajgiri,1,10,S.RAMA RAO,M,65,GEN,PPOI,Pyramid Party of India,Television
+44,Malkajgiri,1,11,C.V.B.KRISHNA MURTHY,M,60,GEN,IND,Independent,Frying Pan
+44,Malkajgiri,1,12,GANTI SUMATHI DEVI,F,40,GEN,IND,Independent,Electric Pole
+44,Malkajgiri,1,13,GUDIMETLA SURYANARAYANA REDDY,M,63,GEN,IND,Independent,Battery Torch
+44,Malkajgiri,1,14,JAJULA BHASKAR,M,34,GEN,IND,Independent,Comb
+44,Malkajgiri,1,15,P.MOHAN RAJ,M,36,GEN,IND,Independent,Violin
+44,Malkajgiri,1,16,M.RAJU,M,30,GEN,IND,Independent,Saw
+44,Malkajgiri,1,17,VARAGANTI LAXMI NARASIMHA RAJU,M,32,GEN,IND,Independent,Jug
+44,Malkajgiri,1,18,SUBBA RAO VADDI,M,61,GEN,IND,Independent,Camera
+45,QUTBULLAPUR,1,1,KOONA PANDU VIVEKANAND,M,31,GEN,TRS,Telangana Rashtra Samithi,Car
+45,QUTBULLAPUR,1,2,K.M.PRATAP,M,51,GEN,INC,Indian National Congress,Hand
+45,QUTBULLAPUR,1,3,DR.S.MALLA REDDY,M,47,GEN,BJP,Bharatiya Janata Party,Lotus
+45,QUTBULLAPUR,1,4,SABERA BEGUM,F,35,GEN,BSP,Bahujan Samaj Party,Elephant
+45,QUTBULLAPUR,1,5,KASANI GNANESHWAR,M,54,GEN,MANP,Mana Party,Ceiling Fan
+45,QUTBULLAPUR,1,6,NANDIPETA RAVINDER,M,46,GEN,LSP,Lok Satta Party,Whistle
+45,QUTBULLAPUR,1,7,BUDALA VIJAYA BHASKARA RAO,M,43,GEN,TPPP,Trilinga Praja Pragati Party,Scissors
+45,QUTBULLAPUR,1,8,MANOJ KUMAR SINGH,M,33,GEN,SP,Samajwadi Party,Kite
+45,QUTBULLAPUR,1,9,VEGIRAJU SRINIVASARAJU,M,35,GEN,PPOI,Pyramid Party of India,Television
+45,QUTBULLAPUR,1,10,ANEES FATHEEMA,F,39,GEN,IND,Independent,Balloon
+45,QUTBULLAPUR,1,11,AKULA NAGESH,M,49,GEN,IND,Independent,Almirah
+45,QUTBULLAPUR,1,12,KUNA SRISAILAM GOUD,M,43,GEN,IND,Independent,Cup & Saucer
+45,QUTBULLAPUR,1,13,POLICE SUMITRA REDDY,F,40,GEN,IND,Independent,Gas Cylinder
+45,QUTBULLAPUR,1,14,MUDIMELA RAMU,M,26,GEN,IND,Independent,Jug
+45,QUTBULLAPUR,1,15,M.S.SRINIVAS(VASU),M,36,GEN,IND,Independent,Banana
+46,Kukatpalle,1,1,KOMMU RAJESH,M,40,GEN,BSP,Bahujan Samaj Party,Elephant
+46,Kukatpalle,1,2,MADAVARAM KANTHA RAO,M,40,GEN,BJP,Bharatiya Janata Party,Lotus
+46,Kukatpalle,1,3,MADHAVARAM SUDARSHAN RAO,M,50,GEN,TRS,Telangana Rashtra Samithi,Car
+46,Kukatpalle,1,4,VADDEPALLI NARSING RAO,M,54,GEN,INC,Indian National Congress,Hand
+46,Kukatpalle,1,5,KUNA VENKATESH,M,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+46,Kukatpalle,1,6,KOPPULA NAVANEETHA,F,40,GEN,ANC,Ambedkar National Congress,Kite
+46,Kukatpalle,1,7,GOLLAWALLI BHAVANI,F,36,GEN,RKSP,Rashtriya Krantikari Samajwadi Party,Candles
+46,Kukatpalle,1,8,DR.JAYA PRAKASH NARAYAN,M,53,GEN,LSP,Lok Satta Party,Whistle
+46,Kukatpalle,1,9,B.SANJEEVA KUMAR,M,37,GEN,JD(U),Janata Dal (United),Arrow
+46,Kukatpalle,1,10,B.SAMBA SIVA RAO,M,50,GEN,PPOI,Pyramid Party of India,Television
+46,Kukatpalle,1,11,S.GOVARDHAN REDDY,M,41,GEN,IND,Independent,Gas Cylinder
+46,Kukatpalle,1,12,K.GOVINDA RAO,M,35,GEN,IND,Independent,Almirah
+46,Kukatpalle,1,13,TADKA JAGADESWAR,M,40,GEN,IND,Independent,Gas Stove
+46,Kukatpalle,1,14,T.BEERAIAH,M,28,GEN,IND,Independent,Camera
+46,Kukatpalle,1,15,MEANDAKARI RANGOJI RAO,M,46,GEN,IND,Independent,Balloon
+46,Kukatpalle,1,16,SHAIK MOHAMMAD MAQBOOL,M,45,GEN,IND,Independent,Letter Box
+47,Uppal,1,1,N.V.S.S PRABHAKAR,M,43,GEN,BJP,Bharatiya Janata Party,Lotus
+47,Uppal,1,2,BANDARI RAJI REDDY,M,63,GEN,INC,Indian National Congress,Hand
+47,Uppal,1,3,M.YADAGIRI REDDY,M,52,GEN,TRS,Telangana Rashtra Samithi,Car
+47,Uppal,1,4,M.RAJA VARDHAN,M,32,GEN,BSP,Bahujan Samaj Party,Elephant
+47,Uppal,1,5,AMIRISHETTY NARENDER,M,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+47,Uppal,1,6,M.JASWATH REDDY,M,51,GEN,LSP,Lok Satta Party,Whistle
+47,Uppal,1,7,N.BABU,M,29,SC,TPPP,Trilinga Praja Pragati Party,Ceiling Fan
+47,Uppal,1,8,K.MAHENDER,M,29,GEN,ABJS,Akhil Bharatiya Jan Sangh,Coconut
+47,Uppal,1,9,MOTAKATLA BHADRA REDDY,M,47,GEN,AIFB,All India Forward Bloc,Lion
+47,Uppal,1,10,RACHARLA VIJAY KUMAR,M,35,GEN,PPOI,Pyramid Party of India,Television
+47,Uppal,1,11,K.AVINASH,M,29,GEN,IND,Independent,Gas Stove
+47,Uppal,1,12,KARRI VENKOJI RAO,M,51,GEN,IND,Independent,Kite
+47,Uppal,1,13,GADDA YUGENDER,M,28,SC,IND,Independent,Candles
+47,Uppal,1,14,DR.B.V. CHARY,M,50,GEN,IND,Independent,Road Roller
+47,Uppal,1,15,CHANDRA REDDY SALLA,M,62,GEN,IND,Independent,Basket
+47,Uppal,1,16,K.THIRUPATHAIAH,M,61,GEN,IND,Independent,Jug
+47,Uppal,1,17,K.DAYAKAR REDDY,M,43,GEN,IND,Independent,Diesel Pump
+47,Uppal,1,18,POOSA BALAKISHAN BESTHA,M,35,GEN,IND,Independent,Gas Cylinder
+47,Uppal,1,19,MAHESH JETTA,M,33,GEN,IND,Independent,Bat
+47,Uppal,1,20,V.S.VINOD KUMAR,M,44,GEN,IND,Independent,Almirah
+48,Ibrahimpatnam,1,1,POREDDY NARSIMHA REDDY,M,54,GEN,BJP,Bharatiya Janata Party,Lotus
+48,Ibrahimpatnam,1,2,MANCHIREDDY KISHAN REDDY,M,56,GEN,TDP,Telugu Desam,Bicycle
+48,Ibrahimpatnam,1,3,MALREDDY RANGA REDDY,M,53,GEN,INC,Indian National Congress,Hand
+48,Ibrahimpatnam,1,4,MEDIPALLY MAHESH,M,36,SC,BSP,Bahujan Samaj Party,Elephant
+48,Ibrahimpatnam,1,5,T. DEVENDER GOUD,M,56,GEN,PRP,Praja Rajyam Party,Railway Engine
+48,Ibrahimpatnam,1,6,PILLIKANDLA JANGAIAH,M,33,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Kite
+48,Ibrahimpatnam,1,7,MUTHYALA RAJA SHAKER RAO,M,35,GEN,LSP,Lok Satta Party,Whistle
+48,Ibrahimpatnam,1,8,YERPULA SAMAIAH,M,41,GEN,IND,Independent,Gas Cylinder
+48,Ibrahimpatnam,1,9,ONTEUDDU NARENDAR VAMSHARAJ,M,34,GEN,IND,Independent,Television
+48,Ibrahimpatnam,1,10,JAKKA SATHI REDDY,M,38,GEN,IND,Independent,Almirah
+48,Ibrahimpatnam,1,11,K. RAVINDER REDDY,M,43,GEN,IND,Independent,Cup & Saucer
+49,Lal Bahadur Nagar,1,1,AKULA RAMESH GOUD,M,49,GEN,BJP,Bharatiya Janata Party,Lotus
+49,Lal Bahadur Nagar,1,2,S V KRISHNA PRASAD,M,47,GEN,TDP,Telugu Desam,Bicycle
+49,Lal Bahadur Nagar,1,3,A YADAIAH,M,46,SC,BSP,Bahujan Samaj Party,Elephant
+49,Lal Bahadur Nagar,1,4,SUDHEER REDDY DEVIREDDY,M,46,GEN,INC,Indian National Congress,Hand
+49,Lal Bahadur Nagar,1,5,ANUGU RAMA RAO,M,48,GEN,LSP,Lok Satta Party,Whistle
+49,Lal Bahadur Nagar,1,6,DHYANAMAINA SRI RAMULU,M,40,SC,PPOI,Pyramid Party of India,Television
+49,Lal Bahadur Nagar,1,7,M. PAPAIAH,M,37,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+49,Lal Bahadur Nagar,1,8,SANDIRI TARA BHAI,F,49,GEN,DABAP,Dalita Bahujana Party,Ring
+49,Lal Bahadur Nagar,1,9,"SAMA RANGA REDDY,",M,49,GEN,PRP,Praja Rajyam Party,Railway Engine
+49,Lal Bahadur Nagar,1,10,ALLAMPALLI PADMAVATHI,F,44,GEN,IND,Independent,Pressure Cooker
+49,Lal Bahadur Nagar,1,11,R.DASU REDDY,M,43,GEN,IND,Independent,Coconut
+49,Lal Bahadur Nagar,1,12,PARAMESH GADDAGUNTI,M,32,GEN,IND,Independent,Banana
+49,Lal Bahadur Nagar,1,13,B P. MADHUSUDHAN,M,36,SC,IND,Independent,Camera
+49,Lal Bahadur Nagar,1,14,MOHAMMED MOHINUDDIN,M,41,GEN,IND,Independent,Bread
+49,Lal Bahadur Nagar,1,15,S RAMESH GOUD,M,39,GEN,IND,Independent,Gas Stove
+49,Lal Bahadur Nagar,1,16,B. RAVINDER YADAV,M,42,GEN,IND,Independent,Road Roller
+49,Lal Bahadur Nagar,1,17,G RAJENDHAR,M,25,GEN,IND,Independent,Candles
+49,Lal Bahadur Nagar,1,18,VEMULA JAIPAL REDDY,M,38,GEN,IND,Independent,Carrot
+49,Lal Bahadur Nagar,1,19,K.SRINIVAS REDDY,M,26,GEN,IND,Independent,Kite
+49,Lal Bahadur Nagar,1,20,P.SUDHAKAR REDDY,M,26,GEN,IND,Independent,Gas Cylinder
+50,MAHESWARAM,1,1,KATIKELA SRIHARI,M,38,GEN,BSP,Bahujan Samaj Party,Elephant
+50,MAHESWARAM,1,2,KALLEM BAL REDDY,M,53,GEN,BJP,Bharatiya Janata Party,Lotus
+50,MAHESWARAM,1,3,T.KRISHNA REDDY,M,60,GEN,TDP,Telugu Desam,Bicycle
+50,MAHESWARAM,1,4,PATLOLLA SABITHA,F,60,GEN,INC,Indian National Congress,Hand
+50,MAHESWARAM,1,5,K.PRABHAKAR REDDY,M,49,GEN,TRS,Telangana Rashtra Samithi,Car
+50,MAHESWARAM,1,6,IBRAM SHEKAR,M,38,SC,TPPP,Trilinga Praja Pragati Party,Kite
+50,MAHESWARAM,1,7,K.JANGAIAH YADAV,M,32,GEN,LSP,Lok Satta Party,Whistle
+50,MAHESWARAM,1,8,DESHAM NARSIMHA REDDY,M,58,GEN,APNPP,Andhra Pradesh Navodaya Praja Party,Gas Cylinder
+50,MAHESWARAM,1,9,YERRAGONDA RAMA REDDY,M,49,GEN,PPOI,Pyramid Party of India,Television
+50,MAHESWARAM,1,10,A.VENKAT NARAYANA REDDY,M,54,GEN,PRP,Praja Rajyam Party,Railway Engine
+50,MAHESWARAM,1,11,AKKI MAHESH GOUD,M,33,GEN,IND,Independent,Harmonium
+50,MAHESWARAM,1,12,ABDUL GHANI,M,46,GEN,IND,Independent,Gas Stove
+50,MAHESWARAM,1,13,OGGU MALLAIAH,M,33,GEN,IND,Independent,Banana
+50,MAHESWARAM,1,14,M.M.JAHANGIR ALI,M,68,GEN,IND,Independent,Balloon
+50,MAHESWARAM,1,15,JEJALA JANGAIAH,M,36,GEN,IND,Independent,Comb
+50,MAHESWARAM,1,16,MUPPIDI BALRAJ GOUD,M,43,GEN,IND,Independent,Almirah
+50,MAHESWARAM,1,17,SHIVAGALLA RAM DAS,M,30,SC,IND,Independent,Bat
+50,MAHESWARAM,1,18,SHAIK AHMED,M,56,GEN,IND,Independent,Ceiling Fan
+51,Rajendranagar,1,1,GOURAVAGARI DHANUNJAN,M,30,GEN,BSP,Bahujan Samaj Party,Elephant
+51,Rajendranagar,1,2,GNANESHWAR,M,50,GEN,INC,Indian National Congress,Hand
+51,Rajendranagar,1,3,PATHANGI RAJBHOOPAL GOUD,M,38,GEN,BJP,Bharatiya Janata Party,Lotus
+51,Rajendranagar,1,4,T.PRAKASH GOUD,M,48,GEN,TDP,Telugu Desam,Bicycle
+51,Rajendranagar,1,5,YENUGU MURALIDHAR REDDY,M,49,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Bat
+51,Rajendranagar,1,6,THAKUR SUJITH SINGH,M,32,GEN,PRSHP,Praja Shanthi Party,Gas Cylinder
+51,Rajendranagar,1,7,DYTA SRIRAMA MURTHY,M,53,GEN,PPOI,Pyramid Party of India,Television
+51,Rajendranagar,1,8,PEDDAGANDU MADHUSUDHAN,M,29,GEN,UWF,United Women Front,Nagara
+51,Rajendranagar,1,9,RAJ KUMAR,M,38,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+51,Rajendranagar,1,10,SYED FATHA ULLAH HUSSAIN,M,43,GEN,SP,Samajwadi Party,Kite
+51,Rajendranagar,1,11,SAMA RAJPAL REDDY,M,35,GEN,PRP,Praja Rajyam Party,Railway Engine
+51,Rajendranagar,1,12,S SOLKAR REDDY,M,27,GEN,LSP,Lok Satta Party,Whistle
+51,Rajendranagar,1,13,ANUMULA JANGAIAH,M,40,SC,IND,Independent,Almirah
+51,Rajendranagar,1,14,KURSHEED BEGUM,F,61,GEN,IND,Independent,Pressure Cooker
+51,Rajendranagar,1,15,GURRAMPALLY SHAMAL RAJ,M,51,SC,IND,Independent,Letter Box
+51,Rajendranagar,1,16,DARGA SWAMY DAS,M,32,SC,IND,Independent,Banana
+51,Rajendranagar,1,17,POREDDY SUDHAKAR REDDY,M,36,GEN,IND,Independent,Candles
+51,Rajendranagar,1,18,FASIUDDIN,M,41,GEN,IND,Independent,Cup & Saucer
+51,Rajendranagar,1,19,MD.OMER ALI ARSHAD SHARFI,M,46,GEN,IND,Independent,Ceiling Fan
+51,Rajendranagar,1,20,MIR ASIF ALI,M,40,GEN,IND,Independent,Balloon
+51,Rajendranagar,1,21,B.VENKATESH,M,27,GEN,IND,Independent,Hat
+52,Serilingampally,1,1,ABDUL MUJEEB ZAKIR,M,32,GEN,BSP,Bahujan Samaj Party,Elephant
+52,Serilingampally,1,2,BIKSHAPATHI YADAV,M,59,GEN,INC,Indian National Congress,Hand
+52,Serilingampally,1,3,M.BHEEM RAO,M,59,GEN,BJP,Bharatiya Janata Party,Lotus
+52,Serilingampally,1,4,MOVVA SATYANARAYANA,M,46,GEN,TDP,Telugu Desam,Bicycle
+52,Serilingampally,1,5,KATARI SRINIVAS RAO,M,39,GEN,LSP,Lok Satta Party,Whistle
+52,Serilingampally,1,6,KONDA REDDY.N,M,29,GEN,PPOI,Pyramid Party of India,Television
+52,Serilingampally,1,7,BANDI RAMESH,M,45,GEN,PRP,Praja Rajyam Party,Railway Engine
+52,Serilingampally,1,8,M.VENKAT REDDY,M,57,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+52,Serilingampally,1,9,MD.FARWAZ SIDDIQUI,M,33,GEN,SP,Samajwadi Party,Kite
+52,Serilingampally,1,10,THANIKONDA DAMODHAR RAO,M,37,SC,IND,Independent,Diesel Pump
+52,Serilingampally,1,11,MOGADARI SRINIVAS RAO,M,48,GEN,IND,Independent,Electric Pole
+52,Serilingampally,1,12,S.MOHAN,M,45,SC,IND,Independent,Nagara
+52,Serilingampally,1,13,P.VIJAYA,F,30,GEN,IND,Independent,Coconut
+52,Serilingampally,1,14,V.SRINIVAS RAO,M,41,GEN,IND,Independent,Balloon
+52,Serilingampally,1,15,SD.KAJAM HUSEN,M,45,GEN,IND,Independent,Battery Torch
+52,Serilingampally,1,16,SYED HASMADHULLHA QUADRI,M,40,GEN,IND,Independent,Sewing Machine
+52,Serilingampally,1,17,M.SAMBASHIVA PRASAD,M,38,GEN,IND,Independent,Almirah
+52,Serilingampally,1,18,P.SEETHAPATHI,M,35,GEN,IND,Independent,Road Roller
+53,Chevella,1,1,KANJARLA PRAKASH,M,46,SC,BJP,Bharatiya Janata Party,Lotus
+53,Chevella,1,2,KALE YADAIAH,M,48,SC,INC,Indian National Congress,Hand
+53,Chevella,1,3,BAPANA PALLY RAMASWAMY,M,47,SC,BSP,Bahujan Samaj Party,Elephant
+53,Chevella,1,4,K.S.RATNAM,M,51,SC,TDP,Telugu Desam,Bicycle
+53,Chevella,1,5,GAJULAGUDEM CHANDU,M,34,SC,LSP,Lok Satta Party,Whistle
+53,Chevella,1,6,GIRIGALLA MANIKYAM,M,39,SC,GRIP,Great India Party,Television
+53,Chevella,1,7,DR.BALU.S,M,55,SC,PRP,Praja Rajyam Party,Railway Engine
+53,Chevella,1,8,JOGU VANKATAIAH,M,42,SC,IND,Independent,Banana
+53,Chevella,1,9,TUDUMU PANDU,M,25,SC,IND,Independent,Coconut
+53,Chevella,1,10,BAINDLA SAMAIAH,M,56,SC,IND,Independent,Gas Cylinder
+54,Pargi,1,1,KAMATAM RAMREDDY,M,65,GEN,INC,Indian National Congress,Hand
+54,Pargi,1,2,KARANAM PRAHLAD RAO,M,51,GEN,BJP,Bharatiya Janata Party,Lotus
+54,Pargi,1,3,KOPULA HARSIHWAR REDDY,M,62,GEN,TDP,Telugu Desam,Bicycle
+54,Pargi,1,4,KOLLA RAMESH,M,31,SC,BSP,Bahujan Samaj Party,Elephant
+54,Pargi,1,5,K. SATYANARAYANA REDDY,M,32,GEN,LSP,Lok Satta Party,Whistle
+54,Pargi,1,6,MD.OSMAN,M,42,GEN,IND,Independent,Gas Cylinder
+54,Pargi,1,7,N.KISHAN NAYAK,M,49,ST,IND,Independent,Television
+54,Pargi,1,8,NENAVATH HANIMIYA,M,38,ST,IND,Independent,Almirah
+54,Pargi,1,9,PANDUGALA NARSIMHULU GOUD,M,52,GEN,IND,Independent,Cup & Saucer
+54,Pargi,1,10,MUDAVATH RAMULU NAYAK,M,38,ST,IND,Independent,Nagara
+54,Pargi,1,11,T.RAM MOHAN REDDY,M,44,GEN,IND,Independent,Kite
+54,Pargi,1,12,VUDHITYALA VASANTH KUMAR,M,36,GEN,IND,Independent,Road Roller
+55,VICARABAD,1,1,SERI NARSING RAO,M,39,SC,BJP,Bharatiya Janata Party,Lotus
+55,VICARABAD,1,2,B.KRISHNA,M,33,SC,SHS,Shivsena,Coconut
+55,VICARABAD,1,3,THIMMAMOLLA VENKATESH,M,33,SC,LSP,Lok Satta Party,Whistle
+55,VICARABAD,1,4,P.MADHUKAR,M,28,SC,PRSHP,Praja Shanthi Party,Bat
+55,VICARABAD,1,5,VANAM NARASIMHA MADIGA,M,39,SC,TPPP,Trilinga Praja Pragati Party,Ceiling Fan
+55,VICARABAD,1,6,K.SATYANARAYANA,M,62,SC,MANP,Mana Party,Television
+55,VICARABAD,1,7,A.CHANDRA SHEKAR,M,49,SC,TRS,Telangana Rashtra Samithi,Car
+55,VICARABAD,1,8,G.PRASAD KUMAR,M,39,SC,INC,Indian National Congress,Hand
+55,VICARABAD,1,9,MAHAVEER BANDEIAH,M,40,SC,BSP,Bahujan Samaj Party,Elephant
+55,VICARABAD,1,10,B.PUSHPARAJ,M,37,SC,IND,Independent,Battery Torch
+55,VICARABAD,1,11,MADIKATTU RAMASWAMY,M,51,SC,IND,Independent,Banana
+55,VICARABAD,1,12,HANMANTHU,M,40,SC,IND,Independent,Ring
+56,Tandur,1,1,TALLAPALLY BALESHWAR GUPTA,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+56,Tandur,1,2,MALKUD RAMESH,M,55,GEN,INC,Indian National Congress,Hand
+56,Tandur,1,3,P.MAHENDER REDDY,M,45,GEN,TDP,Telugu Desam,Bicycle
+56,Tandur,1,4,SHANAPPA,M,34,SC,BSP,Bahujan Samaj Party,Elephant
+56,Tandur,1,5,V.ANJNEYULU,M,56,GEN,PRP,Praja Rajyam Party,Railway Engine
+56,Tandur,1,6,ROHIT REDDY,M,26,GEN,MANP,Mana Party,Ceiling Fan
+56,Tandur,1,7,K.VENKATESHAM,M,32,GEN,LSP,Lok Satta Party,Whistle
+56,Tandur,1,8,K.ANAND,M,40,ST,IND,Independent,Table Lamp
+56,Tandur,1,9,KOTLA.MAHIPAL REDDY,M,50,GEN,IND,Independent,Bread
+56,Tandur,1,10,GURRAPU RAMESH,M,43,GEN,IND,Independent,Gas Cylinder
+56,Tandur,1,11,MOHD MAZHAR HUSSAIN,M,47,GEN,IND,Independent,Kite
+56,Tandur,1,12,P.MAANYA NAIK,M,32,ST,IND,Independent,Nagara
+56,Tandur,1,13,VITTAL REDDY,M,48,GEN,IND,Independent,Slate
+56,Tandur,1,14,SRI GOPAL,M,30,SC,IND,Independent,Road Roller
+56,Tandur,1,15,SYED MUJEEB HUSSAINI,M,44,GEN,IND,Independent,Television
+56,Tandur,1,16,SIRIGIRIPET BALAPPA,M,76,GEN,IND,Independent,Camera
+57,Musheerabad,1,1,NAYINI NARSIMHA REDDY,M,68,GEN,TRS,Telangana Rashtra Samithi,Car
+57,Musheerabad,1,2,T. MANEMMA,F,65,GEN,INC,Indian National Congress,Hand
+57,Musheerabad,1,3,DR. K. LAXMAN,M,50,GEN,BJP,Bharatiya Janata Party,Lotus
+57,Musheerabad,1,4,M. SRINIVASULU,M,40,GEN,BSP,Bahujan Samaj Party,Elephant
+57,Musheerabad,1,5,P.V. ASHOK KUMAR,M,51,GEN,PRP,Praja Rajyam Party,Railway Engine
+57,Musheerabad,1,6,PONNAPATI LINGANNA,M,40,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Almirah
+57,Musheerabad,1,7,FAREEDA KHANAM,F,38,GEN,ANC,Ambedkar National Congress,Kite
+57,Musheerabad,1,8,M. NARENDER,M,41,GEN,PPOI,Pyramid Party of India,Television
+57,Musheerabad,1,9,BALUGULA RAMESH KUMAR MADIGA,M,40,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+57,Musheerabad,1,10,RAMULU JUPELLI,M,34,GEN,RSPI,Revolutionary Socialist Party of India(Marxist),Spade & Stoker
+57,Musheerabad,1,11,P. ROHIT KUMAR,M,35,GEN,LSP,Lok Satta Party,Whistle
+57,Musheerabad,1,12,KOLLA SUDHANKAR,M,38,GEN,IND,Independent,Road Roller
+57,Musheerabad,1,13,M.A. GAFFAR,M,57,GEN,IND,Independent,Gas Cylinder
+57,Musheerabad,1,14,CH. DURGESH NANDAN GOUD,M,40,GEN,IND,Independent,Coconut
+57,Musheerabad,1,15,BODDUPALLY SRINIVAS,M,44,GEN,IND,Independent,Glass Tumbler
+57,Musheerabad,1,16,MOHAMMED KAMALUDDIN,M,47,GEN,IND,Independent,Hat
+57,Musheerabad,1,17,T. RAVINDER,M,45,GEN,IND,Independent,Diesel Pump
+57,Musheerabad,1,18,CH. SUNIL SOLOMON RAJ,M,36,GEN,IND,Independent,Ring
+57,Musheerabad,1,19,S. SURENDER,M,42,SC,IND,Independent,Basket
+57,Musheerabad,1,20,R. SRIRAMACHANDRA MURTHY,M,64,GEN,IND,Independent,Banana
+58,Malakpet,1,1,G. R. KARUNAKAR,M,57,GEN,BJP,Bharatiya Janata Party,Lotus
+58,Malakpet,1,2,KOLUGURI VASANTHA,M,59,GEN,BSP,Bahujan Samaj Party,Elephant
+58,Malakpet,1,3,MD. MUZAFFAR ALI KHAN,M,43,GEN,TDP,Telugu Desam,Bicycle
+58,Malakpet,1,4,M. VIJAYA SIMHA REDDY,M,41,GEN,INC,Indian National Congress,Hand
+58,Malakpet,1,5,AHMED BIN ABDULLAH BALALA,M,41,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+58,Malakpet,1,6,TIRUNAGARI SRINIVAS RAO,M,58,GEN,PPOI,Pyramid Party of India,Television
+58,Malakpet,1,7,M. PANDU RANGA RAO,M,60,GEN,LSP,Lok Satta Party,Whistle
+58,Malakpet,1,8,MD. YOUSUF ALI ADIL,M,48,GEN,ANC,Ambedkar National Congress,Road Roller
+58,Malakpet,1,9,C.RAJU @ KARATE RAJU,M,42,GEN,PRP,Praja Rajyam Party,Railway Engine
+58,Malakpet,1,10,L. ASHOKNATH,M,39,GEN,IND,Independent,Candles
+58,Malakpet,1,11,CHANDU PRADEEP,M,32,GEN,IND,Independent,Camera
+58,Malakpet,1,12,TABREEZ MAHMOOD KHAN,M,30,GEN,IND,Independent,Almirah
+58,Malakpet,1,13,S. RAJ KUMAR,M,34,SC,IND,Independent,Balloon
+58,Malakpet,1,14,SYED LATEEFUDDIN,M,42,GEN,IND,Independent,Banana
+59,Amberpet,1,1,G. KISHAN REDDY,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+59,Amberpet,1,2,K.JAGADISHWAR,M,49,GEN,TRS,Telangana Rashtra Samithi,Car
+59,Amberpet,1,3,DEEPAK KUMAR B.,M,32,SC,BSP,Bahujan Samaj Party,Elephant
+59,Amberpet,1,4,MOHD. FAREEDUDDIN,M,52,GEN,INC,Indian National Congress,Hand
+59,Amberpet,1,5,ANDHRAPU SUDARSHAN GANGAPUTRA,M,33,GEN,SHS,Shivsena,Bow & Arrow
+59,Amberpet,1,6,KRISHNA YADAV C.,M,49,GEN,SP,Samajwadi Party,Candles
+59,Amberpet,1,7,GULAM SAZEED KHAN,M,25,GEN,SJP(R),Samajwadi Janata Party (Rashtriya),Battery Torch
+59,Amberpet,1,8,P.NAGARAJU,M,35,SC,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Kite
+59,Amberpet,1,9,MAKAM NIRMALA DEVI,F,50,GEN,PPOI,Pyramid Party of India,Television
+59,Amberpet,1,10,C. VINOD YADAV,M,32,GEN,LSP,Lok Satta Party,Whistle
+59,Amberpet,1,11,G.SRINIVAS GOUD,M,45,GEN,PRP,Praja Rajyam Party,Railway Engine
+59,Amberpet,1,12,KURAPATI SRINIVAS RAJU,M,44,GEN,IND,Independent,Diesel Pump
+59,Amberpet,1,13,JANAGAM RAJ KUMAR,M,32,GEN,IND,Independent,Ceiling Fan
+59,Amberpet,1,14,TEEGA SATYA NARAYANA MUDIRAJ,M,35,GEN,IND,Independent,Bat
+59,Amberpet,1,15,DHATRAKU CHANDULAL PATEL,M,36,GEN,IND,Independent,Ring
+59,Amberpet,1,16,SYED FAIYAZ,M,36,GEN,IND,Independent,Sewing Machine
+60,Khairatabad,1,1,K.KASHIRAM,M,52,SC,BSP,Bahujan Samaj Party,Elephant
+60,Khairatabad,1,2,CHINTALA RAMA CHANDRA REDDY,M,54,GEN,BJP,Bharatiya Janata Party,Lotus
+60,Khairatabad,1,3,DANAM NAGENDER,M,47,GEN,INC,Indian National Congress,Hand
+60,Khairatabad,1,4,K. VIJAYA RAMA RAO,M,71,GEN,TDP,Telugu Desam,Bicycle
+60,Khairatabad,1,5,ATLURI SUBHASHINI,F,38,GEN,LSP,Lok Satta Party,Whistle
+60,Khairatabad,1,6,NAVVADA VIJAYENDRA,M,39,GEN,PRP,Praja Rajyam Party,Railway Engine
+60,Khairatabad,1,7,C. MURALI,M,43,GEN,PPOI,Pyramid Party of India,Television
+60,Khairatabad,1,8,SAYED ABDUL MUQTADIR,M,31,GEN,ANC,Ambedkar National Congress,Kite
+60,Khairatabad,1,9,S. KUMARAIAH,M,30,GEN,IND,Independent,Candles
+60,Khairatabad,1,10,Y. GOVIND,M,66,SC,IND,Independent,Slate
+60,Khairatabad,1,11,S. GOVINDA RAJULU,M,40,GEN,IND,Independent,Ceiling Fan
+60,Khairatabad,1,12,PAUL.S.DAVID,M,51,GEN,IND,Independent,Bread
+60,Khairatabad,1,13,PALADUGU ANIL KUMAR,M,42,SC,IND,Independent,Camera
+60,Khairatabad,1,14,PEDATHALA NARSING RAO,M,46,GEN,IND,Independent,Road Roller
+60,Khairatabad,1,15,SHABAD RAMESH,M,37,GEN,IND,Independent,Banana
+60,Khairatabad,1,16,C. SUBBA REDDY,M,55,GEN,IND,Independent,Gas Cylinder
+61,Jubilee Hills,1,1,C. BALA PRAKASH,M,47,GEN,BJP,Bharatiya Janata Party,Lotus
+61,Jubilee Hills,1,2,MOHAMMED SALEEM,M,40,GEN,TDP,Telugu Desam,Bicycle
+61,Jubilee Hills,1,3,P. VISHNUVARDHAN REDDY,M,29,GEN,INC,Indian National Congress,Hand
+61,Jubilee Hills,1,4,ABDUL BASITH INAYATH,M,29,GEN,MUL,Muslim League Kerala State Committee,Candles
+61,Jubilee Hills,1,5,B. PURUSHOTHAM,M,63,SC,RPI(KH),Republican Party of India (Khobragade),Ceiling Fan
+61,Jubilee Hills,1,6,G. PRATIBHA RAO,F,57,GEN,LSP,Lok Satta Party,Whistle
+61,Jubilee Hills,1,7,ANSARUDDIN MD,M,44,GEN,ANC,Ambedkar National Congress,Kite
+61,Jubilee Hills,1,8,HARI KUMAR VALLAPUREDDY,M,36,GEN,PPOI,Pyramid Party of India,Television
+61,Jubilee Hills,1,9,HUMAYUN SYED,M,53,GEN,PRP,Praja Rajyam Party,Railway Engine
+61,Jubilee Hills,1,10,NISAR AHMED BAIG,M,50,GEN,IND,Independent,Gas Cylinder
+61,Jubilee Hills,1,11,M. VENKAT RAM,M,44,GEN,IND,Independent,Road Roller
+61,Jubilee Hills,1,12,M.S. SATYANARAYANA,M,56,SC,IND,Independent,Camera
+61,Jubilee Hills,1,13,SYED NIZAMUDDIN,M,34,GEN,IND,Independent,Sewing Machine
+62,SanathNagar,1,1,T. KRISHNA YADAV,M,35,GEN,BSP,Bahujan Samaj Party,Elephant
+62,SanathNagar,1,2,T.PADMA RAO,M,54,GEN,TRS,Telangana Rashtra Samithi,Car
+62,SanathNagar,1,3,MARRI SHASHIDHAR REDDY,M,54,GEN,INC,Indian National Congress,Hand
+62,SanathNagar,1,4,SHYAM SUNDER GOUD.B,M,53,GEN,BJP,Bharatiya Janata Party,Lotus
+62,SanathNagar,1,5,J.KANAKAIAH,M,34,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+62,SanathNagar,1,6,G.KUMAR CHOWDARY YADAV,M,50,GEN,RPC(S),Rashtriya Praja Congress (Secular),Bat
+62,SanathNagar,1,7,GAJADHAR GAJJAU KOLARIYA,M,39,GEN,SP,Samajwadi Party,Kite
+62,SanathNagar,1,8,P.L.MAHENDER,M,54,GEN,PRP,Praja Rajyam Party,Railway Engine
+62,SanathNagar,1,9,MUSIPATLA PRADEEP ANIRUDDH,M,29,GEN,PPOI,Pyramid Party of India,Television
+62,SanathNagar,1,10,SRIKANTH INAPURAPU,M,30,GEN,LSP,Lok Satta Party,Whistle
+62,SanathNagar,1,11,T.BAL REDDY,M,63,GEN,IND,Independent,Nagara
+62,SanathNagar,1,12,G.RANGA RAO,M,52,GEN,IND,Independent,Gas Stove
+62,SanathNagar,1,13,G.LAKSHMI NARAYANA,M,55,GEN,IND,Independent,Banana
+62,SanathNagar,1,14,SATYANARAYANA. M,M,34,GEN,IND,Independent,Coconut
+62,SanathNagar,1,15,SYED BISBAUDDIN,M,37,GEN,IND,Independent,Gas Cylinder
+63,Nampally,1,1,BANDARI SRINIVAS,M,60,GEN,BJP,Bharatiya Janata Party,Lotus
+63,Nampally,1,2,METTU SURYA PRAKASH,M,45,GEN,TRS,Telangana Rashtra Samithi,Car
+63,Nampally,1,3,T. VIJAY KUMAR,M,36,SC,BSP,Bahujan Samaj Party,Elephant
+63,Nampally,1,4,E. VINOD KUMAR,M,45,GEN,INC,Indian National Congress,Hand
+63,Nampally,1,5,MOHD. FEROZ KHAN,M,36,GEN,PRP,Praja Rajyam Party,Railway Engine
+63,Nampally,1,6,MOHD. VIRASAT RASOOL KHAN,M,55,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+63,Nampally,1,7,VANAPALLI VENKATESH,M,33,GEN,PPOI,Pyramid Party of India,Television
+63,Nampally,1,8,P. VENKATESHWAR RAO,M,37,GEN,LSP,Lok Satta Party,Whistle
+63,Nampally,1,9,SYED SIDDIQ AKBER ALI,M,35,GEN,AJBP,Ajeya Bharat Party,Bat
+63,Nampally,1,10,AMMAR SHARIF,M,27,GEN,IND,Independent,Balloon
+63,Nampally,1,11,ESSARI SATYANARAYANA,M,41,GEN,IND,Independent,Candles
+63,Nampally,1,12,DASARI RAMESH KURMA,M,45,GEN,IND,Independent,Road Roller
+63,Nampally,1,13,A. NAGESWAR RAO,M,47,GEN,IND,Independent,Almirah
+63,Nampally,1,14,BAJARANGA PRASAD UPADYAY,M,27,GEN,IND,Independent,Gas Cylinder
+63,Nampally,1,15,U. BALWANTH RAO,M,38,GEN,IND,Independent,Camera
+63,Nampally,1,16,MOHD. YOUSUF,M,30,GEN,IND,Independent,Hat
+63,Nampally,1,17,MOHD. SHAFIUDDIN,M,28,GEN,IND,Independent,Battery Torch
+63,Nampally,1,18,D. MURALIDHAR,M,53,GEN,IND,Independent,Coconut
+63,Nampally,1,19,MERA BABOJI RAO,M,26,GEN,IND,Independent,Bread
+63,Nampally,1,20,MOULLIM MOHSIN BIN HUSSAIN AL KASARY,M,33,GEN,IND,Independent,Black Board
+63,Nampally,1,21,SYED NAWAZ AHMED,M,49,GEN,IND,Independent,Ring
+64,Karwan,1,1,OSMAN BIN MOHAMMED AL HAJRI,M,41,GEN,TDP,Telugu Desam,Bicycle
+64,Karwan,1,2,M.KALIDAS,M,60,SC,BSP,Bahujan Samaj Party,Elephant
+64,Karwan,1,3,DEVARA KARUNAKAR,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+64,Karwan,1,4,T.ROOP SINGH,M,52,GEN,INC,Indian National Congress,Hand
+64,Karwan,1,5,M.SRINIVAS REDDY,M,41,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+64,Karwan,1,6,KUMMARI SATHYANARAYANA MADIGA,M,41,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+64,Karwan,1,7,MOHD. MUQTADA KHAN,M,52,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+64,Karwan,1,8,R.MANIK PRABHU,M,55,GEN,LSP,Lok Satta Party,Whistle
+64,Karwan,1,9,B.VENKATA KRISHNA,M,37,GEN,PRP,Praja Rajyam Party,Railway Engine
+64,Karwan,1,10,AZEEM MOHD,M,39,GEN,IND,Independent,Candles
+64,Karwan,1,11,ARSHAD KHAN,M,44,GEN,IND,Independent,Bat
+64,Karwan,1,12,MOHD MAJEED ULLAH QUADRI,M,51,GEN,IND,Independent,Ring
+64,Karwan,1,13,MIR MOIZUDDIN ALI KHAN,M,56,GEN,IND,Independent,Battery Torch
+65,Goshamahal,1,1,DEVILALJI BHUTADA,M,46,GEN,BSP,Bahujan Samaj Party,Elephant
+65,Goshamahal,1,2,PREM SINGH RATHORE,M,59,GEN,BJP,Bharatiya Janata Party,Lotus
+65,Goshamahal,1,3,G S BUGGA RAO,M,47,GEN,TDP,Telugu Desam,Bicycle
+65,Goshamahal,1,4,M MUKESH GOUD,M,50,GEN,INC,Indian National Congress,Hand
+65,Goshamahal,1,5,U BAALA SAILOO,M,33,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+65,Goshamahal,1,6,G MADHAVI DEEPAK,F,38,GEN,PRP,Praja Rajyam Party,Railway Engine
+65,Goshamahal,1,7,HEMANTH KUMAR JAISWAL,M,42,GEN,LSP,Lok Satta Party,Whistle
+65,Goshamahal,1,8,B YELLESH,M,29,SC,IND,Independent,Coconut
+65,Goshamahal,1,9,NARESHSINGH,M,35,GEN,IND,Independent,Bat
+65,Goshamahal,1,10,B NARENDRA,M,60,GEN,IND,Independent,Banana
+65,Goshamahal,1,11,MOHD. NAWAB,M,49,GEN,IND,Independent,Ring
+65,Goshamahal,1,12,M. B. RAGHUNATH,M,36,SC,IND,Independent,Ice Cream
+65,Goshamahal,1,13,CHILLAMPALLY RAJSHEKAR,M,36,GEN,IND,Independent,Coat
+65,Goshamahal,1,14,B RAMCHANDER,M,41,GEN,IND,Independent,Letter Box
+65,Goshamahal,1,15,RISHI RAM,M,46,GEN,IND,Independent,Sewing Machine
+65,Goshamahal,1,16,P RENUKA,F,45,GEN,IND,Independent,Spoon
+65,Goshamahal,1,17,SHAIK IBRAHIM,M,65,GEN,IND,Independent,Almirah
+65,Goshamahal,1,18,SYED AZIZ,M,38,GEN,IND,Independent,Hat
+66,Charminar,1,1,ALI BIN IBRAHIM MASQATI,M,41,GEN,TDP,Telugu Desam,Bicycle
+66,Charminar,1,2,B. BUCHI DAS,M,44,GEN,INC,Indian National Congress,Hand
+66,Charminar,1,3,SHOBHA RANI,F,59,GEN,BJP,Bharatiya Janata Party,Lotus
+66,Charminar,1,4,P. GOPAL,M,32,GEN,TPPP,Trilinga Praja Pragati Party,Scissors
+66,Charminar,1,5,MIR YOUSUF ALI,M,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+66,Charminar,1,6,S. SATYAVATHI,F,42,GEN,PPOI,Pyramid Party of India,Television
+66,Charminar,1,7,SYED AHMED PASHA QUADRI,M,50,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+66,Charminar,1,8,A.GANPATH RAO,M,53,GEN,IND,Independent,Slate
+66,Charminar,1,9,MOHD. QADEER ALI,M,31,GEN,IND,Independent,Bat
+66,Charminar,1,10,MOHD. HASHMATH ALI,M,32,GEN,IND,Independent,Table Lamp
+66,Charminar,1,11,SUBHASH CHANDRA PANDEY,M,47,GEN,IND,Independent,Coconut
+67,Chandrayangutta,1,1,K. JAGJEEVAN REDDY,M,46,GEN,BJP,Bharatiya Janata Party,Lotus
+67,Chandrayangutta,1,2,G. RAVINDER,M,34,GEN,BSP,Bahujan Samaj Party,Elephant
+67,Chandrayangutta,1,3,B.VENKATESH,M,41,GEN,INC,Indian National Congress,Hand
+67,Chandrayangutta,1,4,SYED KHAJA FAKRUDDIN,M,35,GEN,TRS,Telangana Rashtra Samithi,Car
+67,Chandrayangutta,1,5,AKBARUDDIN OWAISI,M,36,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+67,Chandrayangutta,1,6,DR.KHAYAM KHAN,M,47,GEN,MBT,Majlis Bachao Tahreek,Television
+67,Chandrayangutta,1,7,B.NARESH,M,41,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+67,Chandrayangutta,1,8,MOHAMMED HAJI,M,40,GEN,JD(S),Janata Dal (Secular),A lady farmer carrying paddy on her head
+67,Chandrayangutta,1,9,M.RAJU YADAV,M,29,GEN,PRP,Praja Rajyam Party,Railway Engine
+67,Chandrayangutta,1,10,K.SRINIVAS,M,36,GEN,SHS,Shivsena,Bow & Arrow
+67,Chandrayangutta,1,11,MD. KALEEM SIDDIQI,M,30,GEN,IND,Independent,Brief Case
+67,Chandrayangutta,1,12,KONGARA JANGAIAH,M,72,SC,IND,Independent,Coconut
+67,Chandrayangutta,1,13,JANGAM VIDYAWANTH REDDY,M,39,GEN,IND,Independent,Slate
+67,Chandrayangutta,1,14,MOHAMMED DASTAGIR,M,38,GEN,IND,Independent,Bat
+67,Chandrayangutta,1,15,V.SHIVDU,M,25,ST,IND,Independent,Cot
+67,Chandrayangutta,1,16,V.SHEKHER NAIK,M,26,ST,IND,Independent,Almirah
+68,Yakutpura,1,1,G.RATHNAMAIAH,M,59,GEN,INC,Indian National Congress,Hand
+68,Yakutpura,1,2,M. RAM CHANDRAM,M,44,SC,BSP,Bahujan Samaj Party,Elephant
+68,Yakutpura,1,3,P. SURENDAR,M,47,GEN,BJP,Bharatiya Janata Party,Lotus
+68,Yakutpura,1,4,DARBAR CHANDRA SEKHAR NEELISETTY,M,38,GEN,PPOI,Pyramid Party of India,Battery Torch
+68,Yakutpura,1,5,MUMTAZ AHMED KHAN,M,59,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+68,Yakutpura,1,6,S. RAJ KUMAR,M,38,GEN,PRP,Praja Rajyam Party,Railway Engine
+68,Yakutpura,1,7,N. VEERENDER BABU,M,35,GEN,LSP,Lok Satta Party,Whistle
+68,Yakutpura,1,8,HAMZA BIN OMER AL JABRI BIN ATEEF,M,51,GEN,MBT,Majlis Bachao Tahreek,Television
+68,Yakutpura,1,9,ARVIND KUMAR,M,31,GEN,IND,Independent,Banana
+68,Yakutpura,1,10,M.M. JAHANGIR ALI,M,68,GEN,IND,Independent,Nagara
+68,Yakutpura,1,11,P. RADHA KRISHNA,M,36,GEN,IND,Independent,Road Roller
+68,Yakutpura,1,12,M.A. RAQEEB,M,25,GEN,IND,Independent,Gas Cylinder
+68,Yakutpura,1,13,HABEEB OSMAN BIN JEELANI,M,41,GEN,IND,Independent,Hat
+69,Bahadurpura,1,1,MOHD SIRAJUDDIN,M,37,GEN,BJP,Bharatiya Janata Party,Lotus
+69,Bahadurpura,1,2,MIR AHMED ALI,M,28,GEN,CPI,Communist Party of India,Ears of Corn And Sickle
+69,Bahadurpura,1,3,VAILLA VAMSHIDAR,M,38,GEN,BSP,Bahujan Samaj Party,Elephant
+69,Bahadurpura,1,4,SYED RAZA HUSSAIN AZAD,M,59,GEN,INC,Indian National Congress,Hand
+69,Bahadurpura,1,5,MOHD GHOUSE QUADRI,M,41,GEN,SP,Samajwadi Party,Television
+69,Bahadurpura,1,6,MOHD. MOAZAM KHAN,M,39,GEN,AIMIM,All India Majlis-E-Ittehadul Muslimeen,Kite
+69,Bahadurpura,1,7,SYED YONUS DEASHMUK,M,49,GEN,PRP,Praja Rajyam Party,Railway Engine
+69,Bahadurpura,1,8,AZIZUNNISA BEGUM,F,45,GEN,IND,Independent,Gas Cylinder
+69,Bahadurpura,1,9,MOHD HABEEB KHAN,M,33,GEN,IND,Independent,Batsman
+69,Bahadurpura,1,10,RAFIA KHANAM,F,39,GEN,IND,Independent,Scissors
+69,Bahadurpura,1,11,ROBERT IRUDAYA RAJ,M,40,GEN,IND,Independent,Candles
+70,Secunderabad,1,1,JAYASUDHA KAPOOR,F,51,GEN,INC,Indian National Congress,Hand
+70,Secunderabad,1,2,TALASANI SRINIVAS YADAV,M,43,GEN,TDP,Telugu Desam,Bicycle
+70,Secunderabad,1,3,S. YELLANNA,M,58,SC,BSP,Bahujan Samaj Party,Elephant
+70,Secunderabad,1,4,SHANIGARAPU RAMESH CHAKRA,M,27,GEN,BJP,Bharatiya Janata Party,Lotus
+70,Secunderabad,1,5,AKULA MAHARANI,F,51,GEN,LSP,Lok Satta Party,Whistle
+70,Secunderabad,1,6,CHIKKA DEVADAS,M,41,GEN,KKJHS,Kranti Kari Jai Hind Sena,Diesel Pump
+70,Secunderabad,1,7,BOMMA KANTI PADMA,F,41,GEN,PPOI,Pyramid Party of India,Television
+70,Secunderabad,1,8,MEKALA SARANGA PANI,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+70,Secunderabad,1,9,K. RAJA YELLAIAH MADIGA,M,38,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+70,Secunderabad,1,10,RAMA KRISHNA REDDY GUJJULA,M,42,GEN,SAP,Samata Party,Dolli
+70,Secunderabad,1,11,KARRA KASHI VISHWANATHAM,M,57,GEN,IND,Independent,Road Roller
+70,Secunderabad,1,12,K. KRISHNAVENI,F,31,SC,IND,Independent,Nagara
+70,Secunderabad,1,13,GUNTI SUSHANTH KUMAR,M,25,SC,IND,Independent,Coconut
+70,Secunderabad,1,14,JAGADESHWAR M,M,29,GEN,IND,Independent,Almirah
+70,Secunderabad,1,15,TUPRAN VIJAYA KUMAR,M,59,GEN,IND,Independent,Camera
+70,Secunderabad,1,16,NEELAM SRINIVAS MUDIRAJ,M,44,GEN,IND,Independent,Banana
+70,Secunderabad,1,17,MD RIYAZUDDIN,M,56,GEN,IND,Independent,Gas Cylinder
+70,Secunderabad,1,18,A SATHI REDDY,M,46,GEN,IND,Independent,Kite
+71,Secunderabad CANTONMENT,1,1,RAVULA ANJAIAH,M,52,SC,BSP,Bahujan Samaj Party,Elephant
+71,Secunderabad CANTONMENT,1,2,K RAMULU,M,52,SC,BJP,Bharatiya Janata Party,Lotus
+71,Secunderabad CANTONMENT,1,3,DR. P SHANKER RAO,M,61,SC,INC,Indian National Congress,Hand
+71,Secunderabad CANTONMENT,1,4,G SAYANNA,M,58,SC,TDP,Telugu Desam,Bicycle
+71,Secunderabad CANTONMENT,1,5,M J RAMU,M,38,SC,SP,Samajwadi Party,Kite
+71,Secunderabad CANTONMENT,1,6,NARRA RAVI KUMAR,M,45,SC,PRP,Praja Rajyam Party,Railway Engine
+71,Secunderabad CANTONMENT,1,7,V R VIJAYA RAMA RAJU,M,41,SC,LSP,Lok Satta Party,Whistle
+71,Secunderabad CANTONMENT,1,8,RAGATI SATHYAM MAADIGA,M,51,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+71,Secunderabad CANTONMENT,1,9,D B DEVENDER,M,51,SC,IND,Independent,Gas Stove
+72,Kodangal,1,1,ANANTH RAMCHANDER SIVAKURI,M,26,GEN,BJP,Bharatiya Janata Party,Lotus
+72,Kodangal,1,2,ANUMULA REVANTH REDDY,M,40,GEN,TDP,Telugu Desam,Bicycle
+72,Kodangal,1,3,GURUNATH REDDY,M,65,GEN,INC,Indian National Congress,Hand
+72,Kodangal,1,4,A.BALRAJ,M,43,GEN,PPOI,Pyramid Party of India,Television
+72,Kodangal,1,5,JAYA PRAKASH NARAYAN.S,M,30,ST,LSP,Lok Satta Party,Whistle
+72,Kodangal,1,6,N.RAMCHANDER ALIAS ANIL NAIK,M,26,ST,IND,Independent,Road Roller
+72,Kodangal,1,7,RAIKANTI RAMDAS MADIGA,M,40,SC,IND,Independent,Gas Cylinder
+72,Kodangal,1,8,K.V.SRINIVAS REDDY,M,43,GEN,IND,Independent,Frock
+72,Kodangal,1,9,SAVITHRI,F,34,GEN,IND,Independent,Ceiling Fan
+73,Narayanpet,1,1,YELKOTI YELLA REDDY,M,67,GEN,TDP,Telugu Desam,Bicycle
+73,Narayanpet,1,2,NAGURAO NAMAJI,M,54,GEN,BJP,Bharatiya Janata Party,Lotus
+73,Narayanpet,1,3,SUGAPPA,M,45,GEN,INC,Indian National Congress,Hand
+73,Narayanpet,1,4,SHASANI RANGA REDDY,M,33,GEN,PPOI,Pyramid Party of India,Television
+73,Narayanpet,1,5,DR.K.SAI BABU,M,44,GEN,PRP,Praja Rajyam Party,Railway Engine
+73,Narayanpet,1,6,J.SRINIVASULU,M,32,GEN,TPPP,Trilinga Praja Pragati Party,Almirah
+73,Narayanpet,1,7,K.RAMULU,M,35,GEN,IND,Independent,Gas Cylinder
+73,Narayanpet,1,8,B.RAMU,M,40,GEN,IND,Independent,Scissors
+73,Narayanpet,1,9,A.SRINIVAS REDDY,M,25,GEN,IND,Independent,Ceiling Fan
+74,Mahbubnagar,1,1,G.PADMAJA REDDY,F,50,GEN,BJP,Bharatiya Janata Party,Lotus
+74,Mahbubnagar,1,2,PULI VEERANNA,M,63,GEN,INC,Indian National Congress,Hand
+74,Mahbubnagar,1,3,RAVULA BALAKISTAIAH,M,37,SC,BSP,Bahujan Samaj Party,Elephant
+74,Mahbubnagar,1,4,SYED IBRAHIM,M,39,GEN,TRS,Telangana Rashtra Samithi,Car
+74,Mahbubnagar,1,5,AMRUTH PRASAD GOUD,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+74,Mahbubnagar,1,6,BEKKARI RAM REDDY,M,50,GEN,LSP,Lok Satta Party,Whistle
+74,Mahbubnagar,1,7,YELISETTY DASARATHA GUPTA,M,59,GEN,PPOI,Pyramid Party of India,Television
+74,Mahbubnagar,1,8,EESHWARANNA TELUGU,M,51,GEN,IND,Independent,Coconut
+74,Mahbubnagar,1,9,BEKKARI SREENIVAS REDDY,M,48,GEN,IND,Independent,Banana
+74,Mahbubnagar,1,10,BOYAPALLY NARSIMULU MADIGA,M,44,SC,IND,Independent,Kite
+74,Mahbubnagar,1,11,MOHAMMED SHAREEF,M,48,GEN,IND,Independent,Nagara
+74,Mahbubnagar,1,12,MOHAMMED IFTEKHARUDDIN,M,43,GEN,IND,Independent,Gas Cylinder
+74,Mahbubnagar,1,13,S.RATHANGA PANDU REDDY,M,39,GEN,IND,Independent,Ceiling Fan
+74,Mahbubnagar,1,14,A.RAMESH KUMAR,M,42,GEN,IND,Independent,Cup & Saucer
+74,Mahbubnagar,1,15,N.RAJESHWAR REDDY,M,51,GEN,IND,Independent,Gas Stove
+75,Jadcherla,1,1,ANAND,M,39,SC,BSP,Bahujan Samaj Party,Elephant
+75,Jadcherla,1,2,GOLLAMARI SHOURY,M,51,GEN,BJP,Bharatiya Janata Party,Lotus
+75,Jadcherla,1,3,M.CHANDRA SHEKAR,M,42,GEN,TDP,Telugu Desam,Bicycle
+75,Jadcherla,1,4,DR.MALLU RAVI,M,58,SC,INC,Indian National Congress,Hand
+75,Jadcherla,1,5,PASULA GANGADHAR REDDY,M,26,GEN,PPOI,Pyramid Party of India,Television
+75,Jadcherla,1,6,G.YADAIAH,M,45,SC,TPPP,Trilinga Praja Pragati Party,Almirah
+75,Jadcherla,1,7,DR.V.RAM REDDY,M,61,GEN,PRP,Praja Rajyam Party,Railway Engine
+75,Jadcherla,1,8,SRINU,M,40,GEN,LSP,Lok Satta Party,Whistle
+75,Jadcherla,1,9,GANGAPURAM CHINNA YELLAIAH,M,59,SC,IND,Independent,Gas Cylinder
+75,Jadcherla,1,10,K.PRAKASH,M,46,GEN,IND,Independent,Kettle
+75,Jadcherla,1,11,SREEVIDYA,F,44,GEN,IND,Independent,Kite
+76,Devarkadra,1,1,KOMMU BHARATH BUSHAN,M,43,SC,BJP,Bharatiya Janata Party,Lotus
+76,Devarkadra,1,2,KHAJA MOHINUDDIN,M,31,GEN,BSP,Bahujan Samaj Party,Elephant
+76,Devarkadra,1,3,SEETHA DAYAKAR REDDY,F,46,GEN,TDP,Telugu Desam,Bicycle
+76,Devarkadra,1,4,S.SWARNA SUDHAKAR,F,57,GEN,INC,Indian National Congress,Hand
+76,Devarkadra,1,5,K.KRISHNA KUMAR REDDY,M,61,GEN,LSP,Lok Satta Party,Whistle
+76,Devarkadra,1,6,GADDAMEEDI DHANUNJAYA,M,33,GEN,PPOI,Pyramid Party of India,Television
+76,Devarkadra,1,7,K.S.RAVI KUMAR,M,44,GEN,PRP,Praja Rajyam Party,Railway Engine
+76,Devarkadra,1,8,AKULA VEERANNA,M,54,GEN,IND,Independent,Coconut
+76,Devarkadra,1,9,J.T.GOUD,M,60,GEN,IND,Independent,Gas Stove
+76,Devarkadra,1,10,D.JANARDHAN,M,40,GEN,IND,Independent,Bat
+76,Devarkadra,1,11,MALA PEDDA KURUMAIAH,M,34,SC,IND,Independent,Candles
+76,Devarkadra,1,12,RAMESH,M,30,ST,IND,Independent,Gas Cylinder
+76,Devarkadra,1,13,G.RAVINDER REDDY,M,33,GEN,IND,Independent,Hat
+76,Devarkadra,1,14,RAVULA RAVINDRANATH REDDY,M,64,GEN,IND,Independent,Ceiling Fan
+77,Makthal,1,1,GARIDI NINGI REDDY,M,59,GEN,BJP,Bharatiya Janata Party,Lotus
+77,Makthal,1,2,CHITTEM RAM MOHAN REDDY,M,46,GEN,INC,Indian National Congress,Hand
+77,Makthal,1,3,K.DAYAKAR REDDY,M,49,GEN,TDP,Telugu Desam,Bicycle
+77,Makthal,1,4,M.SREEDHAR GOUD,M,44,GEN,TRS,Telangana Rashtra Samithi,Car
+77,Makthal,1,5,K. RAJA MALLESH,M,33,GEN,LSP,Lok Satta Party,Whistle
+77,Makthal,1,6,VENKATESHWARA REDDY,M,40,GEN,PPOI,Pyramid Party of India,Television
+77,Makthal,1,7,AMARCHINTA PRABHAKAR,M,45,GEN,IND,Independent,Camera
+77,Makthal,1,8,ASHAMMA JOGU,F,45,SC,IND,Independent,Balloon
+77,Makthal,1,9,M. KISTA REDDY,M,38,GEN,IND,Independent,Scissors
+77,Makthal,1,10,DEVARI RAJASHEKAR,M,38,GEN,IND,Independent,Bat
+77,Makthal,1,11,K. NARENDER,M,33,GEN,IND,Independent,Battery Torch
+77,Makthal,1,12,BALAKISTAIAH,M,67,SC,IND,Independent,Basket
+77,Makthal,1,13,VIRAT REDDY.P,M,43,GEN,IND,Independent,Harmonium
+77,Makthal,1,14,J.SURYANARAYANA,M,62,SC,IND,Independent,Ceiling Fan
+78,Wanaparthy,1,1,DR.G.CHINNA REDDY,M,54,GEN,INC,Indian National Congress,Hand
+78,Wanaparthy,1,2,JASWANTH REDDY.L,M,52,GEN,BSP,Bahujan Samaj Party,Elephant
+78,Wanaparthy,1,3,RAVULA CHANDRA SHEKAR REDDY,M,54,GEN,TDP,Telugu Desam,Bicycle
+78,Wanaparthy,1,4,SABBIREDDY VENKAT REDDY,M,47,GEN,BJP,Bharatiya Janata Party,Lotus
+78,Wanaparthy,1,5,PURI SURESH SETTY,M,39,GEN,JD(U),Janata Dal (United),Arrow
+78,Wanaparthy,1,6,DR.A.BHUPESH KUMAR,M,47,GEN,PRP,Praja Rajyam Party,Railway Engine
+78,Wanaparthy,1,7,MODALA RAMA KRISHNA SAGAR,M,39,GEN,PPOI,Pyramid Party of India,Television
+78,Wanaparthy,1,8,VITTA PRAVEEN KUMAR REDDY,M,30,GEN,LSP,Lok Satta Party,Whistle
+78,Wanaparthy,1,9,SINGI REDDY PARAMESHWAR MADIGA,M,40,SC,TPPP,Trilinga Praja Pragati Party,Coconut
+78,Wanaparthy,1,10,AVULA BAHUJANA SATYAM SAGARUDU,M,35,GEN,IND,Independent,Ceiling Fan
+78,Wanaparthy,1,11,COM.NAKKA RAMULU YADAV,M,32,GEN,IND,Independent,Road Roller
+78,Wanaparthy,1,12,G.MALLIKARJUN RAO,M,48,GEN,IND,Independent,Candles
+79,Gadwal,1,1,ARUNA D.K,F,48,GEN,INC,Indian National Congress,Hand
+79,Gadwal,1,2,KRISHNA MOHAN REDDY BANDLA,M,41,GEN,TDP,Telugu Desam,Bicycle
+79,Gadwal,1,3,PARUMALA KRISHNA,M,41,SC,BSP,Bahujan Samaj Party,Elephant
+79,Gadwal,1,4,RAJASHEKAR REDDY,M,39,GEN,BJP,Bharatiya Janata Party,Lotus
+79,Gadwal,1,5,GATTU BHEEMUDU,M,57,GEN,PRP,Praja Rajyam Party,Railway Engine
+79,Gadwal,1,6,M. MURALI SREENIVASULU,M,37,GEN,LSP,Lok Satta Party,Whistle
+79,Gadwal,1,7,S. HEMALATHA BAI,F,30,GEN,PPOI,Pyramid Party of India,Television
+79,Gadwal,1,8,ANIL KUMAR,M,29,GEN,IND,Independent,Coconut
+79,Gadwal,1,9,ANJANEYULU,M,31,SC,IND,Independent,Banana
+79,Gadwal,1,10,T. UMA DEVI,F,36,GEN,IND,Independent,Brief Case
+79,Gadwal,1,11,GOPAL REDDY,M,38,GEN,IND,Independent,Road Roller
+79,Gadwal,1,12,BUCHANNA,M,52,GEN,IND,Independent,Gas Cylinder
+79,Gadwal,1,13,MANDLA MADHUSUDAN BAABU,M,40,GEN,IND,Independent,Almirah
+79,Gadwal,1,14,HANUMANTHU,M,28,SC,IND,Independent,Ceiling Fan
+80,Alampur,1,1,ABRAHAM.V.M.,M,62,SC,INC,Indian National Congress,Hand
+80,Alampur,1,2,INDIRA,F,56,SC,BJP,Bharatiya Janata Party,Lotus
+80,Alampur,1,3,GADDAM BALASWAMY,M,39,SC,BSP,Bahujan Samaj Party,Elephant
+80,Alampur,1,4,DR.PRASANNA KUMAR. R,M,36,SC,TDP,Telugu Desam,Bicycle
+80,Alampur,1,5,T.PRASAD MADIGA,M,37,SC,TPPP,Trilinga Praja Pragati Party,Coconut
+80,Alampur,1,6,MADANNA,M,31,SC,PRSHP,Praja Shanthi Party,Ring
+80,Alampur,1,7,D.RAJU,M,30,SC,PPOI,Pyramid Party of India,Television
+80,Alampur,1,8,SURUPA SHOBHARANI,F,36,SC,PRP,Praja Rajyam Party,Railway Engine
+80,Alampur,1,9,B.SWAMULU,M,33,SC,LSP,Lok Satta Party,Whistle
+80,Alampur,1,10,SWAMULU,M,26,SC,JMBP,Jai Maha Bharath Party,Kite
+80,Alampur,1,11,M.ANJANEYULU,M,50,SC,IND,Independent,Hat
+80,Alampur,1,12,KASHANNA,M,55,SC,IND,Independent,Ceiling Fan
+80,Alampur,1,13,GANGARAM SEKHAR BUDAGAJANGAM,M,33,SC,IND,Independent,Road Roller
+80,Alampur,1,14,V.DHARMA RAJU,M,42,SC,IND,Independent,Almirah
+80,Alampur,1,15,BANGI LAXMANNA,M,41,SC,IND,Independent,Banana
+80,Alampur,1,16,A.MADDILETY MADIGA,M,46,SC,IND,Independent,Scissors
+80,Alampur,1,17,RAVINDER,M,31,SC,IND,Independent,Balloon
+80,Alampur,1,18,DR.H.RUKMANTHAIAH,M,32,SC,IND,Independent,Harmonium
+80,Alampur,1,19,A.VENKATESHWARLU,M,32,SC,IND,Independent,Gas Cylinder
+80,Alampur,1,20,P.SUBBANNA,M,55,SC,IND,Independent,Black Board
+81,Nagarkurnool,1,1,KUCHAKULLA DAMODER REDDY,M,61,GEN,INC,Indian National Congress,Hand
+81,Nagarkurnool,1,2,JAKKA RAGHUNANDHAN REDDY,M,42,GEN,BJP,Bharatiya Janata Party,Lotus
+81,Nagarkurnool,1,3,DASARI SHANTHAKUMAR,M,36,SC,BSP,Bahujan Samaj Party,Elephant
+81,Nagarkurnool,1,4,DR. NAGAM JANARDHAN REDDY,M,60,GEN,TDP,Telugu Desam,Bicycle
+81,Nagarkurnool,1,5,KANDANOOL RAMAKRISHNA,M,32,GEN,LSP,Lok Satta Party,Whistle
+81,Nagarkurnool,1,6,GUNNA SHASHIDHAR REDDY,M,29,GEN,PPOI,Pyramid Party of India,Television
+81,Nagarkurnool,1,7,S.K.NOORJAHAN,F,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+81,Nagarkurnool,1,8,K.VENKATSWAMY,M,58,SC,BHSASP,Bharatheeya Sadharma Samsthapana Party,Gas Cylinder
+81,Nagarkurnool,1,9,VELJALA BASAWAIAH,M,35,SC,GRIP,Great India Party,Road Roller
+81,Nagarkurnool,1,10,BONASI KRISHNAIAH,M,35,SC,IND,Independent,Coconut
+81,Nagarkurnool,1,11,BONASI RAMCHANDAR,M,32,SC,IND,Independent,Almirah
+81,Nagarkurnool,1,12,B.E.VIJAYKUMAR,M,32,GEN,IND,Independent,Kite
+81,Nagarkurnool,1,13,SRI HARINATH,M,60,GEN,IND,Independent,Gas Stove
+81,Nagarkurnool,1,14,SAMBA PARVATHALU,M,28,GEN,IND,Independent,Banana
+82,Achampet,1,1,BEESAMALLA YOSEF,M,36,SC,BSP,Bahujan Samaj Party,Elephant
+82,Achampet,1,2,P.RAMULU,M,56,SC,TDP,Telugu Desam,Bicycle
+82,Achampet,1,3,DR.C.VAMSHI KRISHNA,M,42,SC,INC,Indian National Congress,Hand
+82,Achampet,1,4,GADADASU VENKATESHWARLU,M,37,SC,LSP,Lok Satta Party,Whistle
+82,Achampet,1,5,P.MUNEENDRANATH,M,47,SC,PRP,Praja Rajyam Party,Railway Engine
+82,Achampet,1,6,Y.VENKATESH,M,34,SC,PPOI,Pyramid Party of India,Television
+82,Achampet,1,7,KAVALI VENKATAIAH,M,26,SC,IND,Independent,Gas Cylinder
+82,Achampet,1,8,MANDALA SULTHANAMMA,F,36,SC,IND,Independent,Ceiling Fan
+83,Kalwakurthi,1,1,ACHARY TALLOJU,M,43,GEN,BJP,Bharatiya Janata Party,Lotus
+83,Kalwakurthi,1,2,G.JAYAPAL YADAV,M,53,GEN,TDP,Telugu Desam,Bicycle
+83,Kalwakurthi,1,3,BANAVAT RAMULU NAIK,M,39,ST,BSP,Bahujan Samaj Party,Elephant
+83,Kalwakurthi,1,4,YEDMA KISTA REDDY,M,60,GEN,INC,Indian National Congress,Hand
+83,Kalwakurthi,1,5,GUDURU PRABHAKAR REDDY,M,46,GEN,PPOI,Pyramid Party of India,Television
+83,Kalwakurthi,1,6,J.CHITTARANJANDAS,M,58,GEN,PRP,Praja Rajyam Party,Railway Engine
+83,Kalwakurthi,1,7,BANDELA RAMCHANDRA REDDY,M,52,GEN,LSP,Lok Satta Party,Whistle
+83,Kalwakurthi,1,8,MABBU SAYANNA MADIGA,M,43,SC,IND,Independent,Almirah
+84,Shadnagar,1,1,ANJAIAH YELGANAMONI,M,54,GEN,TRS,Telangana Rashtra Samithi,Car
+84,Shadnagar,1,2,CHOWLAPALLY PRATAP REDDY,M,52,GEN,INC,Indian National Congress,Hand
+84,Shadnagar,1,3,VANAM JHANSI RANI,F,39,GEN,BJP,Bharatiya Janata Party,Lotus
+84,Shadnagar,1,4,SAJJALA KASHINATH,M,57,GEN,BSP,Bahujan Samaj Party,Elephant
+84,Shadnagar,1,5,P. NARENDAR,M,36,GEN,LSP,Lok Satta Party,Whistle
+84,Shadnagar,1,6,PATHLAVATH MITTU NAIK,M,36,ST,PRP,Praja Rajyam Party,Railway Engine
+84,Shadnagar,1,7,S.SREENIVASULU,M,42,GEN,PPOI,Pyramid Party of India,Television
+84,Shadnagar,1,8,TATTE PALLY RAMULU,M,33,GEN,IND,Independent,Kite
+84,Shadnagar,1,9,PATHLAVATH SHAKRU,M,50,ST,IND,Independent,Road Roller
+84,Shadnagar,1,10,LINGAIAH SILVER,M,36,SC,IND,Independent,Gas Cylinder
+85,Kollapur,1,1,KHAJA PASHA,M,35,GEN,BSP,Bahujan Samaj Party,Elephant
+85,Kollapur,1,2,CHINTALAPALLY JAGADEESWAR RAO,M,57,GEN,TDP,Telugu Desam,Bicycle
+85,Kollapur,1,3,JUPALLY KRISHNA RAO,M,53,GEN,INC,Indian National Congress,Hand
+85,Kollapur,1,4,VEMULA NARENDER RAO,M,38,GEN,BJP,Bharatiya Janata Party,Lotus
+85,Kollapur,1,5,KASANI NARSIMLU,M,42,GEN,MANP,Mana Party,Gas Cylinder
+85,Kollapur,1,6,KOLLA SHIVAPRASAD RAO,M,25,SC,TPPP,Trilinga Praja Pragati Party,Ceiling Fan
+85,Kollapur,1,7,PEDDA EESWARAIAH,M,42,GEN,PPOI,Pyramid Party of India,Television
+85,Kollapur,1,8,PEBBETI VISHNUVARDAN REDDY,M,44,GEN,LSP,Lok Satta Party,Whistle
+85,Kollapur,1,9,KONDA SUDHAKAR REDDY,M,26,GEN,IND,Independent,Sewing Machine
+85,Kollapur,1,10,GADUSU ARUN KUMAR,M,25,GEN,IND,Independent,Kite
+85,Kollapur,1,11,DEVA KASHI VISHWANATH,M,49,GEN,IND,Independent,Maize
+85,Kollapur,1,12,B. NAGESHWAR RAJU,M,44,GEN,IND,Independent,Table
+85,Kollapur,1,13,BOGI RAVI,M,26,GEN,IND,Independent,Ring
+85,Kollapur,1,14,VISHNUVARDHAN REDDY MAMILLAPALLY,M,48,GEN,IND,Independent,Gas Stove
+86,Deverakonda,1,1,BALU NAIK NENAVATH,M,46,ST,INC,Indian National Congress,Hand
+86,Deverakonda,1,2,MANGYA PATHLAVATH,M,46,ST,BJP,Bharatiya Janata Party,Lotus
+86,Deverakonda,1,3,RAMAVATH LALU NAIK,M,45,ST,BSP,Bahujan Samaj Party,Elephant
+86,Deverakonda,1,4,RAVINDRA KUMAR RAMAVATH,M,46,ST,CPI,Communist Party of India,Ears of Corn And Sickle
+86,Deverakonda,1,5,VADTYA RAMESH,M,42,ST,PRP,Praja Rajyam Party,Railway Engine
+86,Deverakonda,1,6,JARUPALA LOKYA NAIK,M,46,ST,IND,Independent,Nagara
+86,Deverakonda,1,7,RAMAVATH BHOJYA NAIK,M,31,ST,IND,Independent,Hat
+87,Nagarjuna Sagar,1,1,KATTA YADAIAH,M,45,GEN,BSP,Bahujan Samaj Party,Elephant
+87,Nagarjuna Sagar,1,2,KUNDURU JANA REDDY,M,50,GEN,INC,Indian National Congress,Hand
+87,Nagarjuna Sagar,1,3,TERA CHINNAPA REDDY,M,50,GEN,TDP,Telugu Desam,Bicycle
+87,Nagarjuna Sagar,1,4,BOLIGORLA SRINIVAS YADAV,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+87,Nagarjuna Sagar,1,5,ISLAVATH RAMCHANDER NAIK,M,45,ST,PRP,Praja Rajyam Party,Railway Engine
+87,Nagarjuna Sagar,1,6,CHERAKA MALLIKARJUNA GOUD,M,45,GEN,BCUF,B. C. United Front,Road Roller
+87,Nagarjuna Sagar,1,7,TERA RAJINI KANTH,M,46,GEN,LSP,Lok Satta Party,Whistle
+87,Nagarjuna Sagar,1,8,MALOTHU KOTYA NAIK,M,45,ST,PRSHP,Praja Shanthi Party,Gas Cylinder
+87,Nagarjuna Sagar,1,9,ANJAIAH VIRIGINENI,M,45,GEN,IND,Independent,Ring
+87,Nagarjuna Sagar,1,10,KANAKARAJU SAMELU,M,45,GEN,IND,Independent,Scissors
+87,Nagarjuna Sagar,1,11,GANTEKAMPU VENKATAIAH,M,45,GEN,IND,Independent,Hat
+87,Nagarjuna Sagar,1,12,JAKKALA VENKATESWARLU,M,43,GEN,IND,Independent,Gas Stove
+87,Nagarjuna Sagar,1,13,JAKKULA CHINA NARASIMHA,M,43,GEN,IND,Independent,Ceiling Fan
+87,Nagarjuna Sagar,1,14,JULAKANTI VENKATESWAR REDDY,M,42,GEN,IND,Independent,Television
+87,Nagarjuna Sagar,1,15,DHANAVATH SRINIVAS NAIK,M,43,ST,IND,Independent,Bat
+87,Nagarjuna Sagar,1,16,NIMMALA INDIRA,F,39,GEN,IND,Independent,Cup & Saucer
+87,Nagarjuna Sagar,1,17,G.RATHAN KUMAR,M,40,GEN,IND,Independent,Coconut
+87,Nagarjuna Sagar,1,18,P.RAMALINGA REDDY,M,45,GEN,IND,Independent,Letter Box
+87,Nagarjuna Sagar,1,19,VADLAMUDI SOUDAMANI,F,43,GEN,IND,Independent,Pressure Cooker
+87,Nagarjuna Sagar,1,20,VISHNUVARDHAN REDDY UDTHURI,M,45,GEN,IND,Independent,Banana
+88,Miryalguda,1,1,KARNATI PRABHAKAR,M,54,GEN,BJP,Bharatiya Janata Party,Lotus
+88,Miryalguda,1,2,KUNDARAPU RAMESH,M,41,GEN,BSP,Bahujan Samaj Party,Elephant
+88,Miryalguda,1,3,GANGADHAR TIRUNAGARU,M,78,GEN,INC,Indian National Congress,Hand
+88,Miryalguda,1,4,JULAKANTI RANGA REDDY,M,52,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+88,Miryalguda,1,5,ALUGUBELLI AMARENDER REDDY,M,41,GEN,PRP,Praja Rajyam Party,Railway Engine
+88,Miryalguda,1,6,VENKATESWARLU MADDI,M,46,GEN,LSP,Lok Satta Party,Whistle
+88,Miryalguda,1,7,SANGEM JIDIKALLU,M,33,GEN,PPOI,Pyramid Party of India,Television
+88,Miryalguda,1,8,NAMPALLY JAKKA RAO,M,36,GEN,IND,Independent,Camera
+88,Miryalguda,1,9,PERLA VENKATAIAH,M,38,ST,IND,Independent,Slate
+88,Miryalguda,1,10,POKALA KIRAN KUMAR MADIGA,M,27,SC,IND,Independent,Bat
+88,Miryalguda,1,11,BHUKYA BALU NAIK,M,46,ST,IND,Independent,Table Lamp
+88,Miryalguda,1,12,VASUKLA MATTAIAH,M,50,GEN,IND,Independent,Gas Cylinder
+88,Miryalguda,1,13,VENEPALLY PANDU RANGA RAV,M,39,GEN,IND,Independent,Kite
+89,Huzurnagar,1,1,NALAMADA UTTAM KUMAR REDDY,M,46,GEN,INC,Indian National Congress,Hand
+89,Huzurnagar,1,2,CHERVUPALLI SAIDAIAH,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+89,Huzurnagar,1,3,JAGADEESH REDDY GUNTAKANDLA,M,39,GEN,TRS,Telangana Rashtra Samithi,Car
+89,Huzurnagar,1,4,MAMIDI SUDARSHAN,M,33,GEN,BSP,Bahujan Samaj Party,Elephant
+89,Huzurnagar,1,5,KADIYAM SREENIVASA REDDY,M,49,GEN,LSP,Lok Satta Party,Whistle
+89,Huzurnagar,1,6,SREENIVASA RAO MEKALA,M,45,GEN,PRP,Praja Rajyam Party,Railway Engine
+89,Huzurnagar,1,7,ERUKU PITCHAIAH,M,33,SC,IND,Independent,Scissors
+89,Huzurnagar,1,8,KALAKANDA TIRUPATHAIAH,M,45,SC,IND,Independent,Hat
+89,Huzurnagar,1,9,KOSANAM KONDALU,M,43,GEN,IND,Independent,Gas Cylinder
+89,Huzurnagar,1,10,GADE PRABHAKAR REDDY,M,45,GEN,IND,Independent,Table
+89,Huzurnagar,1,11,BOLLAM LINGAIAH YADAV,M,40,GEN,IND,Independent,Cup & Saucer
+89,Huzurnagar,1,12,VATTIKUTI RAMARAO,M,33,GEN,IND,Independent,Ceiling Fan
+89,Huzurnagar,1,13,K.V.SRINIVASA CHARYULU,M,30,GEN,IND,Independent,Nagara
+90,Kodad,1,1,CHANDER RAO VENEPALLI,M,59,GEN,TDP,Telugu Desam,Bicycle
+90,Kodad,1,2,NUNE SULOCHANA,F,51,GEN,BJP,Bharatiya Janata Party,Lotus
+90,Kodad,1,3,POLAMPALLI DANAVEERA,M,27,SC,BSP,Bahujan Samaj Party,Elephant
+90,Kodad,1,4,MD.MAHABOOB JANI,M,43,GEN,INC,Indian National Congress,Hand
+90,Kodad,1,5,JAGADAM SUDHAKAR RAO,M,39,GEN,PRP,Praja Rajyam Party,Railway Engine
+90,Kodad,1,6,POLAVARAM KALYANI,F,58,GEN,LSP,Lok Satta Party,Whistle
+90,Kodad,1,7,CHINTHA BABU,M,36,SC,IND,Independent,Ceiling Fan
+90,Kodad,1,8,TIRAGAMALLA SOMANNA,M,29,SC,IND,Independent,Bat
+90,Kodad,1,9,PALAKURI YELLAIAH,M,51,GEN,IND,Independent,Gas Cylinder
+90,Kodad,1,10,BADAVATH NEHRU BAPUJI,M,56,ST,IND,Independent,Almirah
+90,Kodad,1,11,BOLLAM MALLAIAH YADAV,M,40,GEN,IND,Independent,Cup & Saucer
+90,Kodad,1,12,SUNKARA LINGA REDDY,M,43,GEN,IND,Independent,Television
+91,Suryapet,1,1,CHETHARAJU VENKATESHWARLU,M,40,GEN,BSP,Bahujan Samaj Party,Elephant
+91,Suryapet,1,2,R.DAMODAR REDDY,M,60,GEN,INC,Indian National Congress,Hand
+91,Suryapet,1,3,POREDDY CHANDRA SEKHAR REDDY,M,48,GEN,TRS,Telangana Rashtra Samithi,Car
+91,Suryapet,1,4,RAMINENI PRABHAKAR,M,43,GEN,BJP,Bharatiya Janata Party,Lotus
+91,Suryapet,1,5,KARPURAM RAJENDAR,M,47,GEN,LSP,Lok Satta Party,Whistle
+91,Suryapet,1,6,KONGARI UPENDER,M,26,GEN,PPOI,Pyramid Party of India,Television
+91,Suryapet,1,7,PADIDALA JANARDHAN,M,41,GEN,TPPP,Trilinga Praja Pragati Party,Scissors
+91,Suryapet,1,8,BANDARU DHANUNJAYA GOUD,M,50,GEN,PRP,Praja Rajyam Party,Railway Engine
+91,Suryapet,1,9,VARIKUPPALA VENKANNA,M,36,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+91,Suryapet,1,10,SARASWATHI LAXMI NARSA RAJU,M,60,GEN,RDHP,Rajyadhikara Party,Brief Case
+91,Suryapet,1,11,VUPPALLA SRIDHAR REDDY,M,33,GEN,IND,Independent,Candles
+91,Suryapet,1,12,GOPAGANI RAMA KRISHNA,M,40,GEN,IND,Independent,Bat
+91,Suryapet,1,13,PERUMALLA VENKANNA,M,36,SC,IND,Independent,Harmonium
+91,Suryapet,1,14,MD.FAREEDUDHIN AHMED,M,43,GEN,IND,Independent,Basket
+91,Suryapet,1,15,BODUPULA HARI KRISHNA,M,43,GEN,IND,Independent,Sewing Machine
+91,Suryapet,1,16,MARRI NEHEMIAH,M,55,SC,IND,Independent,Road Roller
+91,Suryapet,1,17,A.MALLAIAH,M,27,GEN,IND,Independent,Ceiling Fan
+91,Suryapet,1,18,MARAM VENKAT REDDY,M,47,GEN,IND,Independent,Gas Stove
+91,Suryapet,1,19,MYNAM JOSEPH,M,40,GEN,IND,Independent,Ring
+92,Nalgonda,1,1,KOMATIREDDY VENKAT REDDY,M,48,GEN,INC,Indian National Congress,Hand
+92,Nalgonda,1,2,GUNDAGONI GIRI BABU GOUD,M,46,GEN,BJP,Bharatiya Janata Party,Lotus
+92,Nalgonda,1,3,NANDYALA NARSIMHA REDDY,M,53,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+92,Nalgonda,1,4,BADINI NARASIMHA GOUD,M,57,GEN,BSP,Bahujan Samaj Party,Elephant
+92,Nalgonda,1,5,DUBBAKA NARSIMHA REDDY,M,40,GEN,PRP,Praja Rajyam Party,Railway Engine
+92,Nalgonda,1,6,G.V.RAMANA REDDY,M,45,GEN,LSP,Lok Satta Party,Whistle
+92,Nalgonda,1,7,SHIVA KUMAR K.,M,45,GEN,PPOI,Pyramid Party of India,Television
+92,Nalgonda,1,8,M.A.AZIZ KHAN,M,43,GEN,IND,Independent,Almirah
+92,Nalgonda,1,9,KOMMU SUDHAKAR,M,43,GEN,IND,Independent,Bat
+92,Nalgonda,1,10,CHILAKALA GOWARDAN,M,63,GEN,IND,Independent,Kite
+92,Nalgonda,1,11,JANIGALA RAMULU YADAV,M,41,GEN,IND,Independent,Ring
+92,Nalgonda,1,12,POLISHETTY VENKATESHWARLU,M,43,GEN,IND,Independent,Road Roller
+93,Mungode,1,1,VUJJINI YADAGIRI RAO,M,53,GEN,CPI,Communist Party of India,Ears of Corn And Sickle
+93,Mungode,1,2,GOVARDHAN REDDY PALVAI,M,45,GEN,INC,Indian National Congress,Hand
+93,Mungode,1,3,GANGIDI MANOHAR REDDY,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+93,Mungode,1,4,JANGAM YADAGIRI,M,45,GEN,BSP,Bahujan Samaj Party,Elephant
+93,Mungode,1,5,EARUKONDA LACHAIAH,M,40,GEN,LSP,Lok Satta Party,Whistle
+93,Mungode,1,6,TADURI VENKAT REDDY,M,40,GEN,PRP,Praja Rajyam Party,Railway Engine
+93,Mungode,1,7,ANNEPARTHY SANJEEVA,M,42,GEN,IND,Independent,Iron
+93,Mungode,1,8,GUTTA SRIDHAR REDDY,M,45,GEN,IND,Independent,Almirah
+93,Mungode,1,9,GOSIKA VENKATESHAM,M,42,GEN,IND,Independent,Sewing Machine
+93,Mungode,1,10,CHANDRAIAH MUTHYALA,M,45,GEN,IND,Independent,Pressure Cooker
+93,Mungode,1,11,BHACHANABOINA SHANKAR YADAV,M,45,GEN,IND,Independent,Bat
+93,Mungode,1,12,MD.RAFI,M,43,GEN,IND,Independent,Kite
+94,Bhongir,1,1,ALIMINETI UMA MADHAVA REDDY,F,50,GEN,TDP,Telugu Desam,Bicycle
+94,Bhongir,1,2,CHINTHALA VENKATESWAR REDDY,M,40,GEN,INC,Indian National Congress,Hand
+94,Bhongir,1,3,DHANUNJAIAH KARNATI,M,42,GEN,BJP,Bharatiya Janata Party,Lotus
+94,Bhongir,1,4,POOSA SRINIVAS,M,43,GEN,SHS,Shivsena,Bow & Arrow
+94,Bhongir,1,5,BATTU RAMACHANDRAIAH,M,43,GEN,BSP,Bahujan Samaj Party,Elephant
+94,Bhongir,1,6,KISHTAIAH SUTHARAPU,M,46,GEN,LSP,Lok Satta Party,Whistle
+94,Bhongir,1,7,KETHAVATH SUDHAKAR,M,45,ST,BHSASP,Bharatheeya Sadharma Samsthapana Party,Television
+94,Bhongir,1,8,KONDAMADUGU RAJU,M,45,GEN,BSP(AP),Bahujan Samaj Party(Ambedkar-Phule),Kite
+94,Bhongir,1,9,NALLA LAXMAIAH,M,37,SC,TPPP,Trilinga Praja Pragati Party,Ceiling Fan
+94,Bhongir,1,10,PACHIMATLA SHIVA RAJ,M,39,GEN,PRP,Praja Rajyam Party,Railway Engine
+94,Bhongir,1,11,ALIMINETI MADHAVA REDDY,M,35,GEN,IND,Independent,Cup & Saucer
+94,Bhongir,1,12,JITTA BALA KRISHNA REDDY,M,37,GEN,IND,Independent,Gas Cylinder
+94,Bhongir,1,13,PATNAM SUJATHA,F,40,GEN,IND,Independent,Glass Tumbler
+95,Nakrekal,1,1,CHIRUMARTHY LINGAIAH,M,37,SC,INC,Indian National Congress,Hand
+95,Nakrekal,1,2,CHEDIPALI KASHAIAH,M,43,SC,BSP,Bahujan Samaj Party,Elephant
+95,Nakrekal,1,3,NAKIREKANTI MOGULAIAH,M,45,SC,BJP,Bharatiya Janata Party,Lotus
+95,Nakrekal,1,4,MAMIDI SARVAIAH,M,39,SC,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+95,Nakrekal,1,5,DAIDA SRAVAN KUMAR,M,30,SC,PRP,Praja Rajyam Party,Railway Engine
+95,Nakrekal,1,6,YADAGIRI VANTEPAKA,M,34,SC,LSP,Lok Satta Party,Whistle
+95,Nakrekal,1,7,INDRAKANTI VENKATAIAH,M,40,SC,IND,Independent,Nagara
+95,Nakrekal,1,8,UBBANI VENKANNA,M,28,SC,IND,Independent,Road Roller
+95,Nakrekal,1,9,GADDAPATI DANAIAH,M,36,SC,IND,Independent,Gas Cylinder
+95,Nakrekal,1,10,CHINNAPAKA RAGUPATHI,M,44,SC,IND,Independent,Kite
+95,Nakrekal,1,11,NOONE VENKATA SWAMY,M,35,SC,IND,Independent,Television
+95,Nakrekal,1,12,PERLA UPPALAMMA,F,39,SC,IND,Independent,Candles
+95,Nakrekal,1,13,YATAKULA SOMAIAH,M,46,SC,IND,Independent,Gas Stove
+95,Nakrekal,1,14,SHEPURI YADAIAH,M,50,SC,IND,Independent,Hat
+96,Thungathurthy,1,1,KOLUKONDA YADAGIRI,M,43,SC,BSP,Bahujan Samaj Party,Elephant
+96,Thungathurthy,1,2,GUDIPATI NARSAIAH,M,50,SC,INC,Indian National Congress,Hand
+96,Thungathurthy,1,3,GOLI PRABHAKER,M,45,SC,BJP,Bharatiya Janata Party,Lotus
+96,Thungathurthy,1,4,MOTHUKUPALLY NARSIMHULU,M,50,SC,TDP,Telugu Desam,Bicycle
+96,Thungathurthy,1,5,B.ANIL,M,46,SC,PPOI,Pyramid Party of India,Television
+96,Thungathurthy,1,6,JOGUNURI SUNDER RAO,M,41,SC,PRP,Praja Rajyam Party,Railway Engine
+96,Thungathurthy,1,7,PADURI SRINIVASA RAO,M,39,SC,LSP,Lok Satta Party,Whistle
+96,Thungathurthy,1,8,AKARAPU MURALI,M,48,SC,IND,Independent,Coconut
+96,Thungathurthy,1,9,KADIYAM PARAMESHWAR,M,45,SC,IND,Independent,Gas Stove
+96,Thungathurthy,1,10,GOPALDAS VIJAY KUMAR,M,45,SC,IND,Independent,Battery Torch
+96,Thungathurthy,1,11,PATTETI SURESH BABU,M,49,SC,IND,Independent,Bat
+96,Thungathurthy,1,12,MANDARI DAVID,M,40,SC,IND,Independent,Scissors
+96,Thungathurthy,1,13,SURARAPU MALLAIAH,M,43,SC,IND,Independent,Gas Cylinder
+97,Alair,1,1,KALLEM YADAGIRI REDDY,M,45,GEN,TRS,Telangana Rashtra Samithi,Car
+97,Alair,1,2,KUDUDULA NAGESH,M,46,GEN,BSP,Bahujan Samaj Party,Elephant
+97,Alair,1,3,DR.KASAM VENKTESHWARLU,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+97,Alair,1,4,BUDIDA BIKSHMAIAH,M,45,GEN,INC,Indian National Congress,Hand
+97,Alair,1,5,CHELMALA CHANDRA REDDY,M,45,GEN,IJP,Indian Justice Party,Ceiling Fan
+97,Alair,1,6,BANDRU SHOBHA RANI,F,45,GEN,PRP,Praja Rajyam Party,Railway Engine
+97,Alair,1,7,VANGAPALLY SRINIVAS,M,43,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+97,Alair,1,8,SUBBURU RAMESH,M,42,GEN,LSP,Lok Satta Party,Whistle
+97,Alair,1,9,ACHAIAH KADURI,M,41,GEN,IND,Independent,Gas Stove
+97,Alair,1,10,CHALLURI POCHAIAH,M,42,GEN,IND,Independent,Table
+97,Alair,1,11,JANNAPALA MARAIAH,M,40,GEN,IND,Independent,Gas Cylinder
+97,Alair,1,12,T.PRATHAP SINGH,M,43,GEN,IND,Independent,Road Roller
+97,Alair,1,13,TATIKAYALA MALLAIAH,M,41,GEN,IND,Independent,Kite
+97,Alair,1,14,DONTHIRI SRIDHAR REDDY,M,39,GEN,IND,Independent,Slate
+97,Alair,1,15,MITTA NARSING,M,50,GEN,IND,Independent,Coconut
+97,Alair,1,16,RACHAKONDA SITHA,F,39,GEN,IND,Independent,Television
+97,Alair,1,17,RAMCHANDRA RADDY GUJJULA,M,37,GEN,IND,Independent,Banana
+97,Alair,1,18,VYLA SRINIVAS REDDY,M,45,GEN,IND,Independent,Sewing Machine
+98,Jangaon,1,1,KOMMURI PRATAP REDDY,M,47,GEN,TRS,Telangana Rashtra Samithi,Car
+98,Jangaon,1,2,NARSIMHA RAO NELLUTA,M,64,GEN,BJP,Bharatiya Janata Party,Lotus
+98,Jangaon,1,3,PONNALA LAXMAIAH,M,64,GEN,INC,Indian National Congress,Hand
+98,Jangaon,1,4,BASWAGALLA SIDDAIAH,M,38,SC,BSP,Bahujan Samaj Party,Elephant
+98,Jangaon,1,5,JALLI SIDDAIAH,M,56,GEN,PRP,Praja Rajyam Party,Railway Engine
+98,Jangaon,1,6,PALLA NIKHILESH,M,32,GEN,PPOI,Pyramid Party of India,Television
+98,Jangaon,1,7,RAJI REDDY BETI,M,49,GEN,LSP,Lok Satta Party,Whistle
+98,Jangaon,1,8,A. VENKATESHWAR,M,49,GEN,IND,Independent,Sewing Machine
+98,Jangaon,1,9,NAGULAPELLI SRISHAILAM KURMA,M,40,GEN,IND,Independent,Gas Cylinder
+98,Jangaon,1,10,PATHI RAJESHWAR,M,30,GEN,IND,Independent,Brush
+98,Jangaon,1,11,M.D. MUSHEERUDDIN,M,35,GEN,IND,Independent,Almirah
+98,Jangaon,1,12,SINGAPAKA LINGAM,M,35,GEN,IND,Independent,Gas Stove
+99,Ghanpur,1,1,KADIYAM SREEHARI,M,58,SC,TDP,Telugu Desam,Bicycle
+99,Ghanpur,1,2,CHINTHA SUVARTHA,F,62,SC,BSP,Bahujan Samaj Party,Elephant
+99,Ghanpur,1,3,CHILUKA VIJAYA RAO,M,44,SC,BJP,Bharatiya Janata Party,Lotus
+99,Ghanpur,1,4,RATNAMALA NALIGANTI,F,40,SC,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+99,Ghanpur,1,5,RAJAIAH THATIKONDA,M,51,SC,INC,Indian National Congress,Hand
+99,Ghanpur,1,6,AROORI RAMESH,M,41,SC,PRP,Praja Rajyam Party,Railway Engine
+99,Ghanpur,1,7,KONGARA ANIL KUMAR,M,25,SC,PPOI,Pyramid Party of India,Television
+99,Ghanpur,1,8,GURRAM THIMOTHI,M,40,SC,LSP,Lok Satta Party,Whistle
+99,Ghanpur,1,9,DAIDA CHRISTOPER,M,40,SC,AJBP,Ajeya Bharat Party,Battery Torch
+99,Ghanpur,1,10,ARSHAM SWAMY,M,33,SC,IND,Independent,Gas Cylinder
+99,Ghanpur,1,11,PERUMANDLA VENKATESHWARLU,M,35,SC,IND,Independent,Hat
+100,Palakurthi,1,1,AZEEZ ABDUL MOHAMMED,M,45,GEN,BSP,Bahujan Samaj Party,Elephant
+100,Palakurthi,1,2,ERRABELLI DAYAKAR RAO,M,53,GEN,TDP,Telugu Desam,Bicycle
+100,Palakurthi,1,3,DUGYALA SRINIVAS RAO,M,46,GEN,INC,Indian National Congress,Hand
+100,Palakurthi,1,4,ALAGANDULA YAKANARAYANA,M,42,GEN,BHSASP,Bharatheeya Sadharma Samsthapana Party,Almirah
+100,Palakurthi,1,5,GUGULOTH NANU,F,52,ST,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+100,Palakurthi,1,6,P. JAMUNA,F,47,GEN,PPOI,Pyramid Party of India,Television
+100,Palakurthi,1,7,NEMARUGOMMULA PRAVEEN RAO,M,51,GEN,PRP,Praja Rajyam Party,Railway Engine
+100,Palakurthi,1,8,ROUTHU SUJATHA,F,26,GEN,LSP,Lok Satta Party,Whistle
+100,Palakurthi,1,9,PAMU RAMESH,M,39,GEN,IND,Independent,Sewing Machine
+100,Palakurthi,1,10,MEKALA KEDARI YADAV,M,43,GEN,IND,Independent,Dolli
+100,Palakurthi,1,11,SADANANDAM BANDARI,M,36,GEN,IND,Independent,Road Roller
+100,Palakurthi,1,12,SUDARSHAN BHARATHA,M,34,GEN,IND,Independent,Ceiling Fan
+101,Dornakal,1,1,REDYA NAIK DHARAMSOTH,M,54,ST,INC,Indian National Congress,Hand
+101,Dornakal,1,2,PARUSHURAM NAIK PORIKA,M,63,ST,BJP,Bharatiya Janata Party,Lotus
+101,Dornakal,1,3,SATYAVATHI RATHOD,F,43,ST,TDP,Telugu Desam,Bicycle
+101,Dornakal,1,4,KEVULOTH RAJENDER,M,25,ST,PPOI,Pyramid Party of India,Television
+101,Dornakal,1,5,BANOTH SUJATHA,F,27,ST,PRP,Praja Rajyam Party,Railway Engine
+101,Dornakal,1,6,ALA MALOTH,M,39,ST,IND,Independent,Scissors
+101,Dornakal,1,7,JARPULA AMMAJI,F,35,ST,IND,Independent,Almirah
+101,Dornakal,1,8,BHUKYA KISTU NAIK,M,58,ST,IND,Independent,Gas Cylinder
+101,Dornakal,1,9,SOMANNA TEJAVATH,M,41,ST,IND,Independent,Spoon
+102,Mahbubabad,1,1,AZMEERA CHANDULAL,M,58,ST,TRS,Telangana Rashtra Samithi,Car
+102,Mahbubabad,1,2,KAVITHA MALOTH,F,29,ST,INC,Indian National Congress,Hand
+102,Mahbubabad,1,3,YAPA SEETHAIAH,M,33,ST,BJP,Bharatiya Janata Party,Lotus
+102,Mahbubabad,1,4,EERYA BANOTU,M,25,ST,LSP,Lok Satta Party,Whistle
+102,Mahbubabad,1,5,SHANKAR NAIK,M,44,ST,PRP,Praja Rajyam Party,Railway Engine
+102,Mahbubabad,1,6,GUGULOTH SHANKAR,M,31,ST,IND,Independent,Harmonium
+102,Mahbubabad,1,7,JATOTH HARICHAND,M,32,ST,IND,Independent,Road Roller
+102,Mahbubabad,1,8,BANOTH KISHAN NAIK,M,48,ST,IND,Independent,Nagara
+102,Mahbubabad,1,9,BANOTH MANGYA,M,38,ST,IND,Independent,Gas Stove
+102,Mahbubabad,1,10,HALAVATH LINGYA,M,27,ST,IND,Independent,Scissors
+103,Narsampet,1,1,DONTHI MADHAVA REDDY,M,53,GEN,INC,Indian National Congress,Hand
+103,Narsampet,1,2,PRAKASH REDDY REVURI,M,57,GEN,TDP,Telugu Desam,Bicycle
+103,Narsampet,1,3,MADHAN MOHAN RAO ERRABELLY,M,44,GEN,BJP,Bharatiya Janata Party,Lotus
+103,Narsampet,1,4,MEKALA RAVINDER YADAV,M,37,GEN,BSP,Bahujan Samaj Party,Elephant
+103,Narsampet,1,5,ASHOK MADDIKAYALA,M,48,SC,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+103,Narsampet,1,6,GONELA RAVINDER,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+103,Narsampet,1,7,K. JAGAN,M,37,GEN,LSP,Lok Satta Party,Whistle
+103,Narsampet,1,8,RAVULAPALLY KONDAL RAO,M,56,GEN,PPOI,Pyramid Party of India,Television
+103,Narsampet,1,9,AGABOINA NARSAMMA,F,41,ST,IND,Independent,Scissors
+103,Narsampet,1,10,UDUGULA SATYANARAYANA,M,42,GEN,IND,Independent,Nagara
+103,Narsampet,1,11,MODEM MALLESH,M,35,GEN,IND,Independent,Ceiling Fan
+104,Parkal,1,1,KONDA SUREKHA,F,43,GEN,INC,Indian National Congress,Hand
+104,Parkal,1,2,GUJJULA PREMENDAR REDDY,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+104,Parkal,1,3,BIKSHAPATHY MOLUGURI,M,52,GEN,TRS,Telangana Rashtra Samithi,Car
+104,Parkal,1,4,BOCHU SARAIAH,M,28,SC,BSP,Bahujan Samaj Party,Elephant
+104,Parkal,1,5,AILAIAH MANDA,M,57,GEN,PRP,Praja Rajyam Party,Railway Engine
+104,Parkal,1,6,PRASHANTH GADIPE,M,28,SC,PPOI,Pyramid Party of India,Television
+104,Parkal,1,7,CHANDER RAO MORTHALA,M,42,GEN,IND,Independent,Ceiling Fan
+104,Parkal,1,8,BUCHI REDDY ABBADI,M,39,GEN,IND,Independent,Slate
+104,Parkal,1,9,BUDDE RAVI KUMAR,M,37,GEN,IND,Independent,Cup & Saucer
+104,Parkal,1,10,SIRIPELLY RAJAIAH,M,34,SC,IND,Independent,Gas Cylinder
+105,Warangal West,1,1,KAITHA RAJKUMAR,M,35,GEN,BSP,Bahujan Samaj Party,Elephant
+105,Warangal West,1,2,KONDAPALLI DAYASAGAR RAO,M,55,GEN,INC,Indian National Congress,Hand
+105,Warangal West,1,3,DASYAM VINAYA BHASKER,M,43,GEN,TRS,Telangana Rashtra Samithi,Car
+105,Warangal West,1,4,MARTHINENI DHARMA RAO,M,50,GEN,BJP,Bharatiya Janata Party,Lotus
+105,Warangal West,1,5,KAMIDI PADMAKAR REDDY,M,53,GEN,SP,Samajwadi Party,Kite
+105,Warangal West,1,6,KODANDA RAMA RAO PARCHA,M,65,GEN,LSP,Lok Satta Party,Whistle
+105,Warangal West,1,7,JUNNUTHULA KISHAN REDDY,M,49,GEN,PPOI,Pyramid Party of India,Television
+105,Warangal West,1,8,MADADI RAVINDER REDDY,M,46,GEN,PRP,Praja Rajyam Party,Railway Engine
+105,Warangal West,1,9,ELUGU SUDHAKAR REDDY,M,53,GEN,IND,Independent,Coconut
+105,Warangal West,1,10,GUDIMALLA KRISHNA RAO,M,34,GEN,IND,Independent,Ring
+105,Warangal West,1,11,GAINENI RAJAN,M,54,GEN,IND,Independent,Maize
+105,Warangal West,1,12,CHANDRA MOHAN ARCAT,M,49,GEN,IND,Independent,Comb
+105,Warangal West,1,13,POOSAALA SATHYA PRAKASH,M,41,GEN,IND,Independent,Batsman
+105,Warangal West,1,14,MOHAMMAD IQBAL,M,58,GEN,IND,Independent,Violin
+105,Warangal West,1,15,K. RAJESHWARI,F,28,GEN,IND,Independent,Gas Cylinder
+106,Warangal East,1,1,ACHA VIDYA SAGAR,M,42,GEN,TRS,Telangana Rashtra Samithi,Car
+106,Warangal East,1,2,KATAKAM YADAGIRI,M,60,GEN,BSP,Bahujan Samaj Party,Elephant
+106,Warangal East,1,3,BASWARAJU SARAIAH,M,51,GEN,INC,Indian National Congress,Hand
+106,Warangal East,1,4,METTU SRINIVAS,M,39,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+106,Warangal East,1,5,VANGALA SAMMIREDDY,M,53,GEN,BJP,Bharatiya Janata Party,Lotus
+106,Warangal East,1,6,ANITHA KUNTA,F,31,GEN,PPOI,Pyramid Party of India,Television
+106,Warangal East,1,7,ERRABELLI PRADEEP KUMAR RAO,M,51,GEN,PRP,Praja Rajyam Party,Railway Engine
+106,Warangal East,1,8,TIRUNARI SESHAIAH,M,37,GEN,LSP,Lok Satta Party,Whistle
+106,Warangal East,1,9,SINGATHI SAMBAIAH,M,54,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+106,Warangal East,1,10,IQBAL AHAMED MD,M,59,GEN,IND,Independent,Kite
+106,Warangal East,1,11,KUSUMA RAMA,M,50,GEN,IND,Independent,Bread
+106,Warangal East,1,12,THONUPUNOORI RAJESHWAR RAO (RAJU),M,43,GEN,IND,Independent,Candles
+106,Warangal East,1,13,PALLA VINAY KUMAR,M,52,GEN,IND,Independent,Gas Stove
+106,Warangal East,1,14,VANGARI RAJENDER,M,54,GEN,IND,Independent,Almirah
+106,Warangal East,1,15,SARANGAPANI SIRABOINA,M,49,GEN,IND,Independent,Cup & Saucer
+107,Wardhannapet,1,1,KONDETI SRIDHAR,M,36,SC,INC,Indian National Congress,Hand
+107,Wardhannapet,1,2,DR. GUNDE VIJAYA RAMA RAO,M,55,SC,TRS,Telangana Rashtra Samithi,Car
+107,Wardhannapet,1,3,DUBASHI VASUDEV,M,35,SC,BJP,Bharatiya Janata Party,Lotus
+107,Wardhannapet,1,4,MANDA SOMAIAH,M,43,SC,BSP,Bahujan Samaj Party,Elephant
+107,Wardhannapet,1,5,JANNU JAKHARAIAH,M,54,SC,PRP,Praja Rajyam Party,Railway Engine
+107,Wardhannapet,1,6,JATTI RAVIKUMAR,M,34,SC,LSP,Lok Satta Party,Whistle
+107,Wardhannapet,1,7,ERMIYA SANGALA,M,57,SC,IND,Independent,Hat
+107,Wardhannapet,1,8,ELLANDULA SHOBAN BABU,M,38,SC,IND,Independent,Road Roller
+107,Wardhannapet,1,9,JADSONI BAKKA,M,36,SC,IND,Independent,Ceiling Fan
+107,Wardhannapet,1,10,NALLAMARY RAMESH,M,31,SC,IND,Independent,Television
+107,Wardhannapet,1,11,TUMMALA SRIDHAR,M,38,SC,IND,Independent,Slate
+107,Wardhannapet,1,12,PARAMJYOTHI RADAPAKA,M,47,SC,IND,Independent,Coconut
+107,Wardhannapet,1,13,BARLA SWARAJAYAM,F,56,SC,IND,Independent,Gas Cylinder
+107,Wardhannapet,1,14,VENKATASWAMI SUDAMALLA,M,50,SC,IND,Independent,Nagara
+108,Bhupalpalle,1,1,GANDRA VENKATA RAMANA REDDY,M,43,GEN,INC,Indian National Congress,Hand
+108,Bhupalpalle,1,2,NAGAPURI RAJA MOULI,M,50,GEN,BJP,Bharatiya Janata Party,Lotus
+108,Bhupalpalle,1,3,MADHU SUDHANA CHARY SIRIKONDA,M,52,GEN,TRS,Telangana Rashtra Samithi,Car
+108,Bhupalpalle,1,4,UPENDAR REDDY VALLEPU,M,58,GEN,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+108,Bhupalpalle,1,5,MAHESHWARAPU GATTAIAH,M,40,GEN,LSP,Lok Satta Party,Whistle
+108,Bhupalpalle,1,6,M.D RAHAMATHA BEE,F,33,GEN,PPOI,Pyramid Party of India,Television
+108,Bhupalpalle,1,7,SADA VIJAYA KUMAR KUNCHALA,M,46,GEN,PRP,Praja Rajyam Party,Railway Engine
+108,Bhupalpalle,1,8,ASHOK PANJALA,M,38,GEN,IND,Independent,Candles
+108,Bhupalpalle,1,9,YELDANDI SADANANDAM,M,54,GEN,IND,Independent,Frock
+108,Bhupalpalle,1,10,KARRA RAGHUPATHI REDDY,M,40,GEN,IND,Independent,Maize
+108,Bhupalpalle,1,11,KODELA SAMMAIAH,M,55,GEN,IND,Independent,Banana
+108,Bhupalpalle,1,12,GUNTI POCHAIAH,M,34,ST,IND,Independent,Ring
+108,Bhupalpalle,1,13,THIMMAPURAM GOVARDHAN,M,42,GEN,IND,Independent,Ceiling Fan
+108,Bhupalpalle,1,14,NARAHARI VENUGOPAL REDDY,M,47,GEN,IND,Independent,Bat
+108,Bhupalpalle,1,15,PALLEBOINA SWAMY,M,43,GEN,IND,Independent,Scissors
+108,Bhupalpalle,1,16,BANDI RAVINDER,M,42,GEN,IND,Independent,Road Roller
+108,Bhupalpalle,1,17,MITTAPALLY SADANANDAM,M,48,GEN,IND,Independent,Almirah
+108,Bhupalpalle,1,18,SAMALA SHASHIDHAR,M,26,GEN,IND,Independent,Kite
+109,Mulug,1,1,AJMIRA KRISHNAVENI,F,27,ST,BJP,Bharatiya Janata Party,Lotus
+109,Mulug,1,2,ANASURA DASARI,F,38,ST,TDP,Telugu Desam,Bicycle
+109,Mulug,1,3,PODEM VEERAIAH,M,43,ST,INC,Indian National Congress,Hand
+109,Mulug,1,4,KHETHAVATH JAYARAM,M,34,ST,PRP,Praja Rajyam Party,Railway Engine
+109,Mulug,1,5,BANDA SAMMAIAH,M,28,ST,MCPI(S),Marxist Communist Party of India (S.S. Srivastava),Gas Cylinder
+109,Mulug,1,6,KALTHI YARRAIAH,M,26,ST,IND,Independent,Road Roller
+109,Mulug,1,7,BANOTH DEVILA,M,59,ST,IND,Independent,Basket
+109,Mulug,1,8,BURKA VENKATAIAH,M,56,ST,IND,Independent,Scissors
+109,Mulug,1,9,BURKA MALLAIAH,M,38,ST,IND,Independent,Spoon
+110,Pinapaka,1,1,BANDARU NAGESWARA RAO,M,46,ST,BSP,Bahujan Samaj Party,Elephant
+110,Pinapaka,1,2,PAYAM VENKATESWARLU,M,35,ST,CPI,Communist Party of India,Ears of Corn And Sickle
+110,Pinapaka,1,3,SEETHARAMULU BHUKYA,M,33,ST,BJP,Bharatiya Janata Party,Lotus
+110,Pinapaka,1,4,REGA KANTHA RAO,M,32,ST,INC,Indian National Congress,Hand
+110,Pinapaka,1,5,JANAKIRAM TEJAVATH,M,35,ST,PRP,Praja Rajyam Party,Railway Engine
+110,Pinapaka,1,6,BANAVATH SRINIVASA RAO,M,31,ST,LSP,Lok Satta Party,Whistle
+110,Pinapaka,1,7,CHANDA BHARATHI,F,53,ST,IND,Independent,Walking Stick
+110,Pinapaka,1,8,CHINTHA SAMMAIAH,M,26,ST,IND,Independent,Brief Case
+110,Pinapaka,1,9,DHARAVATH CHANDU,M,32,ST,IND,Independent,Ceiling Fan
+110,Pinapaka,1,10,DARAVATH HANMANTH NAIK,M,28,ST,IND,Independent,Batsman
+110,Pinapaka,1,11,MUKTHI SATYAM,M,33,ST,IND,Independent,Nagara
+110,Pinapaka,1,12,DHARAVATH RAVINDRA KUMAR,M,26,ST,IND,Independent,Gas Cylinder
+111,Yellandu,1,1,KANAKAIAH KORAM,M,44,ST,INC,Indian National Congress,Hand
+111,Yellandu,1,2,KRISHAN MALOTHU,M,36,ST,BSP,Bahujan Samaj Party,Elephant
+111,Yellandu,1,3,KRISHNA MOHAN SINGH PORIKA,M,33,ST,BJP,Bharatiya Janata Party,Lotus
+111,Yellandu,1,4,ABBAIAH VOOKE,M,53,ST,TDP,Telugu Desam,Bicycle
+111,Yellandu,1,5,SHANKAR BANOTH,M,35,ST,PRP,Praja Rajyam Party,Railway Engine
+111,Yellandu,1,6,SEETHARAM BODA,M,39,ST,PPOI,Pyramid Party of India,Television
+111,Yellandu,1,7,CHANDAR RAO MALOTHU,M,33,ST,IND,Independent,Cup & Saucer
+111,Yellandu,1,8,NARSAIAH GUMMADI,M,53,ST,IND,Independent,Scissors
+111,Yellandu,1,9,NARASIMHA RAO EESAM,M,28,ST,IND,Independent,Candles
+111,Yellandu,1,10,BALU BADAVATH,M,73,ST,IND,Independent,Gas Cylinder
+111,Yellandu,1,11,YERRAIAH PADIGA,M,64,ST,IND,Independent,Ceiling Fan
+111,Yellandu,1,12,RAVI CHEPURI,M,36,ST,IND,Independent,Ring
+111,Yellandu,1,13,SRINIVAS PUNEM,M,31,ST,IND,Independent,Gas Stove
+111,Yellandu,1,14,HARI SING BANOTHU,M,33,ST,IND,Independent,Nagara
+112,Khammam,1,1,KONDAPALLI SREEDHAR REDDY,M,37,GEN,BJP,Bharatiya Janata Party,Lotus
+112,Khammam,1,2,THUMMALA NAGESWARA RAO,M,55,GEN,TDP,Telugu Desam,Bicycle
+112,Khammam,1,3,YOUNUS SULTAN,M,57,GEN,INC,Indian National Congress,Hand
+112,Khammam,1,4,HUSSAIN SYED,M,52,GEN,BSP,Bahujan Samaj Party,Elephant
+112,Khammam,1,5,ESWARAPRAGADA HARI BABU,M,54,GEN,PRP,Praja Rajyam Party,Railway Engine
+112,Khammam,1,6,PALAVARAPU SREE RAMULU,M,54,GEN,PPOI,Pyramid Party of India,Television
+112,Khammam,1,7,DR SAMINENI RAGHAVULU,M,65,GEN,LSP,Lok Satta Party,Whistle
+112,Khammam,1,8,JALAGAM VENKAT RAO,M,41,GEN,IND,Independent,Ceiling Fan
+112,Khammam,1,9,PALAKURTHY KRISHNA,M,30,ST,IND,Independent,Cup & Saucer
+112,Khammam,1,10,PODILA VASU,M,32,GEN,IND,Independent,Table Lamp
+112,Khammam,1,11,MEDIPALLI NAGESWAR RAO,M,46,SC,IND,Independent,Camera
+113,Palair,1,1,ANANTHARAMULU DARIPALLI,M,68,GEN,BSP,Bahujan Samaj Party,Elephant
+113,Palair,1,2,THAMMINENI VEERABHADRAM,M,53,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+113,Palair,1,3,RAMAKRISHNA INGUVA,M,31,GEN,BJP,Bharatiya Janata Party,Lotus
+113,Palair,1,4,VENKATA REDDY RAMREDDY,M,63,GEN,INC,Indian National Congress,Hand
+113,Palair,1,5,KOLISETTI NAGESHWARA RAO,M,46,GEN,LSP,Lok Satta Party,Whistle
+113,Palair,1,6,DANTHALA MANGAYYA,M,26,GEN,BHSASP,Bharatheeya Sadharma Samsthapana Party,Almirah
+113,Palair,1,7,NAGESHWARRAO RAYALA,M,46,GEN,PRP,Praja Rajyam Party,Railway Engine
+113,Palair,1,8,YATHUKULA BHASKAR RAO,M,39,SC,TPPP,Trilinga Praja Pragati Party,Balloon
+113,Palair,1,9,VANAJA PARUPALLI,F,38,GEN,PRSHP,Praja Shanthi Party,Banana
+113,Palair,1,10,SAILAJA KATEPALLI,F,39,GEN,PPOI,Pyramid Party of India,Television
+113,Palair,1,11,YERRABOINA KISHAN,M,32,GEN,IND,Independent,Camera
+113,Palair,1,12,GANGISARAPU SHANKAR,M,45,GEN,IND,Independent,Basket
+113,Palair,1,13,BATCHALAKURA JHANSI LAXMI,F,35,SC,IND,Independent,Scissors
+114,Madhira,1,1,KAMALA RAJU LINGALA,M,37,SC,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+114,Madhira,1,2,PIDAMARTHI RAVI,M,35,SC,BSP,Bahujan Samaj Party,Elephant
+114,Madhira,1,3,BHATTI VIKRAMARKA MALLU,M,48,SC,INC,Indian National Congress,Hand
+114,Madhira,1,4,KOCHARLA GURAVAIAH,M,43,SC,PPOI,Pyramid Party of India,Television
+114,Madhira,1,5,MANDA KRISHNA MADIGA,M,44,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+114,Madhira,1,6,VANGURI RAMESH,M,34,SC,LSP,Lok Satta Party,Whistle
+114,Madhira,1,7,DR. SAGGURTHY VIJAYA VANI,F,49,SC,PRP,Praja Rajyam Party,Railway Engine
+114,Madhira,1,8,INAPANURI ESTHER SWARNALATHA,F,52,SC,IND,Independent,Candles
+114,Madhira,1,9,JOHN GUDIPATI,M,58,SC,IND,Independent,Ring
+115,Wyra,1,1,EESALA VENKATESWARLU,M,29,ST,BJP,Bharatiya Janata Party,Lotus
+115,Wyra,1,2,CHANDRAVATHI BANOTH,F,26,ST,CPI,Communist Party of India,Ears of Corn And Sickle
+115,Wyra,1,3,DR. BHUKYA RAMACHANDRA NAYAK,M,42,ST,INC,Indian National Congress,Hand
+115,Wyra,1,4,MALOTH PRASADA RAO,M,27,ST,BSP,Bahujan Samaj Party,Elephant
+115,Wyra,1,5,UNDADI NARENDER,M,37,ST,LSP,Lok Satta Party,Whistle
+115,Wyra,1,6,KATTA VENKATESWARLU,M,49,ST,TPPP,Trilinga Praja Pragati Party,Scissors
+115,Wyra,1,7,KATRAM SWAMY,M,34,ST,PPOI,Pyramid Party of India,Television
+115,Wyra,1,8,BANOTH VANI KUMARI,F,44,ST,PRP,Praja Rajyam Party,Railway Engine
+115,Wyra,1,9,GIRIBABU LAKAVATH,M,30,ST,IND,Independent,Jug
+115,Wyra,1,10,GUGULOTH RAMBABU,M,38,ST,IND,Independent,Gas Stove
+115,Wyra,1,11,BANOTH KISHAN,M,32,ST,IND,Independent,Coconut
+115,Wyra,1,12,BANOTH MADANLAL,M,46,ST,IND,Independent,Gas Cylinder
+115,Wyra,1,13,BANOTH MANGILAL NAIK,M,33,ST,IND,Independent,Banana
+116,Sathupalli,1,1,KOLIKAPOGU MUSALAIAH,M,25,SC,BJP,Bharatiya Janata Party,Lotus
+116,Sathupalli,1,2,CHANDRASEKHAR SAMBHANI,M,64,SC,INC,Indian National Congress,Hand
+116,Sathupalli,1,3,TIRUMALAIAH TELLURI,M,36,SC,BSP,Bahujan Samaj Party,Elephant
+116,Sathupalli,1,4,SANDRA VENKATA VEERAIAH,M,41,SC,TDP,Telugu Desam,Bicycle
+116,Sathupalli,1,5,CHOKKAIAH JADI,M,36,SC,LSP,Lok Satta Party,Whistle
+116,Sathupalli,1,6,RAVI NAGABATHINI,M,59,SC,PRP,Praja Rajyam Party,Railway Engine
+116,Sathupalli,1,7,KONDURI SUSMITHA KOTESWARA RAO,F,32,SC,IND,Independent,Candles
+116,Sathupalli,1,8,VENKATESWARA RAO KUVVARAPU (KODIPUNJU),M,40,SC,IND,Independent,Banana
+117,Kothagudem,1,1,KAMALA MANOHAR RAO GUDIBANDA,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+117,Kothagudem,1,2,KUNAMNENI SAMBASIVA RAO,M,53,GEN,CPI,Communist Party of India,Ears of Corn And Sickle
+117,Kothagudem,1,3,PAPPULA SUDHAKAR,M,33,SC,BSP,Bahujan Samaj Party,Elephant
+117,Kothagudem,1,4,VANAMA VENKATESWARA RAO,M,64,GEN,INC,Indian National Congress,Hand
+117,Kothagudem,1,5,ADAVALLI KRISHNA,M,51,GEN,PRP,Praja Rajyam Party,Railway Engine
+117,Kothagudem,1,6,GALIB MOHAMMAD,M,38,GEN,PPOI,Pyramid Party of India,Television
+117,Kothagudem,1,7,BHUPATHI LAVANYA,F,30,SC,LSP,Lok Satta Party,Whistle
+117,Kothagudem,1,8,RAVULAPALLI NARASIMHA MURTHY,M,41,SC,TPPP,Trilinga Praja Pragati Party,Scissors
+117,Kothagudem,1,9,ADAVALLI KRISHNA,M,43,GEN,IND,Independent,Coat
+117,Kothagudem,1,10,AYILAIAH PUTTAPAKA,M,38,GEN,IND,Independent,Stool
+117,Kothagudem,1,11,DEEKONDA RAJA NARSAIAH,M,40,SC,IND,Independent,Coconut
+117,Kothagudem,1,12,RAMANA REDDY SUREDDY,M,44,GEN,IND,Independent,Ring
+117,Kothagudem,1,13,RAPOLU SAMBASIVA RAO,M,26,GEN,IND,Independent,Gas Cylinder
+117,Kothagudem,1,14,SRINIVASU N,M,30,GEN,IND,Independent,Road Roller
+117,Kothagudem,1,15,SOYAM SATYANARAYANA,M,29,ST,IND,Independent,Dolli
+118,Aswaraopeta,1,1,PAYAM VENKAIAH,M,39,ST,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+118,Aswaraopeta,1,2,MITHRASENA VAGGELA,M,43,ST,INC,Indian National Congress,Hand
+118,Aswaraopeta,1,3,NAGENDRA RAO THATI,M,36,ST,PRP,Praja Rajyam Party,Railway Engine
+118,Aswaraopeta,1,4,BANOTHU JANBABU,M,31,ST,PPOI,Pyramid Party of India,Television
+118,Aswaraopeta,1,5,REGULA VEERASWAMY,M,54,ST,CPI(ML)(L),Communist Party of India(Marxist-Leninist)(Liberation),Flag with Three Stars
+118,Aswaraopeta,1,6,KANNEBOINA VENKATA NARSAIAH,M,43,ST,IND,Independent,Harmonium
+118,Aswaraopeta,1,7,THATI VENKATESWARLU,M,44,ST,IND,Independent,Gas Stove
+118,Aswaraopeta,1,8,PUREM BUCHI RAJU,M,35,ST,IND,Independent,Scissors
+118,Aswaraopeta,1,9,RAVULA SRINIVAS RAO,M,40,ST,IND,Independent,Cot
+118,Aswaraopeta,1,10,K VINAYAK,M,44,ST,IND,Independent,Cup & Saucer
+119,Bhadrachalam,1,1,KUNJA SATYAVATHI,F,38,ST,INC,Indian National Congress,Hand
+119,Bhadrachalam,1,2,GOTE DANA LAKSHMI,F,38,ST,BSP,Bahujan Samaj Party,Elephant
+119,Bhadrachalam,1,3,SUNNAM RAJAIAH,M,52,ST,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+119,Bhadrachalam,1,4,SOM RAJU PARSIKA,M,35,ST,BJP,Bharatiya Janata Party,Lotus
+119,Bhadrachalam,1,5,GUNDU SARATH BABU,M,28,ST,PRP,Praja Rajyam Party,Railway Engine
+119,Bhadrachalam,1,6,PULI PITCHAIAH,M,67,ST,LSP,Lok Satta Party,Whistle
+119,Bhadrachalam,1,7,ETTI ASWAPATHI,M,57,ST,IND,Independent,Nagara
+119,Bhadrachalam,1,8,KARAM NARASIMHA RAO,M,33,ST,IND,Independent,Television
+119,Bhadrachalam,1,9,PAYAM CHINA RAMA RAO,M,28,ST,IND,Independent,Banana
+120,Ichapuram,1,1,BADIYA UMAPATHI,M,64,GEN,BSP,Bahujan Samaj Party,Elephant
+120,Ichapuram,1,2,NARTHU RAMARAO,M,50,GEN,INC,Indian National Congress,Hand
+120,Ichapuram,1,3,PIRIYA SAIRAJ,M,33,GEN,TDP,Telugu Desam,Bicycle
+120,Ichapuram,1,4,NARTU SESHAGIRI RAO,M,41,GEN,PRP,Praja Rajyam Party,Railway Engine
+120,Ichapuram,1,5,RAMA RAJU MAHANTHI,M,30,GEN,PPOI,Pyramid Party of India,Television
+121,Palasa,1,1,GOWTHU SYAM SUNDARA SIVAJI,M,59,GEN,TDP,Telugu Desam,Bicycle
+121,Palasa,1,2,JUTTU JAGANNAYAKULU,M,49,GEN,INC,Indian National Congress,Hand
+121,Palasa,1,3,PULARI KRISHNA YADAV,M,30,GEN,BJP,Bharatiya Janata Party,Lotus
+121,Palasa,1,4,KANCHARANA (MAJJI) SUDHA BALA,F,42,GEN,LSP,Lok Satta Party,Whistle
+121,Palasa,1,5,KADDALA NAGESWARA RAO,M,49,GEN,BHSASP,Bharatheeya Sadharma Samsthapana Party,Road Roller
+121,Palasa,1,6,MADDILA RAMARAO,M,37,GEN,CPI(ML)(L),Communist Party of India (Marxist-Leninist) (Liberation),Flag with Three Stars
+121,Palasa,1,7,NAGESWARA RAO VANKA,M,43,GEN,PRP,Praja Rajyam Party,Railway Engine
+121,Palasa,1,8,GOPI SANKAR KIKKARA,M,30,GEN,IND,Independent,Table
+122,Tekkali,1,1,ATCHANNAIDU KINJARAPU,M,40,GEN,TDP,Telugu Desam,Bicycle
+122,Tekkali,1,2,BOBBILI SURAMMA,F,60,GEN,BJP,Bharatiya Janata Party,Lotus
+122,Tekkali,1,3,DR KORLA REVATHIPATHI,M,49,GEN,INC,Indian National Congress,Hand
+122,Tekkali,1,4,CHANDRA SEKHAR PATNAIK,M,47,GEN,LSP,Lok Satta Party,Whistle
+122,Tekkali,1,5,DUVVADA SRINIVAS,M,42,GEN,PRP,Praja Rajyam Party,Railway Engine
+122,Tekkali,1,6,PRAKASH BALAGA,M,28,GEN,IND,Independent,Cup & Saucer
+123,Pathapatnam,1,1,KALAMATA VENKATA RAMANA MURTY,M,45,GEN,TDP,Telugu Desam,Bicycle
+123,Pathapatnam,1,2,MUGITHI SRINIVASA RAO,M,37,GEN,BSP,Bahujan Samaj Party,Elephant
+123,Pathapatnam,1,3,VIJAYARAMARAJU SATRUCHERLA,M,59,GEN,INC,Indian National Congress,Hand
+123,Pathapatnam,1,4,VENKATA RAO KOPPUROUTHU,M,39,GEN,BJP,Bharatiya Janata Party,Lotus
+123,Pathapatnam,1,5,PALAVALASA KARUNAKAR RAO,M,39,GEN,PRP,Praja Rajyam Party,Railway Engine
+123,Pathapatnam,1,6,PULLAMSETTY MOHANA RAO,M,29,GEN,LSP,Lok Satta Party,Whistle
+123,Pathapatnam,1,7,MADHUBABU SASANAPURI,M,36,GEN,BHSASP,Bharatheeya Sadharma Samsthapana Party,Almirah
+123,Pathapatnam,1,8,GUMMAYYA BOMMALI,M,60,GEN,IND,Independent,Basket
+124,Srikakulam,1,1,APPALA SURYANARAYANA GUNDA,M,60,GEN,TDP,Telugu Desam,Bicycle
+124,Srikakulam,1,2,DHARMANA PRASADA RAO,M,51,GEN,INC,Indian National Congress,Hand
+124,Srikakulam,1,3,GANTA HARI HARA REDDY,M,52,GEN,BJP,Bharatiya Janata Party,Lotus
+124,Srikakulam,1,4,BALAGA BALAKRISHNA MURTY,M,31,GEN,BSP,Bahujan Samaj Party,Elephant
+124,Srikakulam,1,5,KORNU NAGARJUN,M,26,GEN,PRP,Praja Rajyam Party,Railway Engine
+124,Srikakulam,1,6,NARAMSETTI SESHAGIRI RAO,M,54,GEN,PPOI,Pyramid Party of India,Television
+124,Srikakulam,1,7,SSL MURTY,M,61,GEN,LSP,Lok Satta Party,Whistle
+124,Srikakulam,1,8,JALAGADUGULA GOVINDA RAO,M,40,GEN,IND,Independent,Nagara
+124,Srikakulam,1,9,PONNANA BALAMANI,F,58,GEN,IND,Independent,Bat
+125,Amadalavalasa,1,1,KILLI SRIRAMA MURTY,M,47,GEN,BJP,Bharatiya Janata Party,Lotus
+125,Amadalavalasa,1,2,KUNA RAVI KUMAR,M,40,GEN,TDP,Telugu Desam,Bicycle
+125,Amadalavalasa,1,3,BODDEPALLI SATYAVATHI,F,56,GEN,INC,Indian National Congress,Hand
+125,Amadalavalasa,1,4,ANNAM NAIDU TAMMINENI,M,40,GEN,LSP,Lok Satta Party,Whistle
+125,Amadalavalasa,1,5,TAMMINENI SEETHARAM,M,53,GEN,PRP,Praja Rajyam Party,Railway Engine
+125,Amadalavalasa,1,6,KORADA SHYAM SUNDAR RAO,M,33,GEN,IND,Independent,Coconut
+125,Amadalavalasa,1,7,BADANA SRINIVASA RAO NAIDU,M,34,GEN,IND,Independent,Almirah
+125,Amadalavalasa,1,8,DR BENDI NARENDRA,M,31,GEN,IND,Independent,Camera
+126,Etcherla,1,1,APPARAO DABBADA,M,51,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+126,Etcherla,1,2,GUDIVADA KUPPAYYA,M,40,GEN,BSP,Bahujan Samaj Party,Elephant
+126,Etcherla,1,3,NAYANA SURYANARAYANA REDDY,M,41,GEN,TDP,Telugu Desam,Bicycle
+126,Etcherla,1,4,PAIDI VENUGOPALAM,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+126,Etcherla,1,5,MEESALA NEELAKANTAM,M,59,GEN,INC,Indian National Congress,Hand
+126,Etcherla,1,6,APPALANAIDU GURUGUBILLI,M,31,GEN,LSP,Lok Satta Party,Whistle
+126,Etcherla,1,7,KALAVENKATA RAO KIMIDI,M,55,GEN,PRP,Praja Rajyam Party,Railway Engine
+126,Etcherla,1,8,GORLE HARIBABU NAIDU,M,53,GEN,IND,Independent,Television
+127,Narasannapeta,1,1,TULASI RAO PEDADA,M,66,GEN,BJP,Bharatiya Janata Party,Lotus
+127,Narasannapeta,1,2,DHARMANA KRISHNA DAS,M,54,GEN,INC,Indian National Congress,Hand
+127,Narasannapeta,1,3,BAGGU LAKSHMANA RAO,M,62,GEN,TDP,Telugu Desam,Bicycle
+127,Narasannapeta,1,4,RAJAKUMAR DUVVARA,M,52,GEN,BSP,Bahujan Samaj Party,Elephant
+127,Narasannapeta,1,5,DOLA JAGANMOHANA RAO,M,44,GEN,PRP,Praja Rajyam Party,Railway Engine
+127,Narasannapeta,1,6,TELUGU NAGESWARA RAO,M,59,GEN,LSP,Lok Satta Party,Whistle
+127,Narasannapeta,1,7,MATTA SATISH CHAKRAVARTHI,M,26,GEN,PPOI,Pyramid Party of India,Television
+127,Narasannapeta,1,8,CHANDRA MOULI JALLU,M,53,GEN,IND,Independent,Banana
+127,Narasannapeta,1,9,MENDA SANYASI RAO,M,60,GEN,IND,Independent,Balloon
+128,Rajam,1,1,KAVALI PRATHIBHA BHARATHI,F,55,SC,TDP,Telugu Desam,Bicycle
+128,Rajam,1,2,KONDRU MURALI MOHAN,M,39,SC,INC,Indian National Congress,Hand
+128,Rajam,1,3,PAKA RAJA RAO,M,56,SC,BJP,Bharatiya Janata Party,Lotus
+128,Rajam,1,4,BHUPATHI APPARAO,M,60,SC,BSP,Bahujan Samaj Party,Elephant
+128,Rajam,1,5,ADINARAYANA DUKKA,M,27,SC,LSP,Lok Satta Party,Whistle
+128,Rajam,1,6,KAMBALA JOGULU,M,43,SC,PRP,Praja Rajyam Party,Railway Engine
+128,Rajam,1,7,AMRUTHA KUMARI PJ,F,52,SC,IND,Independent,Ring
+128,Rajam,1,8,BOSI MANMADHA RAO,M,39,SC,IND,Independent,Scissors
+129,Palakonda,1,1,GOPALARAO NIMMAKA,M,65,ST,TDP,Telugu Desam,Bicycle
+129,Palakonda,1,2,NIMMAKA SUGREEVULU,M,44,ST,INC,Indian National Congress,Hand
+129,Palakonda,1,3,BIDDIKA APPANNA,M,61,ST,BSP,Bahujan Samaj Party,Elephant
+129,Palakonda,1,4,LAKKI BIDDIKI,F,37,ST,BJP,Bharatiya Janata Party,Lotus
+129,Palakonda,1,5,CHUKKA VENKATA GOWRI,F,26,ST,LSP,Lok Satta Party,Whistle
+129,Palakonda,1,6,VISWASARAYI KALAVATHI,F,44,ST,PRP,Praja Rajyam Party,Railway Engine
+129,Palakonda,1,7,NIMMALA NIBRAM,M,41,ST,IND,Independent,Television
+129,Palakonda,1,8,VANJARAPU SIMHACHALAM,M,35,ST,IND,Independent,Gas Cylinder
+130,Kurupam,1,1,KOLAKA LAXMANA MURTHY,M,45,ST,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+130,Kurupam,1,2,JANARDHANA THATRAJ VEERA VARA THODARAMALA,M,31,ST,INC,Indian National Congress,Hand
+130,Kurupam,1,3,SRIMATHI PUVVALA SARASWATHI,F,28,ST,BSP,Bahujan Samaj Party,Elephant
+130,Kurupam,1,4,NIMMAKA JAYARAJU,M,47,ST,PRP,Praja Rajyam Party,Railway Engine
+130,Kurupam,1,5,ARIKA BADAMA,M,30,ST,IND,Independent,Hat
+130,Kurupam,1,6,KADRAKA VENKATASWAMY,M,34,ST,IND,Independent,Nagara
+130,Kurupam,1,7,NIMMAKA VASUDEVARAO,M,36,ST,IND,Independent,Gas Cylinder
+131,Parvathipuram,1,1,GUDDETI BAPUJEE,M,61,ST,BJP,Bharatiya Janata Party,Lotus
+131,Parvathipuram,1,2,GUMPA RAMA RAO,M,43,ST,BSP,Bahujan Samaj Party,Elephant
+131,Parvathipuram,1,3,JAYAMANI SAVARAPU,F,41,ST,INC,Indian National Congress,Hand
+131,Parvathipuram,1,4,BOBBILI CHIRANJEEVULU,M,50,ST,TDP,Telugu Desam,Bicycle
+131,Parvathipuram,1,5,PATLASINGU RAVI KUMAR,M,30,ST,LSP,Lok Satta Party,Whistle
+131,Parvathipuram,1,6,PAPAYYA KOTIPALLI,M,34,ST,PRSHP,Praja Shanthi Party,Cake
+131,Parvathipuram,1,7,LATHA RITTAPALLI,F,28,ST,PRP,Praja Rajyam Party,Railway Engine
+131,Parvathipuram,1,8,KRISHNA VELAGADA,M,34,ST,IND,Independent,Table
+131,Parvathipuram,1,9,CHINTADA APPALA SWAMY,M,44,ST,IND,Independent,Gas Cylinder
+131,Parvathipuram,1,10,NAGABHUSHANAM GOGULAMUDI,M,54,ST,IND,Independent,Nagara
+131,Parvathipuram,1,11,PRAKASAM SATTI,M,39,ST,IND,Independent,Road Roller
+131,Parvathipuram,1,12,BOTCHA ANANDA RAO,M,59,ST,IND,Independent,Television
+131,Parvathipuram,1,13,BONELA MOHAN DAS,M,63,ST,IND,Independent,Jug
+131,Parvathipuram,1,14,VELPULA VIJAY KUMAR,M,40,ST,IND,Independent,Camera
+132,Salur,1,1,GUMMIDI SANDHYA RANI,F,36,ST,TDP,Telugu Desam,Bicycle
+132,Salur,1,2,RAJANNA DORA PEEDIKA,M,44,ST,INC,Indian National Congress,Hand
+132,Salur,1,3,P.B.SRINIVAS,M,49,ST,BJP,Bharatiya Janata Party,Lotus
+132,Salur,1,4,HANUMANTHA RAO T.V.,M,45,ST,PRP,Praja Rajyam Party,Railway Engine
+132,Salur,1,5,UOOYAKA MUTYALU,M,37,ST,IND,Independent,Nagara
+132,Salur,1,6,RAYALA SUNDARA RAO,M,48,ST,IND,Independent,Battery Torch
+132,Salur,1,7,SADEPU RAMANNA DORA,M,49,ST,IND,Independent,Gas Cylinder
+133,Bobbili,1,1,ARJI SIVA PRASAD,M,34,SC,BSP,Bahujan Samaj Party,Elephant
+133,Bobbili,1,2,THEMTU LAKSHMUNAIDU,M,28,GEN,TDP,Telugu Desam,Bicycle
+133,Bobbili,1,3,BOTCHA VENKATANAIDU,M,62,GEN,BJP,Bharatiya Janata Party,Lotus
+133,Bobbili,1,4,VENKATA SUJAY KRISNA RANGA RAO RAVU,M,38,GEN,INC,Indian National Congress,Hand
+133,Bobbili,1,5,APPALANAIDU CHAPPA,M,47,GEN,BSSP,Bharatiya Sadbhawna Samaj Party,Hat
+133,Bobbili,1,6,DAKOJI SATHYAJI,M,39,GEN,PRSHP,Praja Shanthi Party,Cake
+133,Bobbili,1,7,VENKATARAMANA MERUPALLI,M,45,GEN,PRP,Praja Rajyam Party,Railway Engine
+133,Bobbili,1,8,SARASWTHI PENKI,F,34,GEN,LSP,Lok Satta Party,Whistle
+133,Bobbili,1,9,BOTSA RAMULU,M,57,SC,IND,Independent,Banana
+133,Bobbili,1,10,SHASHI PANIGRAHI,M,37,GEN,IND,Independent,Road Roller
+134,Cheepurupalli,1,1,GADDE BABURAO,M,66,GEN,TDP,Telugu Desam,Bicycle
+134,Cheepurupalli,1,2,BYREDDY APPALA NAIDU,M,43,GEN,BSP,Bahujan Samaj Party,Elephant
+134,Cheepurupalli,1,3,BOTCHA SATYANARAYANA,M,51,GEN,INC,Indian National Congress,Hand
+134,Cheepurupalli,1,4,SAKETI MOHAN RAO,M,33,GEN,BJP,Bharatiya Janata Party,Lotus
+134,Cheepurupalli,1,5,PENDURTHI VENKATARAO,M,45,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+134,Cheepurupalli,1,6,MAREDIBILLI RAMA KRISHNA,M,30,GEN,BSSP,Bharatiya Sadbhawna Samaj Party,Gas Cylinder
+134,Cheepurupalli,1,7,REDDI LAKSHUNAIDU,M,27,GEN,LSP,Lok Satta Party,Whistle
+134,Cheepurupalli,1,8,SUNITHA ROUTHU,F,35,GEN,PRP,Praja Rajyam Party,Railway Engine
+134,Cheepurupalli,1,9,PEETHALA MURALI MOHANRAO,M,30,GEN,IND,Independent,Road Roller
+135,Gajapathinagaram,1,1,APPALANARASAYYA BOTCHA,M,46,GEN,INC,Indian National Congress,Hand
+135,Gajapathinagaram,1,2,ARUNA PADALA,F,52,GEN,TDP,Telugu Desam,Bicycle
+135,Gajapathinagaram,1,3,V.V. GOPALA RAJU. P,M,38,GEN,BJP,Bharatiya Janata Party,Lotus
+135,Gajapathinagaram,1,4,BONGA BHANUMURTHY,M,31,GEN,BSP,Bahujan Samaj Party,Elephant
+135,Gajapathinagaram,1,5,D.ESWARA RAO,M,45,GEN,LSP,Lok Satta Party,Whistle
+135,Gajapathinagaram,1,6,KADUBANDI SRINIVASARAO,M,42,GEN,PRP,Praja Rajyam Party,Railway Engine
+135,Gajapathinagaram,1,7,GOTTIMUKKALA SURYANARAYANA RAJU,M,32,GEN,BSSP,Bharatiya Sadbhawna Samaj Party,Cake
+135,Gajapathinagaram,1,8,MATHAJI THYAGAMAYANANDA,F,56,GEN,PPOI,Pyramid Party of India,Television
+136,Nellimarla,1,1,APPALANAIDU BADDUKONDA,M,36,GEN,INC,Indian National Congress,Hand
+136,Nellimarla,1,2,KARAKAVALASA NAGA MOHANA KRISHNA RAO,M,48,GEN,BJP,Bharatiya Janata Party,Lotus
+136,Nellimarla,1,3,TALLAPUDI SATYANARAYANA,M,46,GEN,BSP,Bahujan Samaj Party,Elephant
+136,Nellimarla,1,4,NARAYANASWAMY NAIDU PATHIVADA,M,73,GEN,TDP,Telugu Desam,Bicycle
+136,Nellimarla,1,5,KANDULA RAGHURAM,M,44,GEN,PRP,Praja Rajyam Party,Railway Engine
+136,Nellimarla,1,6,D.V.KRISHNAREDDY,M,27,GEN,PPOI,Pyramid Party of India,Television
+136,Nellimarla,1,7,PADMAVATHI RAYI,F,44,GEN,LSP,Lok Satta Party,Whistle
+136,Nellimarla,1,8,KATAKAMSETTI VENKATESWARA RAO,M,35,GEN,IND,Independent,Almirah
+136,Nellimarla,1,9,D.NO.3-44,M,34,GEN,IND,Independent,Gas Stove
+136,Nellimarla,1,10,G.V.RAMANARAO,M,42,GEN,IND,Independent,Hat
+136,Nellimarla,1,11,LANKALAPALLI RAMBABU,M,29,GEN,IND,Independent,Ceiling Fan
+137,Vizianagaram,1,1,ASHOK GAJAPATHI RAJU PUSAPATI,M,57,GEN,TDP,Telugu Desam,Bicycle
+137,Vizianagaram,1,2,KALLURI VENKATA NAGA RANGA PRASAD,M,49,GEN,BJP,Bharatiya Janata Party,Lotus
+137,Vizianagaram,1,3,KOLAGATLA VEERABHADRA SWAMY,M,48,GEN,INC,Indian National Congress,Hand
+137,Vizianagaram,1,4,MANDALA SRINIVASA RAO,M,35,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+137,Vizianagaram,1,5,SOMU RAMBABU,M,40,SC,BSP,Bahujan Samaj Party,Elephant
+137,Vizianagaram,1,6,APPARAO BABJI BHESETTY,M,44,GEN,LSP,Lok Satta Party,Whistle
+137,Vizianagaram,1,7,GEETHA MEESALA,F,36,GEN,PRP,Praja Rajyam Party,Railway Engine
+137,Vizianagaram,1,8,GOPI PILLA,M,34,GEN,PRSHP,Praja Shanthi Party,Cake
+137,Vizianagaram,1,9,JAIN LUN KARAN,M,60,GEN,PPOI,Pyramid Party of India,Television
+137,Vizianagaram,1,10,PYDI RAJU MYLAPALLI,M,35,GEN,BSSP,Bharatiya Sadbhawna Samaj Party,Hat
+138,Srungavarapukota,1,1,ALLU KESAVA VENKATA JOGINAIDU,M,40,GEN,INC,Indian National Congress,Hand
+138,Srungavarapukota,1,2,IMANDI VENKATA KURMARAO,M,38,GEN,BSP,Bahujan Samaj Party,Elephant
+138,Srungavarapukota,1,3,KRISHNA SATYANARAYANA IMANDI,M,51,GEN,BJP,Bharatiya Janata Party,Lotus
+138,Srungavarapukota,1,4,KOLLA LALITHA KUMARI,F,39,GEN,TDP,Telugu Desam,Bicycle
+138,Srungavarapukota,1,5,GANDRETI APPA RAO,M,58,GEN,PPOI,Pyramid Party of India,Television
+138,Srungavarapukota,1,6,SATYANARAYANA GOGADA,M,41,GEN,LSP,Lok Satta Party,Whistle
+138,Srungavarapukota,1,7,GORLE MAHESWARARAO,M,42,GEN,PRP,Praja Rajyam Party,Railway Engine
+138,Srungavarapukota,1,8,SRINIVASA RAO PUTTA,M,36,GEN,BSSP,Bharatiya Sadbhawna Samaj Party,Battery Torch
+138,Srungavarapukota,1,9,ESWARARAO POTNURU,M,46,SC,IND,Independent,Candles
+138,Srungavarapukota,1,10,RAGHU RAJU INDUKURI,M,36,GEN,IND,Independent,Ring
+138,Srungavarapukota,1,11,VALLURI JAYAPRAKASH BABU,M,54,GEN,IND,Independent,Hat
+138,Srungavarapukota,1,12,VIJAYALAKSHMI GORLE,F,38,GEN,IND,Independent,Spoon
+139,Bhimli,1,1,ANJANEYA RAJU N.R.,M,51,GEN,TDP,Telugu Desam,Bicycle
+139,Bhimli,1,2,P.UMA RANI,F,50,GEN,INC,Indian National Congress,Hand
+139,Bhimli,1,3,BARLA APPALA PADMAKAR YADAV,M,45,GEN,BJP,Bharatiya Janata Party,Lotus
+139,Bhimli,1,4,SONTYANA RAMBABU,M,61,GEN,BSP,Bahujan Samaj Party,Elephant
+139,Bhimli,1,5,DUNGI LAKSHMI,F,48,GEN,PPOI,Pyramid Party of India,Television
+139,Bhimli,1,6,MUTTAMSETTI SRINIVASA RAO (AVANTHI SIRNU),M,42,GEN,PRP,Praja Rajyam Party,Railway Engine
+139,Bhimli,1,7,SARIPALLI ATCHUTA RAM MOHAN,M,31,GEN,LSP,Lok Satta Party,Whistle
+139,Bhimli,1,8,KORADA RAJA BABU,M,36,GEN,IND,Independent,Hat
+139,Bhimli,1,9,B.BALA SUBRAHMANYAM,M,62,GEN,IND,Independent,Kite
+139,Bhimli,1,10,Y.VENKATA APPALA NAIDU BALI,M,29,GEN,IND,Independent,Gas Stove
+140,Visakhapatnam East,1,1,APPA RAO VURUKUTI,M,49,GEN,INC,Indian National Congress,Hand
+140,Visakhapatnam East,1,2,EMANDI VITTAL RAJU,M,34,GEN,BSP,Bahujan Samaj Party,Elephant
+140,Visakhapatnam East,1,3,K.RAJAKUMARI,F,48,GEN,BJP,Bharatiya Janata Party,Lotus
+140,Visakhapatnam East,1,4,RAMAKRISHNA BABU VELAGAPUDI,M,48,GEN,TDP,Telugu Desam,Bicycle
+140,Visakhapatnam East,1,5,ERRAMILLI HYMAVATHI,F,51,GEN,PPOI,Pyramid Party of India,Television
+140,Visakhapatnam East,1,6,CHENNUBOINA SRINIVASA RAO (VAMI KRISHNA),M,34,GEN,PRP,Praja Rajyam Party,Railway Engine
+140,Visakhapatnam East,1,7,JHANSI LAKSHMI RAVALA,F,58,GEN,LSP,Lok Satta Party,Whistle
+140,Visakhapatnam East,1,8,AVASARALA BHAGAVANULU,M,70,GEN,IND,Independent,Violin
+140,Visakhapatnam East,1,9,KANCHARLA ATCHUTHA RAO,M,36,GEN,IND,Independent,Ring
+140,Visakhapatnam East,1,10,KONA VENKATA LAKSHMI (YADAV),F,39,GEN,IND,Independent,Battery Torch
+140,Visakhapatnam East,1,11,DUKKA MURALI KRISHNA REDDY,M,39,GEN,IND,Independent,Almirah
+140,Visakhapatnam East,1,12,PUSARLA VENKATA RATNAM,F,49,GEN,IND,Independent,Bat
+140,Visakhapatnam East,1,13,SATYANARAYANA PATRO,M,35,GEN,IND,Independent,Balloon
+140,Visakhapatnam East,1,14,SURI PARVATHI GUPTA,F,38,GEN,IND,Independent,Banana
+141,Visakhapatnam South,1,1,ANGATI APPA RAO,M,56,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+141,Visakhapatnam South,1,2,GANESH KUMAR VASUPALLI,M,45,GEN,TDP,Telugu Desam,Bicycle
+141,Visakhapatnam South,1,3,CHALLA MAHA LAKSHMI,F,56,GEN,BJP,Bharatiya Janata Party,Lotus
+141,Visakhapatnam South,1,4,DRONAMRAJU SRINIVASA RAO,M,48,GEN,INC,Indian National Congress,Hand
+141,Visakhapatnam South,1,5,MANGALAGIRI SRINU,M,36,GEN,BSP,Bahujan Samaj Party,Elephant
+141,Visakhapatnam South,1,6,KOPPULA KANAKA RAJU,M,29,GEN,TPPP,Trilinga Praja Pragati Party,Scissors
+141,Visakhapatnam South,1,7,KOLA GURUVULU,M,44,GEN,PRP,Praja Rajyam Party,Railway Engine
+141,Visakhapatnam South,1,8,JERRIPOTHULA SAILAJA,F,33,GEN,LSP,Lok Satta Party,Whistle
+141,Visakhapatnam South,1,9,DURGAPRASAD GUNTU,M,40,GEN,IND,Independent,Television
+141,Visakhapatnam South,1,10,PADI KRISHNA,M,54,GEN,IND,Independent,Almirah
+141,Visakhapatnam South,1,11,DR SUNIL KUMAR B,M,36,GEN,IND,Independent,Ring
+142,Visakhapatnam North,1,1,ANITHA VITTANALA,F,32,GEN,BSP,Bahujan Samaj Party,Elephant
+142,Visakhapatnam North,1,2,NAREM VENKATA RAO,M,45,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+142,Visakhapatnam North,1,3,P V N MADHAV,M,35,GEN,BJP,Bharatiya Janata Party,Lotus
+142,Visakhapatnam North,1,4,BHARANIKANA JAYA,F,52,GEN,TDP,Telugu Desam,Bicycle
+142,Visakhapatnam North,1,5,VIJAYA KUMAR THYNALA,M,44,GEN,INC,Indian National Congress,Hand
+142,Visakhapatnam North,1,6,BANNA RAMESH,M,34,GEN,DABAP,Dalita Bahujana Party,Ring
+142,Visakhapatnam North,1,7,DR SHIRIN RAHMAN SHAIK,F,60,GEN,PRP,Praja Rajyam Party,Railway Engine
+142,Visakhapatnam North,1,8,SATYAVATHI BODDETI,F,36,GEN,PPOI,Pyramid Party of India,Television
+142,Visakhapatnam North,1,9,ISUKAPALLI RAMA KRISHNA RAJU (SRI DEVI RAJU),M,60,GEN,IND,Independent,Sewing Machine
+142,Visakhapatnam North,1,10,KONA SRINU,M,40,GEN,IND,Independent,Coconut
+142,Visakhapatnam North,1,11,TADI MANOHAR KUMAR,M,51,GEN,IND,Independent,Road Roller
+142,Visakhapatnam North,1,12,RAJAMUNDRY KAMESWARI,F,49,GEN,IND,Independent,Cup & Saucer
+142,Visakhapatnam North,1,13,SRINIVAS MAHESH,M,30,GEN,IND,Independent,Battery Torch
+142,Visakhapatnam North,1,14,SANAPALA M.M.M. KRISHNA,M,36,GEN,IND,Independent,Nagara
+143,Visakhapatnam West,1,1,K.KOTESWARARAO,M,38,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+143,Visakhapatnam West,1,2,GUDIVADA NAGAMANI,F,43,GEN,TDP,Telugu Desam,Bicycle
+143,Visakhapatnam West,1,3,NAGA KRISHNA MURTHY MOKARALA,M,35,GEN,BSP,Bahujan Samaj Party,Elephant
+143,Visakhapatnam West,1,4,POLIMERA SRINIVASARAO,M,35,GEN,BJP,Bharatiya Janata Party,Lotus
+143,Visakhapatnam West,1,5,VIJAYA PRASAD MALLA,M,43,GEN,INC,Indian National Congress,Hand
+143,Visakhapatnam West,1,6,KINTADA RAJASHEKAR,M,37,GEN,TPPP,Trilinga Praja Pragati Party,Ring
+143,Visakhapatnam West,1,7,GANA VENKATA REDDI NAIDU PETAKAMSETTI (GANABABU),M,40,GEN,PRP,Praja Rajyam Party,Railway Engine
+143,Visakhapatnam West,1,8,GOVARDHAN REDDI AVULA,M,56,GEN,LSP,Lok Satta Party,Whistle
+143,Visakhapatnam West,1,9,RAMESH PAMPANA,M,35,GEN,PPOI,Pyramid Party of India,Television
+143,Visakhapatnam West,1,10,APPARAO GOLAGANA,M,46,GEN,IND,Independent,Road Roller
+143,Visakhapatnam West,1,11,MAMIDI RAMA KRISHNA,M,41,GEN,IND,Independent,Cup & Saucer
+143,Visakhapatnam West,1,12,B.V.RAMANARAO,M,41,GEN,IND,Independent,Cot
+143,Visakhapatnam West,1,13,VIJAY KUMAR GALINKALA,M,42,GEN,IND,Independent,Candles
+143,Visakhapatnam West,1,14,SUDHA RAJENDRA PRABHU,F,47,GEN,IND,Independent,Battery Torch
+144,Gajuwaka,1,1,CHANDADA NARASINGA RAO,M,58,GEN,CPM,Communist Party of India (Marxist),"Hammer, Sickle and Star"
+144,Gajuwaka,1,2,CHEEKATLA PRASAD GANDHI,M,54,GEN,BSP,Bahujan Samaj Party,Elephant
+144,Gajuwaka,1,3,GURUMURTHI REDDY TIPPALA,M,43,GEN,INC,Indian National Congress,Hand
+144,Gajuwaka,1,4,G.SASIDHARAN PILLAI,M,53,GEN,BJP,Bharatiya Janata Party,Lotus
+144,Gajuwaka,1,5,ANANDA BEEHARILAL GOTTIMUKKALA (MURARI PARLOUR RAJU),M,49,GEN,LSP,Lok Satta Party,Whistle
+144,Gajuwaka,1,6,KAKARA RAMANA,M,43,GEN,TPPP,Trilinga Praja Pragati Party,Candles
+144,Gajuwaka,1,7,CHINTHALAPUDI VENKATARAMAIAH,M,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+144,Gajuwaka,1,8,NANDAMURI BHAGYA LAKSHMI,F,51,GEN,PPOI,Pyramid Party of India,Television
+144,Gajuwaka,1,9,ASHOK VARDHAN,M,26,GEN,IND,Independent,Battery Torch
+144,Gajuwaka,1,10,GURUNAIDU MUDADLA,M,49,GEN,IND,Independent,Road Roller
+144,Gajuwaka,1,11,NAGI REDDY TIPPALA,M,55,GEN,IND,Independent,Ring
+145,Chodavaram,1,1,KARANAM DHARMASREE,M,41,GEN,INC,Indian National Congress,Hand
+145,Chodavaram,1,2,KALIDINDI SURYANA NAGA SANYASI RAJU,M,42,GEN,TDP,Telugu Desam,Bicycle
+145,Chodavaram,1,3,NANDIKOLLA MUTHYALA RAO,M,62,GEN,BSP,Bahujan Samaj Party,Elephant
+145,Chodavaram,1,4,SOMESWARA NAIDU VISSARAPU,M,64,GEN,BJP,Bharatiya Janata Party,Lotus
+145,Chodavaram,1,5,GULLIPALLI NARAYANAMURTHY,M,62,GEN,LSP,Lok Satta Party,Whistle
+145,Chodavaram,1,6,PINAPOLU VENKATESWARALU,M,53,GEN,PRP,Praja Rajyam Party,Railway Engine
+145,Chodavaram,1,7,RANI KALYANA LAXMI,F,60,GEN,PPOI,Pyramid Party of India,Television
+145,Chodavaram,1,8,KAMIREDDI PATHRU NAIDU,M,34,GEN,IND,Independent,Bat
+145,Chodavaram,1,9,KONETI SATYA RAO,M,63,GEN,IND,Independent,Road Roller
+146,Madugula,1,1,APPANA KONDALA RAO,M,27,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+146,Madugula,1,2,AVUGADDA RAMA MURTHY NAIDU,M,48,GEN,INC,Indian National Congress,Hand
+146,Madugula,1,3,GAVIREDDI RAMA NAIDU,M,39,GEN,TDP,Telugu Desam,Bicycle
+146,Madugula,1,4,CHIRUVURI SIVAJI RAJU,M,43,GEN,BJP,Bharatiya Janata Party,Lotus
+146,Madugula,1,5,V.G.V.R.MURTHY,M,47,GEN,BSP,Bahujan Samaj Party,Elephant
+146,Madugula,1,6,PERAYYA VANTHANGI,M,50,GEN,CPI(ML)(L),Communist Party of India (Marxist-Leninist) (Liberation),Flag with Three Stars
+146,Madugula,1,7,PYALA PRASAD RAO,M,38,GEN,PRP,Praja Rajyam Party,Railway Engine
+146,Madugula,1,8,APPA RAO ALLU,M,51,GEN,IND,Independent,Glass Tumbler
+146,Madugula,1,9,BETHALA KEGIYA RANI,F,26,GEN,IND,Independent,Television
+147,Araku valley,1,1,PANGI RAJA RAO,M,35,ST,BSP,Bahujan Samaj Party,Elephant
+147,Araku valley,1,2,RAGHUNADH SAMARDHI,M,37,ST,BJP,Bharatiya Janata Party,Lotus
+147,Araku valley,1,3,VANJANGI KANTHAMMA,F,55,ST,INC,Indian National Congress,Hand
+147,Araku valley,1,4,SIVERI SOMA,M,43,ST,TDP,Telugu Desam,Bicycle
+147,Araku valley,1,5,BAKA MANIKYAMMA,F,33,ST,LSP,Lok Satta Party,Whistle
+147,Araku valley,1,6,MANDI JAYAVATHI,F,38,ST,PRP,Praja Rajyam Party,Railway Engine
+147,Araku valley,1,7,KUMBHA RAVIBABU,M,50,ST,IND,Independent,Hat
+147,Araku valley,1,8,GANGADHARA SWAMY SETTI,M,50,ST,IND,Independent,Nagara
+148,Paderu,1,1,GODDETI DEMUDU,M,42,ST,CPI,Communist Party of India,Ears of Corn And Sickle
+148,Paderu,1,2,DUDDU LAXMOJI,M,39,ST,RJD,Rashtriya Janata Dal,Hurricane Lamp
+148,Paderu,1,3,PASUPULETI BALARAJU,M,45,ST,INC,Indian National Congress,Hand
+148,Paderu,1,4,BALAYYA PADAL BONANGI,M,31,ST,BJP,Bharatiya Janata Party,Lotus
+148,Paderu,1,5,LAKE RAJARAO,M,50,ST,BSP,Bahujan Samaj Party,Elephant
+148,Paderu,1,6,TAMARBHA KRISHNAVENI,F,33,ST,PRP,Praja Rajyam Party,Railway Engine
+148,Paderu,1,7,MADELA BALANNA DORA,M,54,ST,LSP,Lok Satta Party,Whistle
+148,Paderu,1,8,APPARAO KINJEDI,M,48,ST,IND,Independent,Nagara
+148,Paderu,1,9,KANNABABU KOKKULA,M,38,ST,IND,Independent,Coconut
+148,Paderu,1,10,SAGENI VENKATARAMANA,M,37,ST,IND,Independent,Ring
+149,Anakapalli,1,1,ILLA RAMA GANGADHARA RAO,M,45,GEN,BSP,Bahujan Samaj Party,Elephant
+149,Anakapalli,1,2,KONATHALA RAMAKRISHNA,M,52,GEN,INC,Indian National Congress,Hand
+149,Anakapalli,1,3,DADI VEERABHADRARAO,M,59,GEN,TDP,Telugu Desam,Bicycle
+149,Anakapalli,1,4,APPARAO DOMMESI,M,42,GEN,RPI,Republican Party of India,Hat
+149,Anakapalli,1,5,GANTA SRINIVASA RAO,M,48,GEN,PRP,Praja Rajyam Party,Railway Engine
+149,Anakapalli,1,6,GARIMELLA NARAYANA,M,75,GEN,LSP,Lok Satta Party,Whistle
+149,Anakapalli,1,7,PULAMARASETTI VENKATA RAMANA,M,28,GEN,PPOI,Pyramid Party of India,Television
+149,Anakapalli,1,8,VEDULLA KANAKA RAO,M,51,GEN,BHSASP,Bharatheeya Sadharma Samsthapana Party,Ceiling Fan
+149,Anakapalli,1,9,KODIGUDLA ESWARARAO,M,45,GEN,IND,Independent,Shuttle
+149,Anakapalli,1,10,GENJI SRINIVASA RAO,M,32,GEN,IND,Independent,Battery Torch
+149,Anakapalli,1,11,NANDA GOPAL GANDHAM,M,60,GEN,IND,Independent,Road Roller
+149,Anakapalli,1,12,VAJRAPU MAHESWARA RAO,M,36,GEN,IND,Independent,Fork
+150,Pendurthi,1,1,GANDI BABJI,M,46,GEN,INC,Indian National Congress,Hand
+150,Pendurthi,1,2,GANDI SURYANARAYANA,M,28,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+150,Pendurthi,1,3,BANDARU SATYANARAYANA MURTHY,M,49,GEN,TDP,Telugu Desam,Bicycle
+150,Pendurthi,1,4,BANDARU SANYASI NAIDU,M,61,GEN,BJP,Bharatiya Janata Party,Lotus
+150,Pendurthi,1,5,VANGURI GANESWARA RAO,M,40,GEN,BSP,Bahujan Samaj Party,Elephant
+150,Pendurthi,1,6,INDUGUBILLI KRUPANANDARAO,M,43,GEN,TPPP,Trilinga Praja Pragati Party,Almirah
+150,Pendurthi,1,7,KORUBILLI RAMA RAO,M,45,GEN,PPOI,Pyramid Party of India,Television
+150,Pendurthi,1,8,PANCHAKARLA RAMESH BABU,M,46,GEN,PRP,Praja Rajyam Party,Railway Engine
+150,Pendurthi,1,9,B.V.SATYANARAYANA MURTHY,M,44,GEN,LSP,Lok Satta Party,Whistle
+150,Pendurthi,1,10,MOLLETI KANAKA RAO,M,39,GEN,IND,Independent,Ring
+151,Elamanchili,1,1,UPPALAPATI VENKATA RAMANAMURTHY RAJU (KANNABABU),M,56,GEN,INC,Indian National Congress,Hand
+151,Elamanchili,1,2,KANDIPALLI VARA LAKSHMI,F,36,GEN,BSP,Bahujan Samaj Party,Elephant
+151,Elamanchili,1,3,YALLAPU BHIMA VENKATESWARA RAO,M,34,GEN,RJD,Rashtriya Janata Dal,Hurricane Lamp
+151,Elamanchili,1,4,LALAM BHASKARA RAO,M,53,GEN,TDP,Telugu Desam,Bicycle
+151,Elamanchili,1,5,VEGI SOMESWARA RAO,M,59,GEN,BJP,Bharatiya Janata Party,Lotus
+151,Elamanchili,1,6,KUNDURU GOVINDHU,M,29,GEN,TPPP,Trilinga Praja Pragati Party,Television
+151,Elamanchili,1,7,GONTHINA VENKATA NAGESWARA RAO,M,46,GEN,PRP,Praja Rajyam Party,Railway Engine
+151,Elamanchili,1,8,SARISA LEELA PRASANNA KUMARI,F,40,GEN,PPOI,Pyramid Party of India,Ring
+151,Elamanchili,1,9,CHANDRA SEKHARARAO RAYAVARAPU,M,36,GEN,IND,Independent,Nagara
+152,Payakaraopeta,1,1,GOLLA BABURAO,M,54,SC,INC,Indian National Congress,Hand
+152,Payakaraopeta,1,2,CHENGALA VENKATA RAO,M,42,SC,TDP,Telugu Desam,Bicycle
+152,Payakaraopeta,1,3,BAVIRISETTI MANIKYALA RAO,M,30,SC,BSP,Bahujan Samaj Party,Elephant
+152,Payakaraopeta,1,4,BUSIRAJU DULAM,M,49,SC,BJP,Bharatiya Janata Party,Lotus
+152,Payakaraopeta,1,5,GURINDAPALLI DHANARAJU,M,52,SC,PRP,Praja Rajyam Party,Railway Engine
+152,Payakaraopeta,1,6,PILLI BALARAMUDU,M,38,SC,LSP,Lok Satta Party,Whistle
+152,Payakaraopeta,1,7,VADLAMURI KRISHNA SWAROOP,M,36,SC,DABAP,Dalita Bahujana Party,Ring
+152,Payakaraopeta,1,8,PATCHINEELA MARIDIYYA,M,34,SC,IND,Independent,Cup & Saucer
+152,Payakaraopeta,1,9,PAKA SATYANARAYANA,M,45,SC,IND,Independent,Hat
+152,Payakaraopeta,1,10,SURIBABU JEKKALA,M,33,SC,IND,Independent,Brief Case
+153,Narsipatnam,1,1,AYYANNAPATRUDU CHINTAKAYALA,M,51,GEN,TDP,Telugu Desam,Bicycle
+153,Narsipatnam,1,2,KARAKA NARASIMHA MURTHY,M,60,GEN,BSP,Bahujan Samaj Party,Elephant
+153,Narsipatnam,1,3,BOLEM MUTHYALA PAPA,F,38,GEN,INC,Indian National Congress,Hand
+153,Narsipatnam,1,4,MADDU RAMAKRISHNA RAJU,M,41,GEN,BJP,Bharatiya Janata Party,Lotus
+153,Narsipatnam,1,5,RUTTALA YERRAPATRUDU,M,54,GEN,PRP,Praja Rajyam Party,Railway Engine
+153,Narsipatnam,1,6,SURLA NAGA VENKATA SURYANARAYANA,M,34,GEN,LSP,Lok Satta Party,Whistle
+153,Narsipatnam,1,7,GORSA VENKATA SURYA NARAYANA,M,25,GEN,IND,Independent,Gas Cylinder
+153,Narsipatnam,1,8,CHIRANJEEVI RAO TAVVA,M,49,GEN,IND,Independent,Gas Stove
+172,Rampachodovaram,1,1,KOSURI KASI VISWANADHA VEERA VENKATA SATYANARAYANA REDDY,M,44,ST,INC,Indian National Congress,Hand
+172,Rampachodovaram,1,2,CHINNAM BABU RAMESH,M,41,ST,TDP,Telugu Desam,Bicycle
+172,Rampachodovaram,1,3,PARADA MALLESWARARAO,M,45,ST,BSP,Bahujan Samaj Party,Elephant
+172,Rampachodovaram,1,4,SOLLA BOJJI REDDY,M,49,ST,BJP,Bharatiya Janata Party,Lotus
+172,Rampachodovaram,1,5,KATRU SUDHAKAR BABU,M,40,ST,LSP,Lok Satta Party,Whistle
+172,Rampachodovaram,1,6,SEETHAMSETTI VENKATESWARARAO,M,56,ST,PRP,Praja Rajyam Party,Railway Engine
+172,Rampachodovaram,1,7,KARAM SAVITHRI,F,50,ST,IND,Independent,Table
+172,Rampachodovaram,1,8,KUNJAM V.V.S.N. DORA,M,37,ST,IND,Independent,Scissors
+172,Rampachodovaram,1,9,KUNDLA PEDA GANGARAJU,M,60,ST,IND,Independent,Nagara
+172,Rampachodovaram,1,10,PANDELA SOMAYYA,M,59,ST,IND,Independent,Cup & Saucer
