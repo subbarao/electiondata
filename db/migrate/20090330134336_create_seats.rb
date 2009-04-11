@@ -10,7 +10,6 @@ class CreateSeats < ActiveRecord::Migration
       t.string :type
       t.integer :phase
       t.date :election_date
-
       t.timestamps
     end
   end

@@ -5,6 +5,9 @@ class CreateNominations < ActiveRecord::Migration
       t.integer :party_id
       t.integer :seat_id
       t.string :type
+      t.integer :age
+      t.string :sex
+      t.string :election_symbol
       t.timestamps
     end
   end

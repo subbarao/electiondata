@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090330141553) do
+ActiveRecord::Schema.define(:version => 20090411032129) do
 
   create_table "candidate_results", :force => true do |t|
     t.integer  "constituency_id"
@@ -52,6 +52,9 @@ ActiveRecord::Schema.define(:version => 20090330141553) do
     t.integer  "party_id"
     t.integer  "seat_id"
     t.string   "type"
+    t.integer  "age"
+    t.string   "sex"
+    t.string   "election_symbol"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -95,6 +98,8 @@ ActiveRecord::Schema.define(:version => 20090330141553) do
     t.date     "election_date"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "category"
+    t.integer  "year"
   end
 
 end
