@@ -1,5 +1,10 @@
 class Constituency < ActiveRecord::Base
+
   acts_as_mappable
+
+  default_scope :conditions => ["constituencies.lat IS NOT NULL AND constituencies.lng IS NOT NULL"]
+
+  has_many :nominations
 
   has_many :results do
     def current_winner
@@ -15,7 +20,8 @@ class Constituency < ActiveRecord::Base
 
   has_many :candidate_results do
     def table
-      find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000) as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10) as margin").inject({}) do |hash,val|
+      find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000)"<<
+      " as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10) as margin").inject({}) do |hash,val|
         hash.merge(val.year => val.attributes)
       end
     end
@@ -83,7 +89,4 @@ class Constituency < ActiveRecord::Base
   end
 
 
-  has_many :nominations do
-
-  end
 end

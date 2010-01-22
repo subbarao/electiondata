@@ -20,3 +20,8 @@ config.action_controller.allow_forgery_protection    = false
 # The :test delivery method accumulates sent emails in the
 # ActionMailer::Base.deliveries array.
 config.action_mailer.delivery_method = :test
+config.gem "factory_girl",              :version => '>= 1.2.3'
+config.gem 'thoughtbot-shoulda',        :version => '>= 2.10.2', :lib => 'shoulda/test_unit'
+config.gem 'flexmock',                  :version => '>=0.8.0',   :lib => 'flexmock/test_unit'
+config.gem 'timocratic-test_benchmark', :version => '>=0.4.3',   :lib => 'test_benchmark', :source => "http://gems.github.com"
+config.gem 'mocha',                     :version => '>=0.9.0'
