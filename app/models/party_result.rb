@@ -19,4 +19,12 @@ class PartyResult < ActiveRecord::Base
     ]
   end
 
+  def self.winner
+    self.scoped(:order => "party_results.percentage DESC").first
+  end
+
+  def self.loser
+    self.scoped(:order => "party_results.percentage DESC").last
+  end
+
 end

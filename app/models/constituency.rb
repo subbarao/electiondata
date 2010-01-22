@@ -28,9 +28,6 @@ class Constituency < ActiveRecord::Base
   end
 
   has_many :party_results do
-    def for_year(year)
-      find(:all,:conditions=>["year = ? ",year],:order => "percentage DESC")
-    end
     def google_obj(year)
       { "cols" => PartyResult.google_label, "rows" => for_year(year).collect(&:google_value) }
     end

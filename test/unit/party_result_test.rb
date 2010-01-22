@@ -10,6 +10,11 @@ class PartyResultTest < ActiveSupport::TestCase
       @pr3 = Factory(:party_result,:constituency_id => @constituency.id,:year => 2004,:percentage => 1)
     end
 
+    should "return association proxy extension method winner return winner" do
+      assert_equal @constituency.party_results.for_year(2004).winner,@pr1
+      assert_equal @constituency.party_results.for_year(2004).loser,@pr3
+    end
+
     should "return association proxy in their order" do
       assert_equal @constituency.party_results.for_year(2004),[@pr1,@pr2,@pr3]
     end
