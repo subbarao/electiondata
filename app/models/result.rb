@@ -5,13 +5,13 @@ class Result < ActiveRecord::Base
 
   named_scope :for_year,lambda { |year| { :conditions => { :year => year } } }
 
-  def self.winner
-    self.scoped(:order => "results.votes DESC").first
+  class<<self
+    def winner
+      scoped(:order => "results.votes DESC").first
+    end
+    def loser
+      scoped(:order => "results.votes DESC").last
+    end
   end
-
-  def self.loser
-    self.scoped(:order => "results.votes DESC").last
-  end
-
 
 end
