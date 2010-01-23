@@ -70,3 +70,17 @@ Factory.define(:party_result) do | r |
   r.sequence(:percentage) { |n| n }
   r.sequence(:year) { |n| n }
 end
+
+
+Factory.define(:candidate_result) do | r |
+  r.association :constituency, :factory => :constituency
+  r.sequence(:winning_party) { |w| "winning_party#{w}" }
+  r.sequence(:winner) { |w| "winner#{w}" }
+  r.sequence(:runnerup_party) { |w| "runner_party#{w}" }
+  r.sequence(:runnerup) { |w| "runner#{w}" }
+  r.sequence(:year) { |w| w }
+  r.turnout 60 
+  r.total_votes 300
+  r.winning_percentage 130
+  r.runnerup_percentage 40
+end

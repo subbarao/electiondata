@@ -19,6 +19,7 @@ class Constituency < ActiveRecord::Base
   end
 
   has_many :candidate_results do
+
     def table
       find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000)"<<
       " as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10) as margin").inject({}) do |hash,val|
@@ -28,62 +29,38 @@ class Constituency < ActiveRecord::Base
   end
 
   has_many :party_results do
+
     def google_obj(year)
-      { "cols" => PartyResult.google_label, "rows" => for_year(year).collect(&:google_value) }
+      { "rows" => for_year(year).collect(&:google_value) }
     end
+
     def piedata
-      find( :all, :select => 'DISTINCT year' ).inject({}) do |hash,val|
-        hash.merge({val.year => google_obj(val.year)})
+      columns = { "cols" => PartyResult.google_label }
+      distinct_years.inject({}) do | hash , year |
+        hash.merge( year => columns.merge(google_obj(year) ) )
       end
     end
-    def barchart
-      parties = find(:all,:order => "percentage desc").collect(&:name).uniq
-      columns = parties.inject([{"id" => "name" ,"type" => "string" ,"label" => "year"}]) do | cols, party|
-        cols << {"id"=>party.downcase, "type"=>"string", "label" => party }
-      end
-      results_in_hash = find( :all, :select => 'DISTINCT year' ).inject({}) do |hash,val|
-        year_by_year = parties.collect do | party |
-          party_result_for_year = find_by_year_and_name(val.year,party)
-          party_result_for_year.nil? ? nil : party_result_for_year.percentage
-        end
-        hash.merge( val.year => year_by_year )
-      end
-      rows=[]
-      results_in_hash.each_pair do |  key, values |
-        column = values.inject([{"v"=>key.to_s}]) do | current_row, val |
-          current_row << ( val.nil? ? nil : { "v" => val } )
-        end
-        rows << {"c" => column}
-      end
-      { "cols" => columns , "rows" => rows }
-    end
+
     def barchart_by_year
-      find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
-        total_votes = proxy_owner.candidate_results.find_by_year(val.year).total_votes * 0.01
-        #Constituency.find
-        results = find_all_by_year(val.year,:limit => 5,:order => "percentage desc")
-        parties = results.collect(&:name)
-        ids = parties.inject([{"id" => "name" ,"type" => "string" ,"label" => "year"}]) do | cols, party|
-          cols << {"id"=>party.downcase, "type"=>"string", "label" => party }
+      distinct_years.inject({}) do | hash, year |
+        total_votes = proxy_owner.candidate_results.find_by_year(year).percentage
+        results = find_all_by_year(year,:limit => 5,:order => "percentage desc")
+        column = results.inject( [ {"v"=> year } ]) do | previous, result |
+          previous << { "v" => result.percentage * total_votes }
         end
-        column = results.inject([{"v"=>val.year.to_s}]) do | previous, result |
-          previous << { "v" => result.percentage*total_votes }
-        end
-        hash.merge({ val.year => { "cols" => ids , "rows" => [{ "c" =>  column  }] } })
+        hash.merge({ year => { "cols" => bar_chart_labels_for_year(year) , "rows" => [{ "c" =>  column  }] } })
       end
     end
+
     def with_party_results
-      find( :all, :select => 'DISTINCT year' ,:order => "year desc").inject({}) do |hash,val|
-        hash.merge( { val.year => find_by_year(val.year).attributes["name"] } )
+      distinct_results.inject({}) do | hash, year |
+        hash.merge( { year => find_by_year(year).attributes["name"] } )
       end
     end
   end
-
   def near
     Constituency.find(:all,:origin => self,:within=> 75).collect do |place|
       place.attributes.slice(*["name","id","lat","lng"]);
     end
   end
-
-
 end

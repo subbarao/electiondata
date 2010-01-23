@@ -1,4 +1,4 @@
-require 'test_helper'
+require File.expand_path(File.dirname(__FILE__) + '/../test_helper')
 
 class ConstituenciesControllerTest < ActionController::TestCase
 
@@ -19,4 +19,15 @@ class ConstituenciesControllerTest < ActionController::TestCase
     should_assign_to :constituencies
     should_respond_with :success
   end
+
+  context "When user clicks on page (which will trigger find), it " do
+    setup do
+      constituency = Factory(:constituency)
+      flexmock(Constituency).should_receive(:find_closest).returns(constituency)
+      get :find,:lat => 23,:lng => 37
+    end
+    should_respond_with :success
+    should_assign_to(:con) { @con }
+  end
+
 end
