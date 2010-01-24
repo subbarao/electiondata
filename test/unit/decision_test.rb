@@ -7,24 +7,62 @@ class DecisionTest < ActiveSupport::TestCase
       @bjp    = Factory(:party,:name => 'Bharatiya',    :code => 'BJP')
       @cong   = Factory(:party,:name => 'Congress',     :code => 'CONG')
 
-      @assembly = Factory(:assembly_seat)
-      @contest04= Factory(:contest,:house => @assembly,:year => 2004,:votes => 15000)
-      @contest08= Factory(:contest,:house => @assembly,:year => 2008,:votes => 20000)
-      @winner   = Factory(:decision,:contest => @contest08,:votes => 8000)
-      @loser1   = Factory(:decision,:contest => @contest08,:votes => 4000)
-      @loser2   = Factory(:decision,:contest => @contest08,:votes => 3000)
+      @assembly   = Factory(:assembly_seat)
+      @contest08 = Factory(:contest,:house => @assembly,:year => 2008,:votes => 25000)
 
-      @winner04 = Factory(:decision,:contest => @contest04,:votes => 8000)
-      @loser104 = Factory(:decision,:contest => @contest04,:votes => 4000)
-      @loser204 = Factory(:decision,:contest => @contest04,:votes => 3000)
+      @winner08   = Factory(:decision,:contest => @contest08,:party => @tdp,:votes => 9000)
+      @defeated08 = Factory(:decision,:contest => @contest08,:party => @bjp,:votes => 8000)
+      @loser08    = Factory(:decision,:contest => @contest08,:party => @cong,:votes => 6000)
+
+      @contest04 = Factory(:contest,:house => @assembly,:year => 2004,:votes => 15000)
+      @winner04   = Factory(:decision,:contest => @contest04,:party => @tdp,:votes => 8000)
+      @defeated04 = Factory(:decision,:contest => @contest04,:party => @cong,:votes => 4000)
+      @loser04    = Factory(:decision,:contest => @contest04,:party => @bjp,:votes => 3000)
 
     end
     should "return decisions with correct year" do
-      assert_same_elements @assembly.decisions.for_year(2008),[@winner,@loser1,@loser2]
-      assert_same_elements @assembly.decisions.for_year(2004),[@winner04,@loser104,@loser204]
+      assert_same_elements @assembly.decisions.for_year(2008),[@winner08,@defeated08,@loser08]
+      assert_same_elements @assembly.decisions.for_year(2004),[@winner04,@defeated04,@loser04]
+    end
+
+    should "return candidates with max votes as winner" do
+      assert_equal Decision.for_year(2008).scoped(:include => :contest).winner,@winner08.contestant.name
+      assert_equal Decision.for_year(2004).scoped(:include => :contest).winner,@winner04.contestant.name
+    end
+
+    should "return candidates with second max votes as defeated" do
+      assert_equal Decision.for_year(2008).scoped(:include => :contest).defeated,@defeated08.contestant.name
+      assert_equal Decision.for_year(2004).scoped(:include => :contest).defeated,@defeated04.contestant.name
+    end
+
+    should "return difference between winner and defeated of votes as margin" do
+      assert_equal Decision.for_year(2008).scoped(:include => :contest).margin,1000
+      assert_equal Decision.for_year(2004).scoped(:include => :contest).margin,4000
+    end
+
+    should "return data related election votes as margin" do
+      assert Decision.for_year(2004).scoped(:include => :contest).overview[:winner],@winner04.contestant.name
+      assert Decision.for_year(2008).scoped(:include => :contest).overview[:winner],@winner08.contestant.name
+      assert Decision.for_year(2004).scoped(:include => :contest).overview[:defeated],@defeated04.contestant.name
+      assert Decision.for_year(2008).scoped(:include => :contest).overview[:defeated],@defeated08.contestant.name
+      assert Decision.for_year(2004).scoped(:include => :contest).overview[:margin],4000
+      assert Decision.for_year(2008).scoped(:include => :contest).overview[:margin],1000
+      assert Decision.for_year(2004).scoped(:include => :contest).overview[:total_votes],15000
+      assert Decision.for_year(2008).scoped(:include => :contest).overview[:total_votes],25000
+    end
+    should "return data related election votes as when accessed through association proxy" do
+      assert @assembly.decisions.for_year(2004).overview[:winner],@winner04.contestant.name
+      assert @assembly.decisions.for_year(2008).overview[:winner],@winner08.contestant.name
+      assert @assembly.decisions.for_year(2004).overview[:defeated],@defeated04.contestant.name
+      assert @assembly.decisions.for_year(2008).overview[:defeated],@defeated08.contestant.name
+      assert @assembly.decisions.for_year(2004).overview[:margin],4000
+      assert @assembly.decisions.for_year(2008).overview[:margin],1000
+      assert @assembly.decisions.for_year(2004).overview[:total_votes],15000
+      assert @assembly.decisions.for_year(2008).overview[:total_votes],25000
     end
 
   end
+
   context " Decision named scopes" do
     setup do
       @bjp      = Factory(:party,:name => 'Bharatiya',:code => 'BJP')

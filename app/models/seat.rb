@@ -61,7 +61,7 @@ class Seat < ActiveRecord::Base
       overview.update(:winner => decisions.winner(year).try(:contestant).try(:name))
       overview.update(:defeated => decisions.defeated(year).try(:contestant).try(:name))
       overview.update(:margin => decisions.margin_of_victory(year))
-      overview.update(:total_votes => contests.for_year(year).first.votes)
+      overview.update(:total => contests.for_year(year).first.votes)
     end
   end
 
