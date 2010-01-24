@@ -38,6 +38,105 @@ class ActiveSupport::TestCase
   # fixtures :all
 
   # Add more helper methods to be used by all tests here...
+  def self.setup_two_elections_data(&block)
+    context "When two elections conducted " do
+      setup do
+        @tdp    = Factory(:party,:name => 'Telugu Desam', :code => 'TDP')
+        @bjp    = Factory(:party,:name => 'Bharatiya',    :code => 'BJP')
+        @cong   = Factory(:party,:name => 'Congress',     :code => 'CONG')
+
+        @assembly_winner    = Factory(:contestant)
+        @assembly_loser1    = Factory(:contestant)
+        @assembly_loser2    = Factory(:contestant)
+
+        @parliament_winner  = Factory(:contestant)
+        @parliament_loser1    = Factory(:contestant)
+        @parliament_loser2    = Factory(:contestant)
+
+        @assembly     = Factory(:assembly_seat)
+        @parliament   = Factory(:parliament_seat)
+
+        @assembly08_contest  = Factory(:contest,:house => @assembly,:year => 2008,:votes => 20000 )
+        @assembly04_contest  = Factory(:contest,:house => @assembly,:year => 2004,:votes => 20000 )
+        @parliament08_contest  = Factory(:contest,:house => @parliament,:year => 2008,:votes => 20000 )
+        @parliament04_contest  = Factory(:contest,:house => @parliament,:year => 2004,:votes => 20000 )
+
+        @assembly08_decision_winner  = @assembly08_contest.decisions.create({
+          :party      =>  @bjp,
+          :contestant =>  @assembly_winner,
+          :votes      =>  8000
+        })
+
+        @assembly08_decision_winner  = @assembly08_contest.decisions.create({
+          :party      =>  @tdp,
+          :contestant =>  @assembly_loser1,
+          :votes      =>  6000
+        })
+
+        @assembly08_decision_winner  = @assembly08_contest.decisions.create({
+          :party      =>  @cong,
+          :contestant =>  @assembly_loser2,
+          :votes      =>  3000
+        })
+
+        @assembly04_decision_winner  = @assembly04_contest.decisions.create({
+          :party      =>  @bjp,
+          :contestant =>  @assembly_winner,
+          :votes      =>  8000
+        })
+
+        @assembly04_decision_winner  = @assembly04_contest.decisions.create({
+          :party      =>  @tdp,
+          :contestant =>  @assembly_loser1,
+          :votes      =>  6000
+        })
+
+        @assembly04_decision_winner  = @assembly04_contest.decisions.create({
+          :party      =>  @cong,
+          :contestant =>  @assembly_loser2,
+          :votes      =>  3000
+        })
+
+        @parliament08_decision_winner  = @parliament08_contest.decisions.create({
+          :party      =>  @bjp,
+          :contestant =>  @parliament_winner,
+          :votes      =>  8000
+        })
+
+        @parliament08_decision_winner  = @parliament08_contest.decisions.create({
+          :party      =>  @tdp,
+          :contestant =>  @parliament_loser1,
+          :votes      =>  6000
+        })
+
+        @parliament08_decision_winner  = @parliament08_contest.decisions.create({
+          :party      =>  @cong,
+          :contestant =>  @parliament_loser2,
+          :votes      =>  3000
+        })
+
+        @parliament04_decision_winner  = @parliament04_contest.decisions.create({
+          :party      =>  @bjp,
+          :contestant =>  @parliament_winner,
+          :votes      =>  8000
+        })
+
+        @parliament04_decision_winner  = @parliament04_contest.decisions.create({
+          :party      =>  @tdp,
+          :contestant =>  @parliament_loser1,
+          :votes      =>  6000
+        })
+
+        @parliament04_decision_winner  = @parliament04_contest.decisions.create({
+          :party      =>  @cong,
+          :contestant =>  @parliament_loser2,
+          :votes      =>  3000
+        })
+      end
+      yield
+    end
+  end
+
 end
 
 Factory.define(:party) do | f |
@@ -79,8 +178,33 @@ Factory.define(:candidate_result) do | r |
   r.sequence(:runnerup_party) { |w| "runner_party#{w}" }
   r.sequence(:runnerup) { |w| "runner#{w}" }
   r.sequence(:year) { |w| w }
-  r.turnout 60 
+  r.turnout 60
   r.total_votes 300
   r.winning_percentage 130
   r.runnerup_percentage 40
+end
+
+Factory.define(:assembly_seat) do | f |
+  f.sequence(:name) { |w| "assemblyseat#{w}" }
+end
+
+Factory.define(:parliament_seat) do | f |
+  f.sequence(:name) { |w| "parliamentseat#{w}" }
+end
+
+Factory.define(:contestant) do | f |
+  f.sequence(:name) { |w| "contestant#{w}" }
+end
+
+Factory.define(:contest) do | f |
+  f.association(:house, :factory => :assembly_seat)
+  f.year 2004
+  f.votes 2000
+end
+
+Factory.define(:decision) do | f |
+  f.association :party, :factory => :party
+  f.association :contest, :factory => :contest
+  f.association :contestant, :factory => :contestant
+  f.votes 20000
 end

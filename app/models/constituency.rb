@@ -6,20 +6,7 @@ class Constituency < ActiveRecord::Base
 
   has_many :nominations
 
-  has_many :results do
-    def current_winner
-      recent.first
-    end
-    def current_loser
-      recent[1]
-    end
-    def recent
-      find(:all,:conditions=>["year = 2004 "],:order => "votes DESC",:include=>[:party])
-    end
-  end
-
   has_many :candidate_results do
-
     def table
       find(:all,:select => "year,winner,winning_party,runnerup,runnerup_party,(total_votes*1000)"<<
       " as total_votes,((winning_percentage-runnerup_percentage)*total_votes*10) as margin").inject({}) do |hash,val|
@@ -35,7 +22,7 @@ class Constituency < ActiveRecord::Base
     end
 
     def piedata
-      columns = { "cols" => PartyResult.google_label }
+      columns = { "cols" => PartyResult.google_columns }
       distinct_years.inject({}) do | hash , year |
         hash.merge( year => columns.merge(google_obj(year) ) )
       end

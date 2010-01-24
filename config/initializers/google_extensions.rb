@@ -8,30 +8,36 @@
 
 module ActiveRecord
   class Base
-    def options_for(label)
-      self.class.google_label.select { | field | field[:id] == label }
+
+    def options_for( name )
+      self.class.google_labels.find { | ops | ops[:id] == name }
     end
-    def value_for(label)
-      { "v" => self.send(options_for(label)[:method]) }
+
+    def value_for( name, instance )
+      { "v" => options_for(name)[:method].call(instance) }
     end
-    def google_value
-      {
-        "c" => self.class.google_labels.inject([]) do | cumulative , options |
-          cumulative << { "v" => self.send(options[:method]) }
-        end
-      }
+
+    def google_value( instance )
+      { "c" => self.class.google_labels.inject([]) { | col , ops | col << value_for(ops[:id],instance) } }
     end
-    def self.google_label
-      google_labels.collect do | options |
-        options.except(:method)
+
+    class<<self
+
+      def google_columns
+        google_labels.collect { | options | options.except(:method) }
       end
+
+      def google_labels
+        read_inheritable_attribute(:google_labels) || write_inheritable_attribute(:google_labels,[])
+      end
+
+      def add_google_label(options={})
+        options.symbolize_keys!
+        google_labels << options.merge(:label => options[:id].camelize )
+      end
+
     end
-    def self.google_labels
-      read_inheritable_attribute(:google_labels) || write_inheritable_attribute(:google_labels,[])
-    end
-    def self.add_google_label(options={})
-      options.symbolize_keys!
-      google_labels << options
-    end
+
   end
+
 end

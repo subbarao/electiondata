@@ -1,0 +1,40 @@
+<% content_for :javascript do %>
+<%= javascript_include_tag "seat" %>
+<% end %>
+
+<STYLE TYPE="text/css" MEDIA=screen>
+  .mymap {
+    margin: 5px auto; 
+    width: 600px; 
+    height: 400px; 
+    position: relative; 
+    background-color: rgb(229, 227, 223);
+  }
+</STYLE>
+
+
+<div id="head">
+  <select  id="search_box" name="query" type="text" >
+    <%= options_from_collection_for_select @seats,:id,:name %>
+  </select>
+</div>
+
+<div id="center"> 
+  <div id="map" class="mymap"></div>
+</div>
+
+<div id="right">
+  <select id="select_box" style="display: none;"></select>		
+  <div id="content" >
+    <h4> Winner :<span class="winner"></span> (<span class="winning_party"></span>) </h4>
+    <h2>vs</h2>
+    <h4> Won Against :<span class="defeated" ></span> (<span class="runnerup_party"></span>) </h4> 
+    <h4> Total Votes :<span class="total_votes"></span> </h4> 
+    <h4> Margin  :<span class="margin"></span> </h4> 
+  </div>
+</div>
+
+<div id="foot">
+  <div id="chart_div" ></div>
+  <div id="bar_chart_div" ></div>
+</div>

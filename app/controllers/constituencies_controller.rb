@@ -27,10 +27,12 @@ class ConstituenciesController < ApplicationController
 
   def find
     @con = Constituency.find_closest(:origin => [params[:lat],params[:lng]])
-    render :json => { "piechart" => @con.party_results.piedata ,
+    render :json => {
+      "piechart" => @con.party_results.piedata ,
       "barchart" => @con.party_results.barchart_by_year ,
       "core" => @con.attributes.except("created_at","updated_at"),
-    "table" => @con.candidate_results.table, "near" => @con.near }.to_json
+      "table" => @con.candidate_results.table
+    }.to_json
   end
 
   def index

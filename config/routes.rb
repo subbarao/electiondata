@@ -1,4 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
+
+  map.resources :seats,:collection => { :nearest => :get },:only => [ :show, :index ]
+
   map.resources :nominations
   map.root :controller => "results",:action => "init"
   map.resources :constituencies,:collection => { :donothing =>:get, :current => :get ,:all => :get, :find => :get},:member =>{:test=>:get},:except => [:update,:edit,:create]

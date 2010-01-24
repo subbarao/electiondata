@@ -9,12 +9,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20090411032129) do
+ActiveRecord::Schema.define(:version => 20100123174600) do
 
   create_table "candidate_results", :force => true do |t|
     t.integer  "constituency_id"
     t.integer  "year"
-    t.integer  "total_votes"
+    t.integer  "total_votes",         :limit => 14
     t.float    "turnout"
     t.string   "winner"
     t.string   "winning_party"
@@ -36,6 +36,31 @@ ActiveRecord::Schema.define(:version => 20090411032129) do
     t.float    "lat"
     t.float    "lng"
     t.float    "distance"
+  end
+
+  create_table "contestants", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "contests", :force => true do |t|
+    t.integer  "year"
+    t.integer  "house_id"
+    t.string   "house_type"
+    t.integer  "votes"
+    t.integer  "polled"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "decisions", :force => true do |t|
+    t.integer  "contest_id"
+    t.integer  "party_id"
+    t.integer  "votes"
+    t.integer  "contestant_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "districts", :force => true do |t|
@@ -79,7 +104,7 @@ ActiveRecord::Schema.define(:version => 20090411032129) do
     t.string   "name"
     t.integer  "party_id"
     t.integer  "constituency_id"
-    t.integer  "votes"
+    t.integer  "votes",           :limit => 12
     t.float    "percentage"
     t.integer  "year"
     t.datetime "created_at"
