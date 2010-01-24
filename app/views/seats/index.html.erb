@@ -24,12 +24,14 @@
 </div>
 
 <div id="right">
-  <select id="select_box" style="display: none;"></select>		
+  <select id="select_box" >
+    <%= options_for_select(%w(2004 1999 1994 1989 1985 1983 1978).inject([]) { |all,val| all << [val ,val] }) %>
+  </select>		
   <div id="content" >
-    <h4> Winner :<span class="winner"></span> (<span class="winning_party"></span>) </h4>
+    <h4> Winner :<span class="winner"></span> </h4>
     <h2>vs</h2>
-    <h4> Won Against :<span class="defeated" ></span> (<span class="runnerup_party"></span>) </h4> 
-    <h4> Total Votes :<span class="total_votes"></span> </h4> 
+    <h4> Won Against :<span class="defeated" ></span> </h4> 
+    <h4> Total Votes :<span class="total_votes"></span></h4> 
     <h4> Margin  :<span class="margin"></span> </h4> 
   </div>
 </div>

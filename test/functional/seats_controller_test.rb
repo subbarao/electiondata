@@ -4,7 +4,7 @@ class SeatsControllerTest < ActionController::TestCase
 
   context "when user visits index page,it" do
     setup do
-      flexmock(Seat).should_receive(:find).once.and_return([])
+      flexmock(AssemblySeat).should_receive(:find).once.and_return([])
       get :index
     end
     should_assign_to :seats
@@ -13,7 +13,8 @@ class SeatsControllerTest < ActionController::TestCase
 
   context "when user selects element,it" do
     setup do
-      flexmock(Seat).should_receive(:find).once.and_return(flexmock(Seat.new))
+      seat_mock = flexmock(AssemblySeat.new) { |mock| mock.should_receive(:charts).once.and_return({}) }
+      flexmock(AssemblySeat).should_receive(:find).once.and_return(flexmock(seat_mock))
       xml_http_request :get,:show,:id => 1
     end
     should_assign_to :seat
@@ -22,7 +23,8 @@ class SeatsControllerTest < ActionController::TestCase
 
   context "when user clicks on map page,it" do
     setup do
-      flexmock(Seat).should_receive(:find_closest).once.and_return(flexmock(Seat.new))
+      seat_mock = flexmock(AssemblySeat.new) { |mock| mock.should_receive(:charts).once.and_return({}) }
+      flexmock(AssemblySeat).should_receive(:find_closest).once.and_return(seat_mock)
       xml_http_request :get,:nearest,:lat => 23,:lng => 27
     end
     should_assign_to :seat

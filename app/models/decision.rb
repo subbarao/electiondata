@@ -40,11 +40,11 @@ class Decision < ActiveRecord::Base
   end
 
   def self.winner
-    self.scoped(:order => "decisions.votes desc",:limit => 1).first.contestant.name
+    self.scoped(:order => "decisions.votes desc",:limit => 1).first.try(:contestant).try(:name)
   end
 
   def self.defeated
-    self.scoped(:order => "decisions.votes desc",:limit => 1,:offset => 1).first.contestant.name
+    self.scoped(:order => "decisions.votes desc",:limit => 1,:offset => 1).first.try(:contestant).try(:name)
   end
 
   def self.margin
