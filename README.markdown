@@ -19,7 +19,8 @@
 <pre>
   sudo gem install geokit 
 </pre>
-
+  
+ instructions to populating data and starting the server
 <pre>
   rake db:create
   rake db:migrate
