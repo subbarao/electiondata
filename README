@@ -1,2 +1,10 @@
-== Getting Started
+== instructions to run the app
+ update config/database.yml to your settings
+ sudo gem install geokit (rake gems:install won't work)
+ rake db:create
+ rake db:migrate
+ rake db:data:load 
+ ruby script/server
+
+ == Working on demo site
 

@@ -3,7 +3,7 @@ require 'capistrano/ext/multistage'
 
 server "174.143.146.37", :app, :web, :db, :primary => true
 
-set :user, 'aruna'
+set :user, 'sinatra'
 set :keep_releases, 3
 set :repository,"git@github.com:subbarao/electiondata.git"
 
