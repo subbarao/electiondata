@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'open-uri'
 require 'hpricot'
-require 'ruby-debug'
 namespace :create do
   desc "some dude"
   task :more_results => :environment do

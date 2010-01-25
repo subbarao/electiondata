@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'open-uri'
 require 'hpricot'
-require 'ruby-debug'
 namespace :gps do
   desc "add new locations"
   task :add, :c_id, :lat,:lng, :needs => [:environment] do |t, args|

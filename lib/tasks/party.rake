@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'open-uri'
 require 'hpricot'
-require 'ruby-debug'
 require 'geokit'
 namespace :party do
   desc "inc some dude"

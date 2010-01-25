@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'open-uri'
 require 'hpricot'
-require 'ruby-debug'
 namespace :create do
   def find_contents(node,index)
     node.search("td")[index].search("strong").inner_html
