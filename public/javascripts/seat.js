@@ -12,39 +12,42 @@ MapCanvas = {
     is3D: true
   },
   replaceYearSelectBox: function(currentCity) {
-    $("#select_box").unbind().change(function(e) {
+    $("#year_select_box").unbind().change(function(e) {
       MapCanvas.handleYearChange(currentCity,$(this).val());
     }).val("2004").trigger('change');
   },
   constructBar:function(barData,year){
     if(barData){
       var barJson = new google.visualization.DataTable(barData);
-      var barChart = new google.visualization.BarChart(document.getElementById("chart_div"));
+      var barChart = new google.visualization.BarChart(document.getElementById("barchart"));
       barChart.draw(barJson, $.extend(MapCanvas.visualizationDefaultOptions, {
-        title: year + " Votes Polled For Candidates"
+        title: year + " Votes Polled For Candidates (Thousands)"
       }));
+    }
+    else{
+      $("#barchart").html("Data Is Not Available");
     }
   },
   constructPie:function(pieData,year){
     if(pieData){
       var pieJson = new google.visualization.DataTable(pieData);
-      var pieChart = new google.visualization.PieChart(document.getElementById("chart_div"));
+      var pieChart = new google.visualization.PieChart(document.getElementById("piechart"));
       pieChart.draw(pieJson, $.extend(MapCanvas.visualizationDefaultOptions, {
         title: year + " Percentage Of Votes For Party"
       }));
     }
-  },
-  constructResult:function(infoYear){
-    for (var property in infoYear ) {
-      if ($("." + property)) {
-        var value = infoYear[property];
-        value = (/\d+/).exec("" + value) ? parseInt(value, 10) : value.toLowerCase();
-        $("." + property).html(value);
-      }
+    else{
+      $("#piechart").html("Data Is Not Available");
     }
   },
+  constructResult:function(result){
+    $(".winner").html(result["winner"]+" (won)");
+    $(".defeated").html(result["defeated"]+" (lost)");
+    //$(".total_votes").html(result["total_votes"]+" (votes polled)");
+    //$(".margin").html(result["margin"]+" (margin)");
+  },
   handleYearChange: function(currentCity,year) {
-    $('#chart_div').html("");
+    $('#barchart,#piechart').html("");
     MapCanvas.constructPie(currentCity.piecharts[year],year);
     MapCanvas.constructBar(currentCity.barcharts[year],year);
     MapCanvas.constructResult(currentCity.overview[year],year);
@@ -86,8 +89,8 @@ function onLoadFunction() {
     return false;
   });
 
-  $("#search_box").change(function(e) {
-    $.getJSON("/seats/" + $("#search_box").val(), function(json) {
+  $("#city_select_box").change(function(e) {
+    $.getJSON("/seats/" + $("#city_select_box").val(), function(json) {
       MapCanvas.handleJson(json);
     });
     return false;

@@ -1,5 +1,7 @@
 class Seat < ActiveRecord::Base
 
+  UI_INFO  = %w(barcharts piecharts overview)
+
   acts_as_mappable
 
   belongs_to :district
@@ -8,12 +10,11 @@ class Seat < ActiveRecord::Base
 
   has_many :contests,:as => :house, :dependent => :destroy do
     def years
-      find(:all,:select => "distinct(contests.year)",:order => "contests.year desc").collect(&:year)
+      find( :all, :select => "distinct(contests.year)", :order => "contests.year desc" ).collect(&:year)
     end
   end
 
   has_many :decisions,:through => :contests
-  UI_INFO  = %w(barcharts piecharts overview)
 
   def construct(chart_type)
     contests.years.inject({}) do | all_years_chart, year |

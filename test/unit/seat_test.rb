@@ -82,11 +82,11 @@ class SeatTest < ActiveSupport::TestCase
     end
 
     should "return winner for year" do
-      assert_equal @assembly.decisions.for_year(2008).winner,@winner.contestant.name
+      assert_equal @assembly.decisions.for_year(2008).winner,@winner.contestant_name
     end
 
     should "return defeated for year" do
-      assert_equal @assembly.decisions.for_year(2008).defeated,@loser1.contestant.name
+      assert_equal @assembly.decisions.for_year(2008).defeated,@loser1.contestant_name
     end
 
     should "return all barcharts/piecharts/overview/info" do
@@ -111,12 +111,6 @@ class SeatTest < ActiveSupport::TestCase
     should "return all the data required to render ui for parliament" do
       assert @parliament.charts, {"barcharts"=>{"2004"=>{"rows"=>[{"c"=>[{"v"=>"contestant22"}, {"v"=>8000}]}, {"c"=>[{"v"=>"contestant23"}, {"v"=>4000}]}, {"c"=>[{"v"=>"contestant24"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Name", :id=>"name"}, {:type=>"number", :label=>"Votes", :id=>"votes"}]}, "2008"=>{"rows"=>[{"c"=>[{"v"=>"contestant19"}, {"v"=>8000}]}, {"c"=>[{"v"=>"contestant20"}, {"v"=>4000}]}, {"c"=>[{"v"=>"contestant21"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Name", :id=>"name"}, {:type=>"number", :label=>"Votes", :id=>"votes"}]}}, "piecharts"=>{"2004"=>{"rows"=>[{"c"=>[{"v"=>"Telugu Desam"}, {"v"=>8000}]}, {"c"=>[{"v"=>"Bharatiya"}, {"v"=>4000}]}, {"c"=>[{"v"=>"Congress"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Party name", :id=>"party name"}, {:type=>"number", :label=>"Percentage", :id=>"percentage"}]}, "2008"=>{"rows"=>[{"c"=>[{"v"=>"Bharatiya"}, {"v"=>8000}]}, {"c"=>[{"v"=>"Congress"}, {"v"=>4000}]}, {"c"=>[{"v"=>"Telugu Desam"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Party name", :id=>"party name"}, {:type=>"number", :label=>"Percentage", :id=>"percentage"}]}}, "overview"=>{"2004"=>{:winner=>"contestant22", :total_votes=>15000, :defeated=>"contestant23", :margin=>4000}, "2008"=>{:winner=>"contestant19", :total_votes=>20000, :defeated=>"contestant20", :margin=>4000}}}
     end
-
-    should "return all the data required to render ui for assembly" do
-      assert_equal @assembly.charts,{"barcharts"=>{"2004"=>{"rows"=>[{"c"=>[{"v"=>"contestant28"}, {"v"=>8000}]}, {"c"=>[{"v"=>"contestant29"}, {"v"=>4000}]}, {"c"=>[{"v"=>"contestant30"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Name", :id=>"name"}, {:type=>"number", :label=>"Votes", :id=>"votes"}]}, "2008"=>{"rows"=>[{"c"=>[{"v"=>"contestant25"}, {"v"=>8000}]}, {"c"=>[{"v"=>"contestant26"}, {"v"=>4000}]}, {"c"=>[{"v"=>"contestant27"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Name", :id=>"name"}, {:type=>"number", :label=>"Votes", :id=>"votes"}]}}, "piecharts"=>{"2004"=>{"rows"=>[{"c"=>[{"v"=>"SOME PARTY 16"}, {"v"=>8000}]}, {"c"=>[{"v"=>"SOME PARTY 17"}, {"v"=>4000}]}, {"c"=>[{"v"=>"SOME PARTY 18"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Party name", :id=>"party name"}, {:type=>"number", :label=>"Percentage", :id=>"percentage"}]}, "2008"=>{"rows"=>[{"c"=>[{"v"=>"SOME PARTY 13"}, {"v"=>8000}]}, {"c"=>[{"v"=>"SOME PARTY 14"}, {"v"=>4000}]}, {"c"=>[{"v"=>"SOME PARTY 15"}, {"v"=>3000}]}], "cols"=>[{:type=>"string", :label=>"Party name", :id=>"party name"}, {:type=>"number", :label=>"Percentage", :id=>"percentage"}]}}, "overview"=>{"2004"=>{:total_votes=>15000, :winner=>"contestant28", :margin=>4000, :defeated=>"contestant29"}, "2008"=>{:total_votes=>20000, :winner=>"contestant25", :margin=>4000, :defeated=>"contestant26"}}}
-
-    end
-
   end
 
   context "When class method all called on Seat classes, it" do

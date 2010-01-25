@@ -11,33 +11,6 @@
 
 ActiveRecord::Schema.define(:version => 20100123174600) do
 
-  create_table "candidate_results", :force => true do |t|
-    t.integer  "constituency_id"
-    t.integer  "year"
-    t.integer  "total_votes",         :limit => 14
-    t.float    "turnout"
-    t.string   "winner"
-    t.string   "winning_party"
-    t.float    "winning_percentage"
-    t.string   "runnerup"
-    t.string   "runnerup_party"
-    t.float    "runnerup_percentage"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "constituencies", :force => true do |t|
-    t.string   "name"
-    t.string   "district"
-    t.string   "ec_id"
-    t.string   "category"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.float    "lat"
-    t.float    "lng"
-    t.float    "distance"
-  end
-
   create_table "contestants", :force => true do |t|
     t.string   "name"
     t.datetime "created_at"
@@ -72,41 +45,9 @@ ActiveRecord::Schema.define(:version => 20100123174600) do
     t.datetime "updated_at"
   end
 
-  create_table "nominations", :force => true do |t|
-    t.string   "name"
-    t.integer  "party_id"
-    t.integer  "seat_id"
-    t.string   "type"
-    t.integer  "age"
-    t.string   "sex"
-    t.string   "election_symbol"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "parties", :force => true do |t|
     t.string   "code"
     t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "party_results", :force => true do |t|
-    t.integer  "constituency_id"
-    t.string   "name"
-    t.float    "percentage"
-    t.integer  "year"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "results", :force => true do |t|
-    t.string   "name"
-    t.integer  "party_id"
-    t.integer  "constituency_id"
-    t.integer  "votes",           :limit => 12
-    t.float    "percentage"
-    t.integer  "year"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

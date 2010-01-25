@@ -7,7 +7,7 @@ class Contestant < ActiveRecord::Base
   })
 
   add_google_label(:id => "votes" , :type => "number" , :method => lambda { | decision |
-    decision.votes
+    ( decision.votes || 0 )/1000
   })
 
 end

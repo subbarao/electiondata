@@ -36,7 +36,7 @@ class PartyTest < ActiveSupport::TestCase
     end
 
     should "return decisions with correct year " do
-      assert_same_elements [ @parliament308, @winner ],@bjp.decisions.for_year(2008)
+      assert_same_elements [@parliament308, @winner],@bjp.decisions.for_year(2008).scoped(:include => :contest)
     end
   end
 end

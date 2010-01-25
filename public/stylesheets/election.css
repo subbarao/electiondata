@@ -1,49 +1,36 @@
 html, body {
   margin : 0;
   padding : 0;
-  font-size : 1em;
   font-family : Georgia, Arial, sans-serif;
   text-align : center;
-  font-weight: bold; 
-  line-height: 1.5em;
 }
-h2,h4{
-  text-align: center;
-  text-align: -moz-center;
-}
-h4{
-  text-transform: capitalize;
-}
-.winning_party,.runnerup_party{
-  text-transform: uppercase;
-}
+
 #container {
   margin : 5px;
-  width : 1050px;
-  margin : auto;
-  text-align : left;
+  width : 950px;
+  margin : 0 auto;
 }
+
 #head {
-  height : 50px;
   padding : 5px;
   margin : 5px 0 0 0;
-  text-align : center;
 }
-#center {
-  display : inline;
-  padding : 5px;
-  width : 620px;
-  float : left;
-  margin : 5px 0 5px 0;
+
+.mymap {
+  margin: 5px auto;
+  width: 900px;
+  height: 400px;
+  position: relative;
+  background-color: rgb(229, 227, 223);
 }
+
 #right {
-  display : inline;
   padding : 5px;
-  width : 400px;
-  float : right;
   margin : 5px;
   margin-right : 0;
+  text-align: center;
 }
+
 #foot {
   margin : 0 0 5px 0;
   clear : both;
@@ -51,10 +38,12 @@ h4{
   height : 40px;
   text-align : center;
 }
+
 #foot p {
   margin : 0;
 }
-#search_box,#select_box {
+
+#city_select_box, #year_select_box {
   background:#F3F9F8 none repeat scroll 0 0;
   border:1px solid #C9D7D8;
   font-size:1.3em;
@@ -62,12 +51,18 @@ h4{
   width:15em;
 }
 
+#year-select_box {
+  width:5em;
+}
 
-#search_button {
-  cursor:pointer;
-  font-size:1.2em;
-  height:2em !important;
-  margin:0 !important;
-  padding:0 !important;
-  width:auto;
+#piechart,#barchart{
+  width:400;
+}
+
+#barchart{
+  float:right;
+}
+
+#piechart{
+  float:left;
 }

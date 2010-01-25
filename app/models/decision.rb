@@ -1,10 +1,10 @@
 class Decision < ActiveRecord::Base
 
-  OVERVIEW_FIELDS = %w(winner defeated margin total_votes)
+  OVERVIEW_FIELDS = %w( winner defeated margin total_votes )
 
   belongs_to :contest
-  belongs_to :party
   belongs_to :contestant
+  belongs_to :party
 
   validates_uniqueness_of :party_id,:scope => :contest_id
   validates_uniqueness_of :contestant_id,:scope => :contest_id
@@ -39,17 +39,33 @@ class Decision < ActiveRecord::Base
     { "cols" => Contestant.google_columns, "rows" => with_valid_contestant.collect(&:contestant_values) }
   end
 
+  def self.winner_votes
+    self.scoped({}).maximum("decisions.votes")
+  end
+
+  def self.winner_decision
+    scoped_by_votes(winner_votes).first
+  end
+  def self.defeated_decision
+    scoped(:conditions => ["decisions.votes <> ?", winner_votes ],:limit => 1).first
+  end
+
   def self.winner
-    self.scoped(:order => "decisions.votes desc",:limit => 1).first.try(:contestant).try(:name)
+    winner_decision.contestant_name
   end
 
   def self.defeated
-    self.scoped(:order => "decisions.votes desc",:limit => 1,:offset => 1).first.try(:contestant).try(:name)
+    defeated_decision.contestant_name
+  end
+
+  def contestant_name
+    self.try(:contestant).try(:name).try(:camelcase) || "Data Not Available"
   end
 
   def self.margin
-    winner_decision, defeated_decision = self.scoped(:order => "decisions.votes desc",:limit => 2)
-    winner_decision.votes - defeated_decision.votes
+    elected , runnerup = winner_decision, defeated_decision
+    return "Data Not Available" if elected.nil? || runnerup.nil?
+    elected.votes - runnerup.votes
   end
 
   def self.total_votes
@@ -57,7 +73,7 @@ class Decision < ActiveRecord::Base
   end
 
   def self.overview
-    OVERVIEW_FIELDS.inject({}) { | all, field | all.merge(field.to_sym => send(field.to_sym) ) }
+    OVERVIEW_FIELDS.inject({}) { | all, field | all.merge( field.to_sym => self.send( field.to_sym ) ) }
   end
 
 end
