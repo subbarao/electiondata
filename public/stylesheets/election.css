@@ -66,3 +66,19 @@ html, body {
 #piechart{
   float:left;
 }
+
+#demo_explanation{
+  border-right: 1px solid #000;
+  float: left;
+  width: 49%;
+  margin-right: 5px;
+  padding-right: 5px;
+  font-size: .9em;
+}
+iframe{
+  background-color: #DDD;
+  border: 0;
+  margin-left: 20px;
+  font-size: .9em;
+}
+
