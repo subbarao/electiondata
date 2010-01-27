@@ -1,9 +1,8 @@
 class Party < ActiveRecord::Base
 
-  has_many :results
   has_many :decisions
 
-  add_google_label(:id => "party name" ,:type => "string" , :method => lambda { | decision |
+  add_google_label(:id => "party" ,:type => "string" , :method => lambda { | decision |
     decision.party.code
   })
 

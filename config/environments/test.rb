@@ -23,6 +23,4 @@ config.action_mailer.delivery_method = :test
 
 config.gem "factory_girl",              :version => '>= 1.2.3'
 config.gem 'thoughtbot-shoulda',        :version => '>= 2.10.2', :lib => 'shoulda/test_unit'
-config.gem 'flexmock',                  :version => '>=0.8.0',   :lib => 'flexmock/test_unit'
-config.gem 'mocha',                     :version => '>=0.9.0'
-
+config.gem 'mocha',                     :version => '>=0.9.8'
