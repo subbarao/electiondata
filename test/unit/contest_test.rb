@@ -2,43 +2,99 @@ require File.expand_path(File.dirname(__FILE__) + '/../test_helper')
 
 class ContestTest < ActiveSupport::TestCase
 
-  context "When association proxies for constest queried, they" do
+  context "Instance of contest" do
+
     setup do
-      @tdp    = Factory(:party,:name => 'Telugu Desam', :code => 'TDP')
-      @bjp    = Factory(:party,:name => 'Bharatiya',    :code => 'BJP')
-      @cong   = Factory(:party,:name => 'Congress',     :code => 'CONG')
+      @contest  = Factory(:contest)
+      @winner   = Factory(:decision,:contest => @contest, :votes => '20000')
+      @runnerup = Factory(:decision,:contest => @contest, :votes => '9000')
 
-      @assembly = Factory(:assembly_seat)
-      @contest04= Factory(:contest,:house => @assembly,:year => 2004,:votes => 15000)
-      @contest08= Factory(:contest,:house => @assembly,:year => 2008,:votes => 20000)
-      @winner   = Factory(:decision,:contest => @contest08,:votes => 8000)
-      @loser1   = Factory(:decision,:contest => @contest08,:votes => 4000)
-      @loser2   = Factory(:decision,:contest => @contest08,:votes => 3000)
-
-      @winner04 = Factory(:decision,:contest => @contest04,:votes => 8000)
-      @loser104 = Factory(:decision,:contest => @contest04,:votes => 4000)
-      @loser204 = Factory(:decision,:contest => @contest04,:votes => 3000)
-
-      @parliament   = Factory(:parliament_seat)
-      @parliament04 = Factory(:contest,:house => @parliament,:year => 2004,:votes => 15000)
-      @parliament08 = Factory(:contest,:house => @parliament,:year => 2008,:votes => 20000)
-      @parliament108   = Factory(:decision,:contest => @parliament08,:party => @bjp,:votes => 8000)
-      @parliament208   = Factory(:decision,:contest => @parliament08,:party => @cong,:votes => 4000)
-      @parliament308   = Factory(:decision,:contest => @parliament08,:party => @tdp,:votes => 3000)
-
-      @parliament104 = Factory(:decision,:contest => @parliament04,:party => @tdp,:votes => 8000)
-      @parliament204 = Factory(:decision,:contest => @parliament04,:party => @bjp,:votes => 4000)
-      @parliament304 = Factory(:decision,:contest => @parliament04,:party => @cong,:votes => 3000)
-
+      Factory(:decision,:contest => @contest, :votes => '4000')
+      Factory(:decision,:contest => @contest, :votes => '3000')
     end
 
-    should "return winner when winner called" do
-      assert_equal @parliament04.decisions.winner,@parliament104
+    should "return hash with winner/runnerup/votes/margin  values" do
+      overview = @contest.overview
+
+      assert_equal @winner.contestant.name,overview[:winner]
+      assert_equal @runnerup.contestant.name,overview[:defeated]
+      assert_equal @contest.votes,overview[:votes]
+      assert_equal 11000,overview[:margin]
     end
 
-    should "return runnerup when runnerup called" do
-      assert_equal @parliament04.decisions.runnerup,@parliament204
+    should "able to get contestant values in google visualization table format" do
+      google_visualization = @contest.barcharts
+      assert_same_elements ["cols","rows"], google_visualization.keys
+      assert_same_elements Contestant.google_columns, google_visualization["cols"]
     end
+
+    should "return all contestant google_values" do
+      contest    = Contest.new
+      contestant = mock()
+      contestant.expects(:google_value).returns('googlevalue')
+      contest.expects(:contestants).returns([contestant])
+      assert_equal ['googlevalue'], contest.to_contestant_values
+    end
+
   end
 
+  context "Instance of contest decision association proxies " do
+
+    setup do
+      @contest  = Factory(:contest)
+      @winner   = Factory(:decision,:contest => @contest, :votes => '20000')
+      @runnerup = Factory(:decision,:contest => @contest, :votes => '9000')
+
+      Factory(:decision,:contest => @contest, :votes => '4000')
+      Factory(:decision,:contest => @contest, :votes => '3000')
+    end
+
+    should "know the winner" do
+      assert_equal @winner, @contest.decisions.winner
+    end
+
+    should "know the runnerup" do
+      assert_equal @runnerup, @contest.decisions.runnerup
+    end
+
+    should "know the victory margin" do
+      assert_equal 11000,@contest.decisions.margin
+    end
+
+    should "be able retrieve decision when contestant is given" do
+      assert_equal @winner ,  @contest.decisions.for(@winner.contestant)
+      assert_equal @runnerup, @contest.decisions.for(@runnerup.contestant)
+    end
+
+  end
+
+  context "Instance of contest contestants association proxies " do
+
+    setup do
+      @contest  = Factory(:contest)
+      @winner   = Factory(:decision,:contest => @contest, :votes => '20000')
+      @runnerup = Factory(:decision,:contest => @contest, :votes => '9000')
+
+      Factory(:decision,:contest => @contest, :votes => '4000')
+      Factory(:decision,:contest => @contest, :votes => '3000')
+    end
+
+    should "know the winner" do
+      assert_equal @winner, @contest.decisions.winner
+    end
+
+    should "know the runnerup" do
+      assert_equal @runnerup, @contest.decisions.runnerup
+    end
+
+    should "know the victory margin" do
+      assert_equal 11000,@contest.decisions.margin
+    end
+
+    should "be able retrieve decision when contestant is given" do
+      assert_equal @winner ,  @contest.decisions.for(@winner.contestant)
+      assert_equal @runnerup, @contest.decisions.for(@runnerup.contestant)
+    end
+
+  end
 end

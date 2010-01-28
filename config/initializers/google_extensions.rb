@@ -9,16 +9,12 @@
 module ActiveRecord
   class Base
 
-    def options_for( name )
-      self.class.google_labels.find { | ops | ops[:id] == name }
-    end
-
-    def value_for( name, instance )
-      { "v" => options_for(name)[:method].call(instance) }
-    end
-
-    def google_value( instance )
-      { "c" => self.class.google_labels.inject([]) { | col , ops | col << value_for(ops[:id],instance) } }
+    def google_value( decision )
+      {
+        "c" => self.class.google_labels.inject([]) do | col , google_options |
+          col << { "v" => google_options[:method].call( decision ) }
+        end
+      }
     end
 
     class<<self
